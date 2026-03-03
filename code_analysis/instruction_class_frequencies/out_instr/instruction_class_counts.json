@@ -1,0 +1,97 @@
+{
+  "2DUE6002": {
+    "alu": 15587,
+    "load_store": 7030,
+    "ldm_stm": 1627,
+    "branch_cond": 2106,
+    "branch": 891,
+    "pop": 72,
+    "branch_reg": 103,
+    "push": 163
+  },
+  "2DUE8000": {
+    "load_store": 24734,
+    "alu": 57870,
+    "branch_cond": 7220,
+    "ldm_stm": 5848,
+    "branch": 2827,
+    "pop": 298,
+    "push": 396,
+    "branch_reg": 235,
+    "return": 2
+  },
+  "2SCE6010": {
+    "load_store": 5826,
+    "alu": 11570,
+    "branch_cond": 1302,
+    "branch": 752,
+    "ldm_stm": 1535,
+    "push": 38,
+    "branch_reg": 51,
+    "pop": 61
+  },
+  "DUE5000": {
+    "alu": 67292,
+    "load_store": 17877,
+    "branch": 1862,
+    "push": 235,
+    "ldm_stm": 5696,
+    "branch_cond": 1429,
+    "pop": 195,
+    "return": 9,
+    "branch_reg": 40
+  },
+  "DUE6001": {
+    "alu": 79066,
+    "branch": 5768,
+    "load_store": 39929,
+    "branch_cond": 10647,
+    "ldm_stm": 10264,
+    "push": 353,
+    "pop": 287,
+    "branch_reg": 489,
+    "return": 3
+  },
+  "DUE6002": {
+    "load_store": 12117,
+    "alu": 27392,
+    "ldm_stm": 2743,
+    "branch": 1525,
+    "branch_cond": 3585,
+    "pop": 121,
+    "branch_reg": 161,
+    "push": 221
+  },
+  "DUE6100": {
+    "alu": 127820,
+    "branch": 3480,
+    "load_store": 33609,
+    "branch_cond": 2599,
+    "ldm_stm": 10151,
+    "push": 439,
+    "pop": 347,
+    "return": 18,
+    "branch_reg": 166
+  },
+  "DUE8000": {
+    "ldm_stm": 11622,
+    "load_store": 49452,
+    "branch_cond": 14136,
+    "alu": 113526,
+    "pop": 750,
+    "branch": 6121,
+    "branch_reg": 500,
+    "push": 758,
+    "return": 2
+  },
+  "SCE6010": {
+    "load_store": 9899,
+    "alu": 20165,
+    "branch_cond": 2310,
+    "branch": 1327,
+    "ldm_stm": 2748,
+    "push": 66,
+    "branch_reg": 89,
+    "pop": 84
+  }
+}

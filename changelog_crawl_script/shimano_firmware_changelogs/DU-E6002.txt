@@ -1,0 +1,29 @@
+Model: DU-E6002
+Source: https://bike.shimano.com/en-NA/products/apps/e-tube-project-professional.html
+Fetched: 2026-01-20 12:18:29
+================================================================================
+
+- May 22, 2019 | 3.4.0
+  - Improved the display for the remaining battery level indication.-Bug fixes of lighting time setting which actual lighting time become shorter than the setting time of E-TUBE PROJECT OEM version 3.4.0, when the battery level is low.-Adjusted the default settings of lighting time from 120 minutes to 40 minutes when updating the firmware 3.3.0 version.
+
+- Nov 05, 2018 | 3.3.0
+  - Adopted for Korean regulation (KATS Annex 40 - PAS)- Optimized the walking assist function- Bug fixing of lighting time setting which actual lighting time become shorter than the setting time of E-TUBE project, when the battery level is low.
+
+- Jul 06, 2018 | 3.2.12
+  ・ Adopted for new battery, BT-E8014・ Bug fixing
+
+- Apr 05, 2018 | 3.2.10
+  Bug fixing
+
+- Jan 23, 2018 | 3.2.6
+  Bug fixing
+
+- Oct 20, 2017 | 3.1.13
+  Bug fixing
+
+- Jul 28, 2017 | 3.1.12
+  Bug fixing
+
+- Jul 18, 2017 | 3.1.11
+  Firmware uploaded
+

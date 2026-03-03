@@ -1,0 +1,1259 @@
+{
+  "groups": {
+    "groupA": {
+      "name": "Group A \u2014 ARM Thumb (DUE5000, DUE6100)",
+      "regions": 15,
+      "isa_scores": {
+        "Thumb": 201,
+        "V850": 105,
+        "SH2": 63,
+        "RX": 33,
+        "RL78": 21
+      },
+      "wildcard_prologue_templates": [],
+      "wildcard_epilogue_templates": [],
+      "top_prologue_ngrams": [
+        {
+          "pattern": "00 20",
+          "count": 8,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6100/DUE6100-D.4.4.0@0x08a85",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9"
+          ]
+        },
+        {
+          "pattern": "b2 02",
+          "count": 4,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "e4 b2",
+          "count": 4,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "2c 00",
+          "count": 4,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9"
+          ]
+        },
+        {
+          "pattern": "05 00",
+          "count": 4,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6100/DUE6100-D.4.4.0@0x08a85",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9"
+          ]
+        },
+        {
+          "pattern": "2c 00 20",
+          "count": 4,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9"
+          ]
+        },
+        {
+          "pattern": "b2 01",
+          "count": 3,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x038b9",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "49 08",
+          "count": 2,
+          "sources": [
+            "DUE6100/DUE6100-D.4.2.0@0x0949a",
+            "DUE6100/DUE6100-D.4.3.1@0x038b9"
+          ]
+        },
+        {
+          "pattern": "e0 f6",
+          "count": 2,
+          "sources": [
+            "DUE6100/DUE6100-D.4.3.1@0x038b9"
+          ]
+        },
+        {
+          "pattern": "02 2e",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "2e 2e",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "2e d1",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "d1 e4",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "01 2c",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "2c 02",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "02 d0",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "d0 e4",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "02 2c",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "2c 28",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "b2 02 2e",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        }
+      ],
+      "top_epilogue_ngrams": [
+        {
+          "pattern": "00 20",
+          "count": 12,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6100/DUE6100-D.4.3.1@0x038b9",
+            "DUE6100/DUE6100-D.4.4.0@0x08a85",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9"
+          ]
+        },
+        {
+          "pattern": "2c 00",
+          "count": 10,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6100/DUE6100-D.4.3.1@0x038b9",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9"
+          ]
+        },
+        {
+          "pattern": "2c 00 20",
+          "count": 10,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6100/DUE6100-D.4.3.1@0x038b9",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9"
+          ]
+        },
+        {
+          "pattern": "70 47",
+          "count": 5,
+          "sources": [
+            "DUE5000/DUE5000-D.4.0.3@0x18147",
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE6100/DUE6100-D.4.3.1@0x17ebb",
+            "DUE6100/DUE6100-D.4.3.1@0x19751",
+            "DUE6100/DUE6100-D.4.4.0@0x08a85"
+          ]
+        },
+        {
+          "pattern": "c0 46",
+          "count": 4,
+          "sources": [
+            "DUE5000/DUE5000-D.4.0.3@0x18147",
+            "DUE6100/DUE6100-D.4.3.1@0x17ebb"
+          ]
+        },
+        {
+          "pattern": "00 00",
+          "count": 3,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE6100/DUE6100-D.4.2.0@0x0949a"
+          ]
+        },
+        {
+          "pattern": "e4 b2",
+          "count": 3,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457",
+            "DUE6100/DUE6100-D.4.3.1@0x09fa5"
+          ]
+        },
+        {
+          "pattern": "bd 00",
+          "count": 2,
+          "sources": [
+            "DUE6100/DUE6100-D.4.2.0@0x0949a",
+            "DUE6100/DUE6100-D.4.4.0@0x08a85"
+          ]
+        },
+        {
+          "pattern": "80 b5",
+          "count": 2,
+          "sources": [
+            "DUE6100/DUE6100-D.4.2.0@0x0949a",
+            "DUE6100/DUE6100-D.4.3.1@0x10da7"
+          ]
+        },
+        {
+          "pattern": "49 08",
+          "count": 2,
+          "sources": [
+            "DUE6100/DUE6100-D.4.3.1@0x038b9",
+            "DUE6100/DUE6100-D.4.4.0@0x03dab"
+          ]
+        },
+        {
+          "pattern": "ed b2",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "b2 04",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "04 22",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "22 6a",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "6a 43",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "43 89",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "89 18",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "18 e4",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "b2 09",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        },
+        {
+          "pattern": "09 5d",
+          "count": 2,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x06e2b",
+            "DUE6100/DUE6100-D.4.3.1@0x06457"
+          ]
+        }
+      ]
+    },
+    "groupB": {
+      "name": "Group B \u2014 Unknown ISA (DUE6001, DUE6002, DUE8000, SCE6010)",
+      "regions": 100,
+      "isa_scores": {
+        "Thumb": 959,
+        "V850": 638,
+        "SH2": 454,
+        "RL78": 371,
+        "RX": 202,
+        "F1": 121,
+        "DF-F1": 79,
+        "10": 40
+      },
+      "wildcard_prologue_templates": [],
+      "wildcard_epilogue_templates": [],
+      "top_prologue_ngrams": [
+        {
+          "pattern": "0a 00",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x072f2",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.3.3@0x073ca",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE6002/DUE6002-D.3.2.6@0x0de47",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72",
+            "DUE8000/DUE8000-D.4.6.1@0x0f2ea"
+          ]
+        },
+        {
+          "pattern": "00 70",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.2.8.7@0x0c319",
+            "DUE6001/DUE6001-D.2.9.3@0x013e6",
+            "DUE6002/DUE6002-D.3.2.6@0x0de47",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72",
+            "SCE6010/SCE6010-D.3.1.3@0x010a1"
+          ]
+        },
+        {
+          "pattern": "0c 00",
+          "count": 6,
+          "sources": [
+            "DUE6001/DUE6001-D.3.0.2@0x011b6",
+            "DUE6001/DUE6001-D.3.3.3@0x0c0ee",
+            "DUE6001/DUE6001-D.3.4.1@0x0cc2a",
+            "DUE8000/DUE8000-D.4.6.1@0x0c40e",
+            "SCE6010/SCE6010-D.3.2.0@0x046f7"
+          ]
+        },
+        {
+          "pattern": "a0 00",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.2.8.7@0x0c319",
+            "DUE8000/DUE8000-D.4.2.7@0x03028",
+            "DUE8000/DUE8000-D.4.7.0@0x0fc05"
+          ]
+        },
+        {
+          "pattern": "70 24",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.2.9.3@0x013e6",
+            "DUE8000/DUE8000-D.4.1.0@0x0af1a",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72"
+          ]
+        },
+        {
+          "pattern": "00 47",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.0.2@0x011b6",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE6002/DUE6002-D.3.2.6@0x0de47",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72"
+          ]
+        },
+        {
+          "pattern": "20 6d",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.9.3@0x04e87",
+            "DUE6001/DUE6001-D.3.3.3@0x080b5",
+            "DUE8000/DUE8000-D.4.1.2@0x0be4e",
+            "SCE6010/SCE6010-D.3.1.3@0x05af3"
+          ]
+        },
+        {
+          "pattern": "61 14",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.9.3@0x05502",
+            "DUE6001/DUE6001-D.3.3.3@0x0c0ee",
+            "DUE8000/DUE8000-D.4.6.0@0x0fa96",
+            "SCE6010/SCE6010-D.3.1.3@0x06069"
+          ]
+        },
+        {
+          "pattern": "20 85",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0899d",
+            "DUE6001/DUE6001-D.3.3.3@0x073ca",
+            "DUE6001/DUE6001-D.3.3.3@0x08c80",
+            "DUE8000/DUE8000-D.4.6.1@0x09c74"
+          ]
+        },
+        {
+          "pattern": "f1 df",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0602f",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.4.1@0x0c5cd",
+            "DUE8000/DUE8000-D.4.1.0@0x0bfac"
+          ]
+        },
+        {
+          "pattern": "e2 26",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0602f",
+            "DUE6001/DUE6001-D.3.4.1@0x0bd2f",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "SCE6010/SCE6010-D.3.1.3@0x06069"
+          ]
+        },
+        {
+          "pattern": "86 02",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0684c",
+            "DUE6001/DUE6001-D.3.0.2@0x0204f",
+            "DUE8000/DUE8000-D.4.3.4@0x06897",
+            "SCE6010/SCE6010-D.3.2.0@0x046f7"
+          ]
+        },
+        {
+          "pattern": "71 04",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0c319",
+            "DUE6001/DUE6001-D.3.0.2@0x01af3",
+            "DUE8000/DUE8000-D.4.7.0@0x0fed4"
+          ]
+        },
+        {
+          "pattern": "04 46",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0c319",
+            "DUE6001/DUE6001-D.3.3.3@0x0c0ee",
+            "DUE6001/DUE6001-D.3.4.1@0x0c5cd"
+          ]
+        },
+        {
+          "pattern": "0a 00 47",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE6002/DUE6002-D.3.2.6@0x0de47",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72"
+          ]
+        },
+        {
+          "pattern": "24 6e",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0c08f",
+            "DUE6001/DUE6001-D.2.8.4@0x0c0fd",
+            "DUE6001/DUE6001-D.2.8.4@0x0c16b"
+          ]
+        },
+        {
+          "pattern": "16 6f",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0c08f",
+            "DUE6001/DUE6001-D.2.8.4@0x0c0fd",
+            "DUE6001/DUE6001-D.2.8.4@0x0c16b",
+            "DUE8000/DUE8000-D.4.3.4@0x06897"
+          ]
+        },
+        {
+          "pattern": "10 70",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.9.3@0x013e6",
+            "DUE6001/DUE6001-D.3.2.5@0x0bb86",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72",
+            "SCE6010/SCE6010-D.3.2.0@0x08029"
+          ]
+        },
+        {
+          "pattern": "c0 00",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.9.3@0x04e87",
+            "DUE6001/DUE6001-D.3.0.2@0x01c10",
+            "DUE8000/DUE8000-D.4.3.4@0x06897",
+            "DUE8000/DUE8000-D.4.6.0@0x022aa"
+          ]
+        },
+        {
+          "pattern": "4f e2",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "DUE6001/DUE6001-D.3.4.1@0x0cbc8",
+            "DUE6001/DUE6001-D.3.4.1@0x0cbca",
+            "SCE6010/SCE6010-D.3.1.3@0x06069"
+          ]
+        }
+      ],
+      "top_epilogue_ngrams": [
+        {
+          "pattern": "10 df",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x08870",
+            "DUE6001/DUE6001-D.2.8.7@0x0b11e",
+            "DUE6001/DUE6001-D.3.3.3@0x08c80",
+            "DUE6001/DUE6001-D.3.3.3@0x09348",
+            "DUE6001/DUE6001-D.3.4.1@0x0c5cd",
+            "DUE6001/DUE6001-D.3.4.1@0x0cbca",
+            "DUE8000/DUE8000-D.4.6.0@0x0479b"
+          ]
+        },
+        {
+          "pattern": "10 51",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0b23e",
+            "DUE6001/DUE6001-D.3.3.3@0x0c0ee",
+            "DUE6001/DUE6001-D.3.3.3@0x0c546",
+            "DUE6001/DUE6001-D.3.4.1@0x0b9d4",
+            "SCE6010/SCE6010-D.3.1.3@0x05af3",
+            "SCE6010/SCE6010-D.3.2.0@0x08029"
+          ]
+        },
+        {
+          "pattern": "0a 00",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0ae07",
+            "DUE6001/DUE6001-D.2.9.3@0x05502",
+            "DUE6001/DUE6001-D.3.2.5@0x0bb86",
+            "DUE6001/DUE6001-D.3.3.3@0x0813e",
+            "DUE8000/DUE8000-D.4.1.0@0x0bfac",
+            "DUE8000/DUE8000-D.4.7.0@0x0fed4"
+          ]
+        },
+        {
+          "pattern": "df 04",
+          "count": 6,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0602f",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "DUE6002/DUE6002-D.3.2.6@0x0f0c6",
+            "DUE8000/DUE8000-D.4.5.1@0x1039c",
+            "DUE8000/DUE8000-D.4.6.0@0x0396a"
+          ]
+        },
+        {
+          "pattern": "01 f1",
+          "count": 6,
+          "sources": [
+            "DUE6001/DUE6001-D.3.0.2@0x017b8",
+            "DUE6001/DUE6001-D.3.0.2@0x01af3",
+            "DUE6001/DUE6001-D.3.2.5@0x0bb86",
+            "DUE8000/DUE8000-D.4.1.0@0x0b137",
+            "DUE8000/DUE8000-D.4.5.1@0x03559",
+            "SCE6010/SCE6010-D.3.1.3@0x07137"
+          ]
+        },
+        {
+          "pattern": "0a 01",
+          "count": 6,
+          "sources": [
+            "DUE6001/DUE6001-D.2.9.3@0x05502",
+            "DUE6001/DUE6001-D.3.4.4@0x0bb91",
+            "DUE8000/DUE8000-D.4.2.7@0x0c058",
+            "DUE8000/DUE8000-D.4.7.0@0x0a121",
+            "SCE6010/SCE6010-D.3.1.3@0x06069",
+            "SCE6010/SCE6010-D.3.1.3@0x07137"
+          ]
+        },
+        {
+          "pattern": "df 02",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x072af",
+            "DUE6001/DUE6001-D.3.0.2@0x0b0d0",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE8000/DUE8000-D.4.1.0@0x017b1",
+            "DUE8000/DUE8000-D.4.6.0@0x0b8ae"
+          ]
+        },
+        {
+          "pattern": "02 f1",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x072af",
+            "DUE6001/DUE6001-D.3.0.2@0x0b0d0",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE8000/DUE8000-D.4.1.0@0x017b1",
+            "DUE8000/DUE8000-D.4.6.0@0x0b8ae"
+          ]
+        },
+        {
+          "pattern": "df 02 f1",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x072af",
+            "DUE6001/DUE6001-D.3.0.2@0x0b0d0",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE8000/DUE8000-D.4.1.0@0x017b1",
+            "DUE8000/DUE8000-D.4.6.0@0x0b8ae"
+          ]
+        },
+        {
+          "pattern": "00 10",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0b23e",
+            "DUE6001/DUE6001-D.3.0.2@0x0204f",
+            "DUE6001/DUE6001-D.3.3.3@0x0c546",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "SCE6010/SCE6010-D.3.2.0@0x08029"
+          ]
+        },
+        {
+          "pattern": "f1 df",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.3.0.2@0x0b0d0",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "SCE6010/SCE6010-D.3.1.3@0x06069",
+            "SCE6010/SCE6010-D.3.1.3@0x07137"
+          ]
+        },
+        {
+          "pattern": "8c 00",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.3.2.5@0x0bb86",
+            "DUE6001/DUE6001-D.3.4.4@0x0bb91",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72",
+            "DUE8000/DUE8000-D.4.6.0@0x09451",
+            "SCE6010/SCE6010-D.3.2.0@0x08029"
+          ]
+        },
+        {
+          "pattern": "f1 cf",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0189d",
+            "DUE6001/DUE6001-D.3.0.2@0x01af3",
+            "DUE8000/DUE8000-D.4.5.1@0x03559",
+            "DUE8000/DUE8000-D.4.6.0@0x0396a"
+          ]
+        },
+        {
+          "pattern": "5a 00",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.2@0x052ef",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE8000/DUE8000-D.4.1.0@0x0b1df",
+            "DUE8000/DUE8000-D.4.2.7@0x0acac"
+          ]
+        },
+        {
+          "pattern": "04 f1",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0602f",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "DUE8000/DUE8000-D.4.6.0@0x0396a"
+          ]
+        },
+        {
+          "pattern": "df 04 f1",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0602f",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "DUE8000/DUE8000-D.4.6.0@0x0396a"
+          ]
+        },
+        {
+          "pattern": "20 6d",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.9.3@0x013e6",
+            "DUE8000/DUE8000-D.4.1.2@0x0be4e"
+          ]
+        },
+        {
+          "pattern": "2d 10",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0b11e",
+            "DUE6001/DUE6001-D.3.3.3@0x08c80",
+            "DUE6001/DUE6001-D.3.3.3@0x09348",
+            "DUE6001/DUE6001-D.3.4.1@0x0c5cd"
+          ]
+        },
+        {
+          "pattern": "2d 10 df",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0b11e",
+            "DUE6001/DUE6001-D.3.3.3@0x08c80",
+            "DUE6001/DUE6001-D.3.3.3@0x09348",
+            "DUE6001/DUE6001-D.3.4.1@0x0c5cd"
+          ]
+        },
+        {
+          "pattern": "00 00",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.9.3@0x0152d",
+            "DUE6002/DUE6002-D.3.2.6@0x0f0c6",
+            "DUE6002/DUE6002-D.3.3.0@0x0f085",
+            "DUE8000/DUE8000-D.4.5.1@0x1039c"
+          ]
+        }
+      ]
+    },
+    "combined": {
+      "name": "ALL DEVICES (combined)",
+      "regions": 115,
+      "isa_scores": {
+        "Thumb": 1160,
+        "V850": 743,
+        "SH2": 517,
+        "RL78": 392,
+        "RX": 235,
+        "F1": 121,
+        "DF-F1": 79,
+        "10": 40
+      },
+      "wildcard_prologue_templates": [],
+      "wildcard_epilogue_templates": [],
+      "top_prologue_ngrams": [
+        {
+          "pattern": "00 20",
+          "count": 11,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6001/DUE6001-D.2.8.7@0x06aa1",
+            "DUE6001/DUE6001-D.3.4.4@0x0ba5e",
+            "DUE6100/DUE6100-D.4.4.0@0x08a85",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9",
+            "DUE8000/DUE8000-D.4.2.7@0x03028"
+          ]
+        },
+        {
+          "pattern": "0a 00",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x072f2",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.3.3@0x073ca",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE6002/DUE6002-D.3.2.6@0x0de47",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72",
+            "DUE8000/DUE8000-D.4.6.1@0x0f2ea"
+          ]
+        },
+        {
+          "pattern": "00 70",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.2.8.7@0x0c319",
+            "DUE6001/DUE6001-D.2.9.3@0x013e6",
+            "DUE6002/DUE6002-D.3.2.6@0x0de47",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72",
+            "SCE6010/SCE6010-D.3.1.3@0x010a1"
+          ]
+        },
+        {
+          "pattern": "0c 00",
+          "count": 6,
+          "sources": [
+            "DUE6001/DUE6001-D.3.0.2@0x011b6",
+            "DUE6001/DUE6001-D.3.3.3@0x0c0ee",
+            "DUE6001/DUE6001-D.3.4.1@0x0cc2a",
+            "DUE8000/DUE8000-D.4.6.1@0x0c40e",
+            "SCE6010/SCE6010-D.3.2.0@0x046f7"
+          ]
+        },
+        {
+          "pattern": "a0 00",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.2.8.7@0x0c319",
+            "DUE8000/DUE8000-D.4.2.7@0x03028",
+            "DUE8000/DUE8000-D.4.7.0@0x0fc05"
+          ]
+        },
+        {
+          "pattern": "70 24",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.2.9.3@0x013e6",
+            "DUE8000/DUE8000-D.4.1.0@0x0af1a",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72"
+          ]
+        },
+        {
+          "pattern": "00 47",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.0.2@0x011b6",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE6002/DUE6002-D.3.2.6@0x0de47",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72"
+          ]
+        },
+        {
+          "pattern": "20 6d",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.9.3@0x04e87",
+            "DUE6001/DUE6001-D.3.3.3@0x080b5",
+            "DUE8000/DUE8000-D.4.1.2@0x0be4e",
+            "SCE6010/SCE6010-D.3.1.3@0x05af3"
+          ]
+        },
+        {
+          "pattern": "61 14",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.9.3@0x05502",
+            "DUE6001/DUE6001-D.3.3.3@0x0c0ee",
+            "DUE8000/DUE8000-D.4.6.0@0x0fa96",
+            "SCE6010/SCE6010-D.3.1.3@0x06069"
+          ]
+        },
+        {
+          "pattern": "00 00",
+          "count": 5,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "DUE6100/DUE6100-D.4.4.0@0x08a85",
+            "DUE8000/DUE8000-D.4.7.0@0x0fc05",
+            "SCE6010/SCE6010-D.3.1.3@0x06069"
+          ]
+        },
+        {
+          "pattern": "20 85",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0899d",
+            "DUE6001/DUE6001-D.3.3.3@0x073ca",
+            "DUE6001/DUE6001-D.3.3.3@0x08c80",
+            "DUE8000/DUE8000-D.4.6.1@0x09c74"
+          ]
+        },
+        {
+          "pattern": "f1 df",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0602f",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.4.1@0x0c5cd",
+            "DUE8000/DUE8000-D.4.1.0@0x0bfac"
+          ]
+        },
+        {
+          "pattern": "e2 26",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0602f",
+            "DUE6001/DUE6001-D.3.4.1@0x0bd2f",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "SCE6010/SCE6010-D.3.1.3@0x06069"
+          ]
+        },
+        {
+          "pattern": "86 02",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0684c",
+            "DUE6001/DUE6001-D.3.0.2@0x0204f",
+            "DUE8000/DUE8000-D.4.3.4@0x06897",
+            "SCE6010/SCE6010-D.3.2.0@0x046f7"
+          ]
+        },
+        {
+          "pattern": "71 04",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0c319",
+            "DUE6001/DUE6001-D.3.0.2@0x01af3",
+            "DUE8000/DUE8000-D.4.7.0@0x0fed4"
+          ]
+        },
+        {
+          "pattern": "04 46",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0c319",
+            "DUE6001/DUE6001-D.3.3.3@0x0c0ee",
+            "DUE6001/DUE6001-D.3.4.1@0x0c5cd"
+          ]
+        },
+        {
+          "pattern": "0a 00 47",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE6002/DUE6002-D.3.2.6@0x0de47",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72"
+          ]
+        },
+        {
+          "pattern": "24 6e",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0c08f",
+            "DUE6001/DUE6001-D.2.8.4@0x0c0fd",
+            "DUE6001/DUE6001-D.2.8.4@0x0c16b"
+          ]
+        },
+        {
+          "pattern": "16 6f",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0c08f",
+            "DUE6001/DUE6001-D.2.8.4@0x0c0fd",
+            "DUE6001/DUE6001-D.2.8.4@0x0c16b",
+            "DUE8000/DUE8000-D.4.3.4@0x06897"
+          ]
+        },
+        {
+          "pattern": "00 22",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.3.0.2@0x011b6",
+            "DUE6001/DUE6001-D.3.3.3@0x0c0ee",
+            "DUE6100/DUE6100-D.4.3.1@0x10da7",
+            "SCE6010/SCE6010-D.3.2.0@0x046f7"
+          ]
+        }
+      ],
+      "top_epilogue_ngrams": [
+        {
+          "pattern": "00 20",
+          "count": 14,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6001/DUE6001-D.3.4.1@0x0cbc8",
+            "DUE6001/DUE6001-D.3.4.1@0x0cbca",
+            "DUE6100/DUE6100-D.4.3.1@0x038b9",
+            "DUE6100/DUE6100-D.4.4.0@0x08a85",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9"
+          ]
+        },
+        {
+          "pattern": "2c 00",
+          "count": 11,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6100/DUE6100-D.4.3.1@0x038b9",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9",
+            "SCE6010/SCE6010-D.3.1.3@0x010a1"
+          ]
+        },
+        {
+          "pattern": "2c 00 20",
+          "count": 10,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x0c285",
+            "DUE6100/DUE6100-D.4.3.1@0x038b9",
+            "DUE6100/DUE6100-D.4.4.0@0x0bfe9"
+          ]
+        },
+        {
+          "pattern": "10 df",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x08870",
+            "DUE6001/DUE6001-D.2.8.7@0x0b11e",
+            "DUE6001/DUE6001-D.3.3.3@0x08c80",
+            "DUE6001/DUE6001-D.3.3.3@0x09348",
+            "DUE6001/DUE6001-D.3.4.1@0x0c5cd",
+            "DUE6001/DUE6001-D.3.4.1@0x0cbca",
+            "DUE8000/DUE8000-D.4.6.0@0x0479b"
+          ]
+        },
+        {
+          "pattern": "10 51",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x089c6",
+            "DUE6001/DUE6001-D.2.8.7@0x0b23e",
+            "DUE6001/DUE6001-D.3.3.3@0x0c0ee",
+            "DUE6001/DUE6001-D.3.3.3@0x0c546",
+            "DUE6001/DUE6001-D.3.4.1@0x0b9d4",
+            "SCE6010/SCE6010-D.3.1.3@0x05af3",
+            "SCE6010/SCE6010-D.3.2.0@0x08029"
+          ]
+        },
+        {
+          "pattern": "0a 00",
+          "count": 7,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0ae07",
+            "DUE6001/DUE6001-D.2.9.3@0x05502",
+            "DUE6001/DUE6001-D.3.2.5@0x0bb86",
+            "DUE6001/DUE6001-D.3.3.3@0x0813e",
+            "DUE8000/DUE8000-D.4.1.0@0x0bfac",
+            "DUE8000/DUE8000-D.4.7.0@0x0fed4"
+          ]
+        },
+        {
+          "pattern": "00 00",
+          "count": 7,
+          "sources": [
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE6001/DUE6001-D.2.9.3@0x0152d",
+            "DUE6002/DUE6002-D.3.2.6@0x0f0c6",
+            "DUE6002/DUE6002-D.3.3.0@0x0f085",
+            "DUE6100/DUE6100-D.4.2.0@0x0949a",
+            "DUE8000/DUE8000-D.4.5.1@0x1039c"
+          ]
+        },
+        {
+          "pattern": "df 04",
+          "count": 6,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0602f",
+            "DUE6001/DUE6001-D.2.8.7@0x0a306",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "DUE6002/DUE6002-D.3.2.6@0x0f0c6",
+            "DUE8000/DUE8000-D.4.5.1@0x1039c",
+            "DUE8000/DUE8000-D.4.6.0@0x0396a"
+          ]
+        },
+        {
+          "pattern": "01 f1",
+          "count": 6,
+          "sources": [
+            "DUE6001/DUE6001-D.3.0.2@0x017b8",
+            "DUE6001/DUE6001-D.3.0.2@0x01af3",
+            "DUE6001/DUE6001-D.3.2.5@0x0bb86",
+            "DUE8000/DUE8000-D.4.1.0@0x0b137",
+            "DUE8000/DUE8000-D.4.5.1@0x03559",
+            "SCE6010/SCE6010-D.3.1.3@0x07137"
+          ]
+        },
+        {
+          "pattern": "0a 01",
+          "count": 6,
+          "sources": [
+            "DUE6001/DUE6001-D.2.9.3@0x05502",
+            "DUE6001/DUE6001-D.3.4.4@0x0bb91",
+            "DUE8000/DUE8000-D.4.2.7@0x0c058",
+            "DUE8000/DUE8000-D.4.7.0@0x0a121",
+            "SCE6010/SCE6010-D.3.1.3@0x06069",
+            "SCE6010/SCE6010-D.3.1.3@0x07137"
+          ]
+        },
+        {
+          "pattern": "df 02",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x072af",
+            "DUE6001/DUE6001-D.3.0.2@0x0b0d0",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE8000/DUE8000-D.4.1.0@0x017b1",
+            "DUE8000/DUE8000-D.4.6.0@0x0b8ae"
+          ]
+        },
+        {
+          "pattern": "02 f1",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x072af",
+            "DUE6001/DUE6001-D.3.0.2@0x0b0d0",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE8000/DUE8000-D.4.1.0@0x017b1",
+            "DUE8000/DUE8000-D.4.6.0@0x0b8ae"
+          ]
+        },
+        {
+          "pattern": "df 02 f1",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x072af",
+            "DUE6001/DUE6001-D.3.0.2@0x0b0d0",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE8000/DUE8000-D.4.1.0@0x017b1",
+            "DUE8000/DUE8000-D.4.6.0@0x0b8ae"
+          ]
+        },
+        {
+          "pattern": "00 10",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.7@0x0b23e",
+            "DUE6001/DUE6001-D.3.0.2@0x0204f",
+            "DUE6001/DUE6001-D.3.3.3@0x0c546",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "SCE6010/SCE6010-D.3.2.0@0x08029"
+          ]
+        },
+        {
+          "pattern": "f1 df",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.3.0.2@0x0b0d0",
+            "DUE6001/DUE6001-D.3.4.1@0x0c551",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "SCE6010/SCE6010-D.3.1.3@0x06069",
+            "SCE6010/SCE6010-D.3.1.3@0x07137"
+          ]
+        },
+        {
+          "pattern": "8c 00",
+          "count": 5,
+          "sources": [
+            "DUE6001/DUE6001-D.3.2.5@0x0bb86",
+            "DUE6001/DUE6001-D.3.4.4@0x0bb91",
+            "DUE8000/DUE8000-D.4.3.4@0x0aa72",
+            "DUE8000/DUE8000-D.4.6.0@0x09451",
+            "SCE6010/SCE6010-D.3.2.0@0x08029"
+          ]
+        },
+        {
+          "pattern": "05 20",
+          "count": 5,
+          "sources": [
+            "DUE6100/DUE6100-D.4.4.0@0x0b1fb",
+            "DUE8000/DUE8000-D.4.1.0@0x0b1df",
+            "DUE8000/DUE8000-D.4.6.1@0x09c74",
+            "DUE8000/DUE8000-D.4.7.0@0x0a121",
+            "DUE8000/DUE8000-D.4.7.0@0x1001f"
+          ]
+        },
+        {
+          "pattern": "70 47",
+          "count": 5,
+          "sources": [
+            "DUE5000/DUE5000-D.4.0.3@0x18147",
+            "DUE5000/DUE5000-D.4.1.0@0x08b7d",
+            "DUE6100/DUE6100-D.4.3.1@0x17ebb",
+            "DUE6100/DUE6100-D.4.3.1@0x19751",
+            "DUE6100/DUE6100-D.4.4.0@0x08a85"
+          ]
+        },
+        {
+          "pattern": "f1 cf",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.4@0x0189d",
+            "DUE6001/DUE6001-D.3.0.2@0x01af3",
+            "DUE8000/DUE8000-D.4.5.1@0x03559",
+            "DUE8000/DUE8000-D.4.6.0@0x0396a"
+          ]
+        },
+        {
+          "pattern": "5a 00",
+          "count": 4,
+          "sources": [
+            "DUE6001/DUE6001-D.2.8.2@0x052ef",
+            "DUE6002/DUE6002-D.3.1.9@0x0ba4f",
+            "DUE8000/DUE8000-D.4.1.0@0x0b1df",
+            "DUE8000/DUE8000-D.4.2.7@0x0acac"
+          ]
+        }
+      ]
+    }
+  }
+}

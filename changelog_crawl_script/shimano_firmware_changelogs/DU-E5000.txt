@@ -1,0 +1,47 @@
+Model: DU-E5000
+Source: https://bike.shimano.com/en-NA/products/apps/e-tube-project-professional.html
+Fetched: 2026-01-20 12:18:29
+================================================================================
+
+- May 20, 2024 | 4.5.0
+  The firmware will be updated but it does not affect the use of DU-E5000.
+
+- Sep 25, 2023 | 4.4.10
+  General bug fixes.
+
+- Mar 30, 2023 | 4.4.9
+  ■ Changes- System operations at low battery level have been improved.
+
+- Oct 17, 2022 | 4.4.8
+  General bug fixes.
+
+- Mar 28, 2022 | 4.4.7
+  ・Bug fixes for the error detection function.・Improved the display accuracy for assist traveling range.
+
+- Aug 20, 2021 | 4.4.5
+  The following issue with Ver. 4.4.4. has been fixed.･ In rare cases, E013 "Firmware error" is detected when the power is turned off.* Customers who use Ver.4.4.4, please update to Ver.4.4.5 by using E-TUBE PROJECT for Windows V4 as soon as possible. * Once E013 is detected, the error status continues from that point on, disabling the assist mode. To clear E013, have your place of purchase restore the firmware with Ver.4.4.5.
+
+- Mar 31, 2021 | 4.4.4
+  ・Bug fixes the WALK assist output issues for mechanical Inter-7 shifting method.・Bug fixes the adjustment values settings, when the power is turned off after 10 minutes without confirming the settings.After updating the firmware, even if the power is turned off after 10 minutes without changing the adjustment value, the adjustment value before the change will be kept.
+
+- Feb 24, 2021 | 4.4.3
+  ・Changed the sensor initialization process on startup in order to optimize the assist control.・Warning code W013 has been Changed to W106, in order to change the countermeasures when a Warning occurs.
+
+- Nov 04, 2020 | 4.4.2
+  ・Added support for E-TUBE PROJECT error log acquisition function.・Auto shift operation may not work, if you use it without restarting the power once disconnected from E-TUBE PROJECT for Mobile.・Comfort / Sportive mode can be selected for the riding characteristic.Comfort is set as standard setting. Comfort will be selected after the FW update.・E-TUBE PROJECT supports the built-in battery charging function of EW-SW100, EW-SW300, and SC-E6100.Please make sure that you have installed “E-TUBE PROJECT for Windows V4 (Ver.4.0.2)” in your computer and updated the DU.
+
+- May 18, 2020 | 4.3.0
+  ・Adapted for SC-E5000.・Adapted for BT-E8035L/BT-E8036/BT-E8016.・Bug fixes the start mode that does not work when the power is turned on.
+
+- Nov 18, 2019 | 4.2.1
+  Adapted for new drive unit (DU-E5080)
+
+- May 22, 2019 | 4.1.0
+  -Added interchangeability between SHIMANO STEPS with Road components.
+
+- Feb 25, 2019 | 4.0.3
+  - Improved the display for the remaining battery level indication.
+
+- Feb 13, 2019 | 4.0.1
+  Firmware uploaded
+

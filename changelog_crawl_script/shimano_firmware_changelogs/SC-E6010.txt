@@ -1,0 +1,20 @@
+Model: SC-E6010
+Source: https://bike.shimano.com/en-NA/products/apps/e-tube-project-professional.html
+Fetched: 2026-01-20 12:18:29
+================================================================================
+
+- Apr 12, 2018 | 3.2.4
+  Bug fixing
+
+- Nov 22, 2017 | 3.2.3
+  Bug fixing
+
+- Jul 12, 2017 | 3.2.0
+  Compatible with DU-E6002 / E6012 / E8080
+
+- Jan 20, 2017 | 3.1.3
+  Additional function・Compatible with STEPS E8000 series
+
+- Oct 09, 2015 | 3.0.5
+  Firmware uploaded
+

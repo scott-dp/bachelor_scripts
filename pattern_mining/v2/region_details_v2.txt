@@ -1,0 +1,1492 @@
+DETAILED REGION HEX DUMPS (v2)
+Context=32 bytes, Window=16 bytes
+
+
+───────────────────────────────────────────────────────────────────────────
+Region #0  |  DUE6001 / DUE6001-D.2.8.4.dat  |  offset 0x00189d–0x0018d0  (51 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    10 cf f4 47 a0 60 70 14 ec 01 1e 6f a3 a0 70 54 0a 00 47 66 04 02 e8 1c ef f6 cc 00 f1 cf f1 47
+  >>> PROLOGUE ZONE (16 bytes):
+    f0 14 4e 61 48 70 34 46 d3 08 90 a3 60 70 44 ec
+  ... middle 19 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    e8 4c ef e6 5f 46 e0 14 11 bf fd fc 00 f1 cf f1
+  POST-CONTEXT (32 bytes):
+    67 7e 24 d2 bc 02 a0 a2 60 70 34 ec 01 36 6f 25 6c 02 40 6f 67 24 02 e8 3c ef 86 a9 01 ac f3 06
+
+───────────────────────────────────────────────────────────────────────────
+Region #1  |  DUE6001 / DUE6001-D.2.8.2.dat  |  offset 0x0052ef–0x005339  (74 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    c8 f8 6f 10 93 17 42 c0 8c 8c ff 0f ef cf 08 60 10 e3 24 42 f0 8c 8c ff 06 21 76 23 21 f1 23 d3
+  >>> PROLOGUE ZONE (16 bytes):
+    5f a9 10 a0 08 04 96 8a c5 9c 01 80 ec 40 60 a9
+  ... middle 42 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    1e 50 99 1a 20 22 0b 0a 09 5a 00 ef 19 55 a9 00
+  POST-CONTEXT (32 bytes):
+    04 ba c8 f8 af a0 20 10 b3 26 42 d0 8b 8c ff 0a 0a 03 21 61 22 04 c0 c8 f8 af a0 40 10 63 25 42
+
+───────────────────────────────────────────────────────────────────────────
+Region #2  |  DUE6001 / DUE6001-D.2.8.4.dat  |  offset 0x0072f2–0x00733b  (73 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    23 91 6b 0a 0a 00 5a 00 21 bd 1f 99 93 40 40 8b 56 30 12 b9 83 a0 00 a0 05 10 e3 04 82 19 47 70
+  >>> PROLOGUE ZONE (16 bytes):
+    8b 56 30 12 b8 62 0a 00 5a 00 21 86 20 98 50 04
+  ... middle 41 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    ce ef a8 14 ce 8f 6a 21 ce d2 a8 16 98 18 6e fc
+  POST-CONTEXT (32 bytes):
+    36 fe e7 c6 6f e5 3e 6e fc 76 cf 09 10 cf f6 7f f6 85 0a 00 47 94 59 19 46 a4 35 20 ef ed ed 08
+
+───────────────────────────────────────────────────────────────────────────
+Region #3  |  DUE6001 / DUE6001-D.2.8.4.dat  |  offset 0x00899d–0x0089c4  (39 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    52 a8 00 20 87 7a 09 98 15 46 82 10 0d 46 c2 70 20 33 4f ef 37 df 05 f1 51 97 fa 1f 85 a9 00 51
+  >>> PROLOGUE ZONE (16 bytes):
+    96 2a 80 29 43 60 a9 5a 03 f2 de 4e 8b 20 85 84
+  ... middle 7 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    65 4d 60 a9 08 d1 00 65 a9 07 22 23 1c 55 a9 c8
+  POST-CONTEXT (32 bytes):
+    10 df f9 55 4f 71 04 46 d0 f8 bf a0 00 70 34 98 38 ed 9e 0a 5e 21 31 46 d0 ee a9 10 13 5a 78 44
+
+───────────────────────────────────────────────────────────────────────────
+Region #4  |  DUE6001 / DUE6001-D.2.8.4.dat  |  offset 0x001958–0x00199d  (69 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    02 10 e4 12 80 a9 01 ac f3 06 66 c2 2e 63 20 c4 8a 11 f0 64 36 df 04 f1 cf e9 72 66 71 24 4f 23
+  >>> PROLOGUE ZONE (16 bytes):
+    cd 2b 00 5d 4e e3 4c 0e 6f e5 56 6f a0 10 a0 45
+  ... middle 37 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    06 66 c2 2e e3 20 c4 8a 11 a4 24 66 16 cf 17 10
+  POST-CONTEXT (32 bytes):
+    cf f1 4f e0 04 86 04 47 e2 04 86 05 47 63 24 8d 01 42 46 52 c4 62 34 45 2a 41 2d 00 0a 06 47 c4
+
+───────────────────────────────────────────────────────────────────────────
+Region #5  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x00602f–0x00605f  (48 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    de be 98 20 85 0a 00 87 01 c2 62 39 64 04 a2 20 a0 95 20 ef ed 8b 09 52 78 2a 60 16 df 02 f1 0a
+  >>> PROLOGUE ZONE (16 bytes):
+    22 ef 03 f1 0a 23 ef 03 f1 df fc 04 6f e2 26 d2
+  ... middle 16 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    02 05 81 ea 04 86 03 05 82 aa 40 f2 3e df 04 f1
+  POST-CONTEXT (32 bytes):
+    d3 7e a7 00 00 33 cd 75 0a 00 51 0a 09 ef df 08 40 a4 80 f0 fe 8d 00 37 51 77 1a 80 c9 32 ed 75
+
+───────────────────────────────────────────────────────────────────────────
+Region #6  |  DUE6001 / DUE6001-D.2.8.4.dat  |  offset 0x00684c–0x006886  (58 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    14 42 fe 0e 99 72 17 33 54 9f 79 76 ef c2 00 20 32 5b 4e 62 28 c0 30 20 22 4b 4e 62 38 c0 10 80
+  >>> PROLOGUE ZONE (16 bytes):
+    cd e3 24 86 02 4e 62 39 10 a3 ef 73 54 46 d5 18
+  ... middle 26 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    f5 99 e4 e6 24 86 02 47 f4 2e d2 18 c0 09 ef 2f
+  POST-CONTEXT (32 bytes):
+    8d 01 91 60 44 0c 05 22 13 e1 b7 46 21 e4 ef 90 79 6a 46 d4 58 d0 43 c0 a8 8d 01 19 0a 00 47 60
+
+───────────────────────────────────────────────────────────────────────────
+Region #7  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x006aa1–0x006af7  (86 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    21 6c c1 40 82 96 53 21 8b f3 99 7c 11 a3 38 9f 19 17 7e 6b 14 42 fe 0e 99 60 11 03 52 9f 59 15
+  >>> PROLOGUE ZONE (16 bytes):
+    4e 62 28 70 44 ef c2 00 20 32 3d 46 c4 20 20 22
+  ... middle 54 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    50 c0 ab 4e 62 48 50 d0 ab 4e 62 58 50 e0 ab ef
+  POST-CONTEXT (32 bytes):
+    c2 40 80 2d 13 c3 67 c3 1c 00 80 2b d2 be ab 10 e3 7f d3 18 00 d1 be ab 10 c3 82 83 e9 e6 b7 46
+
+───────────────────────────────────────────────────────────────────────────
+Region #8  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x0069b2–0x0069fc  (74 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    21 d5 e5 8d 01 25 4e 62 2a e0 24 ce e3 20 c4 8a 21 e3 4d 21 30 f4 99 42 e3 b7 46 21 e4 ef 90 19
+  >>> PROLOGUE ZONE (16 bytes):
+    33 4e 62 28 70 44 ef c2 40 80 dd 65 44 0c 03 c8
+  ... middle 42 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    7e 6b 14 42 fe 0e 99 ae f2 2e 8d 01 0c 21 6e e5
+  POST-CONTEXT (32 bytes):
+    8c 01 0c ef c2 40 90 8d 0c 4e 62 28 70 44 4e 62 38 50 c0 a7 46 d4 08 70 05 c5 a7 0a d8 1b 50 7c
+
+───────────────────────────────────────────────────────────────────────────
+Region #9  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x006abe–0x006b43  (133 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    9f 59 15 4e 62 28 70 44 ef c2 00 20 32 3d 46 c4 20 20 22 31 46 14 03 82 73 54 46 d5 18 b0 10 43
+  >>> PROLOGUE ZONE (16 bytes):
+    50 9f 39 11 7e 6b 14 42 fe 0e 99 02 e1 b7 46 21
+  ... middle 101 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 29 07 0c 10 33 61 83 e9 e1 b7 46 21 e4 ef e0
+  POST-CONTEXT (32 bytes):
+    7f 7e 6b 14 42 1e 23 25 e1 67 cf 08 10 df 7a 56 4f 73 24 4e 29 65 f6 fd a9 6f e3 fc a9 4f e5 bc
+
+───────────────────────────────────────────────────────────────────────────
+Region #10  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x0072af–0x0072ee  (63 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    4e 21 ce ef a8 14 ce 8f 6a 21 ce d2 a8 16 98 18 6e fc 36 fe e7 c6 6f e5 3e 6e fc 76 cf 09 10 df
+  >>> PROLOGUE ZONE (16 bytes):
+    7e 16 47 40 00 8e 8c ff 63 46 a0 35 20 ef aa 01
+  ... middle 31 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    46 a0 35 20 ef ed c1 09 52 78 2a 60 16 df 02 f1
+  POST-CONTEXT (32 bytes):
+    cf f6 7f f6 85 0a 00 47 94 59 19 46 a4 35 20 ef ed fe 08 52 48 28 8d 01 70 61 44 d2 18 d0 0b 21
+
+───────────────────────────────────────────────────────────────────────────
+Region #11  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x008870–0x008912  (162 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    e1 04 87 04 df 02 f1 df fe 04 0a 03 4e 50 c8 2e 80 e0 04 ce f2 a0 10 e0 04 87 04 df 02 f1 df fe
+  >>> PROLOGUE ZONE (16 bytes):
+    04 ed bb 0a 21 e0 1a 0a 09 4e 50 c8 6e a1 e7 04
+  ... middle 130 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    4e e0 26 87 06 97 07 6e 74 88 70 99 f0 6d 10 df
+  POST-CONTEXT (32 bytes):
+    7e 04 ed 88 08 46 20 88 84 8d 00 5a ed 94 08 46 20 88 84 8d 00 46 ed a0 08 46 20 88 84 8d 00 32
+
+───────────────────────────────────────────────────────────────────────────
+Region #12  |  DUE6001 / DUE6001-D.2.8.4.dat  |  offset 0x0089c6–0x008fbb  (1525 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    f2 de 4e 8b 20 85 84 8c ff 0b 04 96 1a 43 65 4d 60 a9 08 d1 00 65 a9 07 22 23 1c 55 a9 c8 10 df
+  >>> PROLOGUE ZONE (16 bytes):
+    f9 55 4f 71 04 46 d0 f8 bf a0 00 70 34 98 38 ed
+  ... middle 1493 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    20 6d 15 0b cf 0d 10 51 17 0b 00 0c 20 6d 18 0b
+  POST-CONTEXT (32 bytes):
+    10 df fe 07 d3 7c b1 00 a0 37 cd 17 0b 01 1a d3 7c b1 20 f0 30 cd 17 0b 03 2c 98 4e d0 05 0a 01
+
+───────────────────────────────────────────────────────────────────────────
+Region #13  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x00a306–0x00a382  (124 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    1b 03 cf a9 b0 10 73 cf 79 14 46 d1 18 70 61 04 05 df 1b b0 9e fe a3 10 70 14 46 f1 2d 10 04 df
+  >>> PROLOGUE ZONE (16 bytes):
+    0b f1 df fa 45 4f a0 00 70 24 0a 00 47 83 c9 63
+  ... middle 92 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 4e 70 68 e0 25 df 04 f1 04 f3 0b f1 04 f4 0b
+  POST-CONTEXT (32 bytes):
+    f1 df 2e 4c e7 0a cd 00 00 19 e6 ec a9 cf 90 09 19 c2 b6 b8 c0 0c 00 20 33 7d 21 6c 8b 0b 42 14
+
+───────────────────────────────────────────────────────────────────────────
+Region #14  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x00ae07–0x00ae6f  (104 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    6c cb 40 90 b8 4e 50 a8 90 e0 04 87 01 c0 04 4e e0 2c 0f c2 16 0c e4 04 ce f4 e0 04 0a 0c ef f4
+  >>> PROLOGUE ZONE (16 bytes):
+    2d 10 df fe 04 51 6c cb 40 90 b8 4e 50 a8 90 e0
+  ... middle 72 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 e0 04 87 09 0a 00 4e 70 a8 e0 04 0a 0c ef f4
+  POST-CONTEXT (32 bytes):
+    2d 10 df fc 04 c2 56 bd c0 1c 0e 80 cf c0 1e 0e f0 26 ee 25 6c d5 0b 6f 12 c5 b6 0c 04 89 eb 04
+
+───────────────────────────────────────────────────────────────────────────
+Region #15  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x00b11e–0x00b16a  (76 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    07 18 4e e0 2c 0f 04 e1 eb 04 87 04 c2 96 be e0 04 ce f6 e0 04 0a 0c ef f4 2d 10 df fe 04 51 6c
+  >>> PROLOGUE ZONE (16 bytes):
+    cb 40 90 b8 4e 50 a8 90 e0 04 87 01 ec 07 20 4e
+  ... middle 44 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    04 ce f4 e0 04 0a 0c ef f4 2d 10 df fe 04 51 6c
+  POST-CONTEXT (32 bytes):
+    ab a0 00 e0 04 85 0a 07 4e 70 18 40 10 b9 4e 70 28 40 20 b9 4e 70 38 40 30 b9 4e 70 48 40 40 b9
+
+───────────────────────────────────────────────────────────────────────────
+Region #16  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x00b23e–0x00b2cf  (145 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    0f 04 eb ab 55 20 ef ed ef 44 52 68 2a 40 b0 be 58 12 29 05 ed eb 0a 52 78 3a 60 16 df 02 f1 df
+  >>> PROLOGUE ZONE (16 bytes):
+    fd 15 0a 0a ed ff 0b ef 1b 03 d9 a8 a0 10 73 d9
+  ... middle 113 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    10 51 f7 fb 1f 85 bf f0 51 f9 0b 10 a5 bf 00 10
+  POST-CONTEXT (32 bytes):
+    c0 00 d2 76 c0 00 0c 20 6d 09 0c c0 00 d2 b6 c0 10 d5 c0 00 51 0e 0c 10 f5 c0 00 51 38 0c 10 95
+
+───────────────────────────────────────────────────────────────────────────
+Region #17  |  DUE6001 / DUE6001-D.2.8.4.dat  |  offset 0x00c08f–0x00c0aa  (27 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    38 da e2 07 32 8a a3 2d 6f 1a 42 20 6f 1c e2 a6 f1 26 e2 c6 f1 46 0a 08 02 28 ce 2a c2 fd 07 01
+  >>> PROLOGUE ZONE (16 bytes):
+    9b 25 6e 2a 6f 22 6e 2c 6f 24 6e 16 6f 26 6e 18
+  <<< EPILOGUE ZONE (16 bytes):
+    16 6f 26 6e 18 6f 28 80 e2 ac 22 cc 6f 10 91 50
+  POST-CONTEXT (32 bytes):
+    e2 a6 22 6f 16 e2 c6 22 6f 18 62 44 a1 e5 f0 de 6f 2e 46 15 5a 0b ef fd c6 62 24 a1 d5 f0 de 42
+
+───────────────────────────────────────────────────────────────────────────
+Region #18  |  DUE6001 / DUE6001-D.2.8.4.dat  |  offset 0x00c0fd–0x00c118  (27 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    38 da e2 27 32 8a a3 2d 6f 1a 42 20 6f 1c e2 a6 f1 26 e2 c6 f1 46 0a 10 02 28 ce 2a c2 fd 07 01
+  >>> PROLOGUE ZONE (16 bytes):
+    2d 25 6e 2a 6f 22 6e 2c 6f 24 6e 16 6f 26 6e 18
+  <<< EPILOGUE ZONE (16 bytes):
+    16 6f 26 6e 18 6f 28 80 e2 ac 22 cc 6f 10 b1 49
+  POST-CONTEXT (32 bytes):
+    e2 a6 22 6f 16 e2 c6 22 6f 18 62 54 a1 e5 f0 de 6f 2e 46 12 5a 0b ef fd c6 62 34 a1 d5 f0 de 42
+
+───────────────────────────────────────────────────────────────────────────
+Region #19  |  DUE6001 / DUE6001-D.2.8.4.dat  |  offset 0x00c16b–0x00c186  (27 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    38 da e2 47 32 8a a3 2d 6f 1a 42 20 6f 1c e2 a6 f1 26 e2 c6 f1 46 0a 18 02 28 ce 2a c2 fd 07 01
+  >>> PROLOGUE ZONE (16 bytes):
+    bf 24 6e 2a 6f 22 6e 2c 6f 24 6e 16 6f 26 6e 18
+  <<< EPILOGUE ZONE (16 bytes):
+    16 6f 26 6e 18 6f 28 80 e2 ac 22 cc 6f 10 d1 42
+  POST-CONTEXT (32 bytes):
+    e2 a6 22 6f 16 e2 c6 22 6f 18 62 04 81 25 91 52 e0 a4 52 28 7e 16 1f e2 87 71 2a 70 3b 20 46 10
+
+───────────────────────────────────────────────────────────────────────────
+Region #20  |  DUE6001 / DUE6001-D.2.8.7.dat  |  offset 0x00c319–0x00c908  (1519 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    13 93 68 fe 77 14 46 d1 18 20 61 04 05 b3 ec 3f 0a 01 47 61 14 df 02 f1 04 b3 0c f1 04 b4 0c f1
+  >>> PROLOGUE ZONE (16 bytes):
+    df f9 55 4f 71 04 46 d0 f8 bf a0 00 70 34 98 39
+  ... middle 1487 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    1d b3 72 6d 84 ef ec 5f c0 00 d2 c6 d2 f0 dc 00
+  POST-CONTEXT (32 bytes):
+    f1 cd 7f f0 24 7e e9 d6 63 3d 86 4e f7 e0 b7 6e 3f d6 63 78 28 70 39 c0 0c 00 80 0b e1 c1 0d 00
+
+───────────────────────────────────────────────────────────────────────────
+Region #21  |  DUE6001 / DUE6001-D.3.0.2.dat  |  offset 0x0011b6–0x00131f  (361 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    d6 22 44 01 00 49 6c 2f cc 00 00 22 d3 c0 f6 22 44 01 00 49 40 3b 00 22 b3 40 b4 23 0a 01 0d 0a
+  >>> PROLOGUE ZONE (16 bytes):
+    00 47 91 59 1f ed 8a 02 46 21 88 84 0c 00 22 73
+  ... middle 329 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    f2 10 74 01 10 23 f9 e0 3e 41 18 0c 46 50 54 23
+  POST-CONTEXT (32 bytes):
+    cd 29 00 1c 6c 2f cc 00 00 39 27 ed 28 00 06 21 52 11 d2 8f 12 e0 0f 6c 2b cc 00 00 b9 ef a0 00
+
+───────────────────────────────────────────────────────────────────────────
+Region #22  |  DUE6001 / DUE6001-D.2.9.3.dat  |  offset 0x0013e6–0x0014e0  (250 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    17 41 16 00 0a 00 47 82 39 02 ee 63 24 82 48 18 0c 94 40 46 12 c0 be 46 82 10 0d 46 c2 00 82 2d
+  >>> PROLOGUE ZONE (16 bytes):
+    ad 10 70 84 46 28 8d 01 85 a1 00 70 24 99 6d 01
+  ... middle 218 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    80 10 0d 46 c0 00 82 1d 0d 0c 20 6d 04 01 df 01
+  POST-CONTEXT (32 bytes):
+    f1 df 0d 0c f0 16 c2 46 10 f0 16 d2 bc 31 70 00 1c f0 16 6e c1 0c 00 80 3b 24 ed 16 00 3a 0a 00
+
+───────────────────────────────────────────────────────────────────────────
+Region #23  |  DUE6001 / DUE6001-D.2.9.3.dat  |  offset 0x00152d–0x00160a  (221 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    1c f0 16 46 80 10 0d 46 c0 00 82 4d ed 3f c0 01 6f e1 16 cc 00 00 39 a3 00 e0 2e 0a 01 df 03 f1
+  >>> PROLOGUE ZONE (16 bytes):
+    df 7f 04 41 1c 01 46 50 d4 11 b4 01 f0 1d 10 41
+  ... middle 189 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    10 e3 02 a4 00 00 ee 63 05 82 59 e8 17 df 03 f1
+  POST-CONTEXT (32 bytes):
+    df fc 27 47 60 04 a2 10 70 14 46 11 fc 80 25 05 ed e9 49 52 e8 20 7c 04 01 73 38 d7 cc 00 00 a8
+
+───────────────────────────────────────────────────────────────────────────
+Region #24  |  DUE6001 / DUE6001-D.3.0.2.dat  |  offset 0x0017b8–0x00189c  (228 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    47 a0 30 70 14 ec 01 02 6f 63 04 02 e8 1c ef f3 cc 00 f1 df fd 14 47 d0 ae 24 60 04 82 48 18 1c
+  >>> PROLOGUE ZONE (16 bytes):
+    90 60 46 10 f0 89 98 24 ed 4a 02 46 20 88 84 c1
+  ... middle 196 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    56 14 0d 24 41 c1 bf 63 24 49 e2 67 f1 8c 01 f1
+  POST-CONTEXT (32 bytes):
+    cf e6 f2 67 21 5f 18 47 d0 de 23 24 90 de e7 f0 e2 2c 0e de f2 a2 00 70 14 98 7b e0 4a 46 21 88
+
+───────────────────────────────────────────────────────────────────────────
+Region #25  |  DUE6001 / DUE6001-D.3.0.2.dat  |  offset 0x001af3–0x001bbb  (200 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    26 6c c1 40 6f 28 0c c3 40 47 6a 34 47 6b 04 02 e8 4c ef e3 5f 46 e0 14 11 89 fc fc 00 f1 cf eb
+  >>> PROLOGUE ZONE (16 bytes):
+    f2 37 71 04 4f e1 14 ce e2 10 fc 1f ed ff 66 4e
+  ... middle 168 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    14 0d 24 41 c1 bf 63 24 49 e2 37 f1 5c 01 f1 cf
+  POST-CONTEXT (32 bytes):
+    f1 67 7e 24 d2 7c 03 a0 a2 60 70 34 ec 01 36 6f 25 6c 02 40 6f 67 24 02 e8 3c ef 83 b9 01 ac f3
+
+───────────────────────────────────────────────────────────────────────────
+Region #26  |  DUE6001 / DUE6001-D.3.0.2.dat  |  offset 0x001c10–0x001cf3  (227 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    70 14 ec 01 3e 6f 23 6c ac 02 6f 25 6c ae 02 6f 27 6c b0 02 6f 69 04 02 e8 1c ef f3 cc 00 f1 cf
+  >>> PROLOGUE ZONE (16 bytes):
+    f4 47 a0 60 70 14 ec 01 5e 6f 03 0c f0 56 c0 00
+  ... middle 195 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    09 ae 68 34 82 48 78 a4 46 20 80 ce f4 3e cf 0f
+  POST-CONTEXT (32 bytes):
+    10 df 7a 56 47 f2 34 4e 63 48 d0 08 c0 24 cd 37 00 25 46 52 20 2b ec 00 10 d2 46 2b 10 b4 03 10
+
+───────────────────────────────────────────────────────────────────────────
+Region #27  |  DUE6001 / DUE6001-D.3.0.2.dat  |  offset 0x00204f–0x002482  (1075 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    0a 0b 47 a6 00 70 74 46 20 80 ce f1 3e cf 0c 10 df 79 05 47 01 0c f0 56 0a 00 47 92 49 0b 46 82
+  >>> PROLOGUE ZONE (16 bytes):
+    25 91 52 d0 de b3 24 85 86 02 56 31 12 b9 89 60
+  ... middle 1043 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    80 00 ae 64 05 82 59 a8 00 10 30 f1 7e f7 9c 00
+  POST-CONTEXT (32 bytes):
+    f1 df af 00 70 04 98 3c e0 4a 46 20 88 84 0c 02 d8 20 ed 4a 02 46 20 88 84 81 02 ed 4a 02 56 20
+
+───────────────────────────────────────────────────────────────────────────
+Region #28  |  DUE6001 / DUE6001-D.2.9.3.dat  |  offset 0x004e87–0x005204  (893 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    04 12 24 29 bf 47 02 d2 bb e4 04 d3 0b 3c 8a 7f 34 56 12 0d 24 41 c1 bf 63 24 49 46 f3 4d 10 51
+  >>> PROLOGUE ZONE (16 bytes):
+    55 08 00 1c 20 6d 56 08 c0 00 d2 86 85 10 45 85
+  ... middle 861 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    22 6d 56 08 7e f4 6d 10 04 63 08 f1 04 6c 08 f1
+  POST-CONTEXT (32 bytes):
+    df 7d 26 d3 99 10 b3 a4 00 70 04 98 2e 46 a0 35 20 ef aa ff ed c5 08 52 58 6a 04 5a 00 21 92 6e
+
+───────────────────────────────────────────────────────────────────────────
+Region #29  |  DUE6001 / DUE6001-D.2.9.3.dat  |  offset 0x005502–0x005529  (39 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    67 7f 20 18 46 22 e4 21 09 1d 7e f8 ac 00 f1 df fe 04 04 43 ea 04 85 21 60 b9 0a 01 df 02 f1 df
+  >>> PROLOGUE ZONE (16 bytes):
+    7d 05 47 61 14 8c 08 24 46 c0 18 b0 61 14 8d 06
+  ... middle 7 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    8d 09 0a 0a 01 47 e2 3f 0a 00 47 62 24 df 03 f1
+  POST-CONTEXT (32 bytes):
+    cf e8 f2 27 71 a5 47 ab a0 70 c4 0a 00 47 8d f9 67 d4 5a 05 f2 de 3e 28 24 85 84 62 b5 31 42 b8
+
+───────────────────────────────────────────────────────────────────────────
+Region #30  |  DUE6001 / DUE6001-D.3.0.2.dat  |  offset 0x00b0d0–0x00b10b  (59 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    0d 4e 62 68 e0 24 a6 07 4e 62 89 70 05 c2 94 da a0 19 83 fa ea 77 5e f9 bc 00 f1 df 7e 16 47 60
+  >>> PROLOGUE ZONE (16 bytes):
+    04 58 12 29 05 aa 01 ed 8c 0c 52 58 6a 04 58 12
+  ... middle 27 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    05 ed 8c 0c 52 78 3a 60 16 df 02 f1 df 7e 16 47
+  POST-CONTEXT (32 bytes):
+    20 6c 88 0c cc 01 00 b8 66 46 80 25 91 52 a0 1a d0 ce c8 20 85 a5 46 80 25 91 52 d0 ce c8 20 85
+
+───────────────────────────────────────────────────────────────────────────
+Region #31  |  DUE6001 / DUE6001-D.3.2.5.dat  |  offset 0x00bb86–0x00bbc4  (62 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    df 01 f1 11 05 35 2c 9a 3e c3 aa e7 33 3c 7a 3e 10 11 f7 34 2c 9a 3e c3 a2 e7 33 bc 7a 3e 10 df
+  >>> PROLOGUE ZONE (16 bytes):
+    af 10 70 04 11 e4 34 3c 7a 3e c0 0a 93 38 67 36
+  ... middle 30 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    10 e0 2e 0a 00 8c 00 07 0a 00 47 60 04 df 01 f1
+  POST-CONTEXT (32 bytes):
+    d3 bc e2 00 00 41 b0 e2 07 12 51 2b 0e 30 ac 9a 3e c3 aa e7 33 3c 7a 3e 10 20 12 00 c3 ab e7 03
+
+───────────────────────────────────────────────────────────────────────────
+Region #32  |  DUE6001 / DUE6001-D.3.3.3.dat  |  offset 0x00c0ee–0x00c181  (147 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    0d 46 c2 00 20 22 a2 6e e3 57 df 07 f1 d3 1e e3 00 60 61 20 51 10 e3 04 31 1e fc 7c 20 01 f1 df
+  >>> PROLOGUE ZONE (16 bytes):
+    7e 04 46 30 0a 5a 47 61 14 0c 00 22 a3 60 14 a2
+  ... middle 115 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    a1 10 a0 15 f0 de fe a5 20 a0 15 f0 de 10 51 3a
+  POST-CONTEXT (32 bytes):
+    0e 00 1c 20 6d 3b 0e c0 00 d2 d6 e3 00 0c 20 6d 3f 0e 51 39 0e 10 65 e4 00 51 43 0e 10 45 e4 00
+
+───────────────────────────────────────────────────────────────────────────
+Region #33  |  DUE6001 / DUE6001-D.3.3.3.dat  |  offset 0x00c546–0x00c5af  (105 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    0c 20 6d 3d 0e 10 04 4c 0e f1 21 11 e0 0a 04 21 61 9a c2 16 e4 c0 0c 00 90 42 ec 58 02 49 10 df
+  >>> PROLOGUE ZONE (16 bytes):
+    7e 16 50 4c 0e 20 32 16 50 4c 4e 26 22 0a 0a 03
+  ... middle 73 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 39 17 33 5b af 00 10 b0 ca 66 f0 1d 10 51 66
+  POST-CONTEXT (32 bytes):
+    0e 00 f1 df 7e 16 47 60 04 0c 08 c9 8d d0 7e e5 60 04 82 48 88 10 ed 57 0e 56 20 98 85 ed 57 0e
+
+───────────────────────────────────────────────────────────────────────────
+Region #34  |  DUE6001 / DUE6001-D.3.3.3.dat  |  offset 0x0073ca–0x00740b  (65 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    cf 09 10 df 7e 16 47 40 d0 aa 8c ff 63 46 a0 35 20 ef aa 01 ed e3 0a 52 58 6a 04 5a 03 f2 de 3e
+  >>> PROLOGUE ZONE (16 bytes):
+    ae 20 85 0a 00 87 01 46 80 25 91 52 d0 ee 2f 24
+  ... middle 33 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    ef aa 01 ed c8 0a 52 58 6a 04 5a 03 f2 de 8e ac
+  POST-CONTEXT (32 bytes):
+    20 85 0a 00 87 01 46 80 25 91 52 d0 ae 2d 24 85 a6 01 46 a0 35 20 ef ed c8 0a 52 78 2a 60 16 df
+
+───────────────────────────────────────────────────────────────────────────
+Region #35  |  DUE6001 / DUE6001-D.3.3.3.dat  |  offset 0x007517–0x0075f3  (220 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    46 a4 35 20 ef ed e3 0a 52 48 28 8d 01 62 61 44 d2 18 60 0b 21 df 31 d2 18 90 14 c0 05 ef 42 d3
+  >>> PROLOGUE ZONE (16 bytes):
+    aa 46 a4 35 20 ef 42 6d 44 58 12 29 05 ed fe 42
+  ... middle 188 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    18 60 0b 21 00 31 d2 18 90 14 c0 05 ef 42 a3 aa
+  POST-CONTEXT (32 bytes):
+    46 a4 35 20 ef 42 6d 44 58 12 29 05 ed da 42 52 48 6a 44 5a 03 f2 de 8e ac 20 85 ce f2 04 46 84
+
+───────────────────────────────────────────────────────────────────────────
+Region #36  |  DUE6001 / DUE6001-D.3.3.3.dat  |  offset 0x0080b5–0x0080f5  (64 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    81 00 91 02 d2 06 be 60 04 ed a6 c7 21 06 db df 03 f1 df 7f 04 46 d0 be 7b 1c 83 af fd 1d 10 51
+  >>> PROLOGUE ZONE (16 bytes):
+    27 3a c0 ae c0 20 6d 29 0a 10 51 27 3a c0 ae 80
+  ... middle 32 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    21 6d 29 0a 51 2b 1a 40 b0 be 05 2c 0a f1 51 27
+  POST-CONTEXT (32 bytes):
+    3a c0 be c0 20 6d 29 0a 10 51 27 3a c0 be 80 20 6d 29 0a 04 e6 5b b0 a2 10 51 27 3a c0 be 80 20
+
+───────────────────────────────────────────────────────────────────────────
+Region #37  |  DUE6001 / DUE6001-D.3.3.3.dat  |  offset 0x00813e–0x008186  (72 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    51 27 3a c0 be 80 20 6d 29 0a 04 ea 5b b0 a2 10 51 27 6a c0 be 80 21 6d 29 0a 51 2b 1a 40 c0 be
+  >>> PROLOGUE ZONE (16 bytes):
+    05 2c 0a f1 51 27 3a c0 ae 40 21 6d 29 0a 10 51
+  ... middle 40 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    0a 0a 00 14 f1 2b 4a 05 2b 4a 10 bf 05 2c 0a f1
+  POST-CONTEXT (32 bytes):
+    51 27 3a c0 be 40 21 6d 29 0a 10 51 27 3a c0 be 00 21 6d 29 0a 04 ee 5b b0 a2 10 51 27 3a c0 be
+
+───────────────────────────────────────────────────────────────────────────
+Region #38  |  DUE6001 / DUE6001-D.3.3.3.dat  |  offset 0x008c80–0x008cb1  (49 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    0a 46 20 88 84 8d 00 0a 0a 00 47 e1 3f 0a 01 47 61 14 df 02 f1 df 7e 16 47 60 04 5a 03 f2 de 3e
+  >>> PROLOGUE ZONE (16 bytes):
+    ae 20 85 a6 02 46 80 25 91 52 d0 ee 2f 24 85 86
+  ... middle 17 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    66 f1 2d 10 df 7e 16 47 60 04 5a 03 f2 de 8e ac
+  POST-CONTEXT (32 bytes):
+    20 85 a6 02 46 80 25 91 52 d0 ae 2d 24 85 86 01 23 82 9a 61 04 5a 03 f2 ae 0a d0 8e ac 20 85 a5
+
+───────────────────────────────────────────────────────────────────────────
+Region #39  |  DUE6001 / DUE6001-D.3.3.3.dat  |  offset 0x009348–0x00939f  (87 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    47 80 c7 21 00 ca 5e f4 6d 10 04 77 0c f1 df 7e 04 57 61 14 8d 01 0c 46 50 d0 c7 98 1b 0a 03 ef
+  >>> PROLOGUE ZONE (16 bytes):
+    4c d0 c7 05 7c 4c c0 c7 11 3c f7 2d 10 df 7e 05
+  ... middle 55 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    ef 4c 20 c8 05 81 4c 10 c8 11 06 f7 2d 10 df 7e
+  POST-CONTEXT (32 bytes):
+    05 47 61 14 05 82 6c 14 05 83 6c 14 05 81 6c 04 05 84 6c 04 22 88 10 05 85 4c 10 c8 11 e3 46 40
+
+───────────────────────────────────────────────────────────────────────────
+Region #40  |  DUE6001 / DUE6001-D.3.3.3.dat  |  offset 0x0096a1–0x00990a  (617 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    c8 21 87 0e 04 76 4c 71 c7 23 94 73 04 77 ac 05 10 93 ed 40 60 c7 21 63 c6 04 76 1c 30 3c 46 f1
+  >>> PROLOGUE ZONE (16 bytes):
+    ce c0 19 d2 d6 c6 c0 2e 48 21 6d 69 0c 99 ba a0
+  ... middle 585 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    10 0d 04 7c 1c f3 3b 4c c0 c7 11 88 11 d3 67 cf
+  POST-CONTEXT (32 bytes):
+    2e 48 21 6d 69 0c 98 22 0a 03 47 81 79 a1 30 70 14 21 9d c3 fe a3 30 70 14 46 f1 ce df 02 f1 21
+
+───────────────────────────────────────────────────────────────────────────
+Region #41  |  DUE6001 / DUE6001-D.3.4.1.dat  |  offset 0x00b9d4–0x00bb63  (399 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    e4 00 51 4f 0e 20 4c c9 0d ce 9c 51 ce 8f 2a 81 99 a1 10 a0 15 f0 ce fe a5 20 a0 15 f0 ce 10 df
+  >>> PROLOGUE ZONE (16 bytes):
+    ce 0e 53 f7 06 d3 fc e4 10 f0 30 cd 4f 0e 02 11
+  ... middle 367 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    10 63 43 ea 3e 21 37 a4 51 50 0e f0 1d 10 51 53
+  POST-CONTEXT (32 bytes):
+    0e 00 1c 20 6d 54 0e c0 00 d2 66 e5 00 0c 20 6d 58 0e 51 52 0e 10 f5 e5 00 51 5c 0e 10 d5 e5 00
+
+───────────────────────────────────────────────────────────────────────────
+Region #42  |  DUE6001 / DUE6001-D.3.4.1.dat  |  offset 0x00bd2f–0x00be5c  (301 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    04 64 0e 68 d4 e0 3f 51 64 0e 25 46 11 0c 64 c8 24 04 64 2e 56 11 23 24 22 12 62 14 81 10 05 65
+  >>> PROLOGUE ZONE (16 bytes):
+    9e e9 24 e2 26 c1 0c 53 27 33 33 02 94 a4 90 1c
+  ... middle 269 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    48 00 04 65 5e 74 e4 5e 62 14 51 50 e6 d3 3e e6
+  POST-CONTEXT (32 bytes):
+    f0 0f 11 80 df 8d 01 05 11 2d 32 ed 65 0e 00 63 11 54 d7 18 30 a1 00 10 f0 70 0a 00 21 3d a0 0a
+
+───────────────────────────────────────────────────────────────────────────
+Region #43  |  DUE6001 / DUE6001-D.3.4.1.dat  |  offset 0x00c0fd–0x00c1f7  (250 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    2e 9f aa 02 c0 00 42 ac 18 43 25 2f 6c 5a 0e cc 00 00 39 17 03 27 af 00 10 e0 b3 66 f0 1d 10 c2
+  >>> PROLOGUE ZONE (16 bytes):
+    c6 e6 00 f1 04 6b 0e f1 cf d7 f2 37 72 a4 4f ab
+  ... middle 218 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    72 14 e1 4e 46 2a 47 11 62 14 21 7e 23 cf 29 10
+  POST-CONTEXT (32 bytes):
+    51 95 0e 00 f1 df 7e 16 47 60 04 0c 08 c9 8d d0 6e e8 60 04 82 48 88 10 ed 86 0e 56 20 98 85 ed
+
+───────────────────────────────────────────────────────────────────────────
+Region #44  |  DUE6001 / DUE6001-D.3.4.1.dat  |  offset 0x00c551–0x00c586  (53 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    01 ee a2 00 e0 a7 cf 0c 10 df ac 80 f1 fe 4f e0 06 cc 00 00 19 e6 04 84 05 9a ee 3f 51 9a 0e a0
+  >>> PROLOGUE ZONE (16 bytes):
+    a0 f0 fe 4f e2 26 cc 00 00 09 e7 24 84 05 9b 8e
+  ... middle 21 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    c0 a0 10 10 90 00 fe a4 00 10 30 00 df 04 f1 df
+  POST-CONTEXT (32 bytes):
+    7f 04 46 d0 08 a0 30 fc 7a 3e fe 33 7c 7a 3e df 01 f1 df 7e 04 46 40 a1 e9 23 84 1a a3 80 21 80
+
+───────────────────────────────────────────────────────────────────────────
+Region #45  |  DUE6001 / DUE6001-D.3.4.1.dat  |  offset 0x00c5cd–0x00c5f1  (36 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    b3 21 78 14 46 d1 18 20 61 04 05 9a ee 3f 0a 01 47 61 14 df 02 f1 04 9a 0e f1 04 9b 0e f1 df 7f
+  >>> PROLOGUE ZONE (16 bytes):
+    04 46 50 b0 e9 df 01 f1 df ae a0 f0 fe 4f e0 04
+  ... middle 4 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    42 a8 13 0a 0a ed 9b 0e ef 1d 13 1d f8 2d 10 df
+  POST-CONTEXT (32 bytes):
+    7e 16 0a 00 47 80 89 65 04 5a 06 f2 ae 1a d0 ce e9 20 85 a5 46 a0 65 20 ef ed 9c 0e 52 a8 00 70
+
+───────────────────────────────────────────────────────────────────────────
+Region #46  |  DUE6001 / DUE6001-D.3.4.1.dat  |  offset 0x00cbca–0x00cc0f  (69 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    10 df 7f 06 2a 6e c4 82 80 7d a0 84 85 82 ac 00 0c 32 2d c2 28 9f a2 cc 00 00 66 f0 1d 10 df fc
+  >>> PROLOGUE ZONE (16 bytes):
+    07 4f e2 f7 6e 2d b2 22 2a 92 22 28 45 01 00 6f
+  ... middle 37 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    0b e1 c1 0d 00 20 42 03 08 e1 24 7e f0 4d 10 df
+  POST-CONTEXT (32 bytes):
+    fe 07 7e e7 b6 82 85 ab e1 57 6e 39 da 56 2a 42 06 82 e6 1f 82 e5 07 df 02 f1 ad 7f f0 24 5f e4
+
+───────────────────────────────────────────────────────────────────────────
+Region #47  |  DUE6001 / DUE6001-D.3.4.1.dat  |  offset 0x00cc2a–0x00ccc1  (151 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    7e f0 4d 10 df fe 07 7e e7 b6 82 85 ab e1 57 6e 39 da 56 2a 42 06 82 e6 1f 82 e5 07 df 02 f1 ad
+  >>> PROLOGUE ZONE (16 bytes):
+    7f f0 24 5f e4 95 6e cd 0c 00 90 72 6e cb 0c 00
+  ... middle 119 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    10 08 e1 5e 2f c7 02 c7 03 5e e4 24 7e f0 6d 10
+  POST-CONTEXT (32 bytes):
+    aa 55 cc 33 00 01 4c 00 df f8 66 7f f4 24 5f 60 c0 20 c0 40 b9 08 a0 00 72 c0 60 c0 20 c0 10 a9
+
+───────────────────────────────────────────────────────────────────────────
+Region #48  |  DUE6001 / DUE6001-D.3.4.1.dat  |  offset 0x00cbc8–0x00cc0d  (69 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    20 04 10 df 7f 06 2a 6e c4 82 80 7d a0 84 85 82 ac 00 0c 32 2d c2 28 9f a2 cc 00 00 66 f0 1d 10
+  >>> PROLOGUE ZONE (16 bytes):
+    df fc 07 4f e2 f7 6e 2d b2 22 2a 92 22 28 45 01
+  ... middle 37 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 80 0b e1 c1 0d 00 20 42 03 08 e1 24 7e f0 4d
+  POST-CONTEXT (32 bytes):
+    10 df fe 07 7e e7 b6 82 85 ab e1 57 6e 39 da 56 2a 42 06 82 e6 1f 82 e5 07 df 02 f1 ad 7f f0 24
+
+───────────────────────────────────────────────────────────────────────────
+Region #49  |  DUE6001 / DUE6001-D.3.4.4.dat  |  offset 0x00ba5e–0x00ba79  (27 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    52 e8 e0 07 82 25 32 2c 46 83 25 05 ed 5d 47 52 e8 e0 07 82 25 22 0e 46 03 b8 70 24 98 16 46 23
+  >>> PROLOGUE ZONE (16 bytes):
+    0a 01 0d 46 c3 00 20 22 9b 46 23 8d 00 d2 a0 b0
+  <<< EPILOGUE ZONE (16 bytes):
+    8d 00 d2 a0 b0 70 24 99 c6 a0 f0 7f 24 99 ba 20
+  POST-CONTEXT (32 bytes):
+    6c fb 47 7e 20 58 32 62 09 c2 d6 7a e4 07 82 95 4d 08 0a 27 47 83 99 65 34 a2 10 80 25 05 ed ad
+
+───────────────────────────────────────────────────────────────────────────
+Region #50  |  DUE6001 / DUE6001-D.3.4.4.dat  |  offset 0x00bb91–0x00bbb9  (40 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    15 e6 ff 51 62 fe 1f 35 e6 ff 51 6c de c1 0e 41 da 76 04 f1 df 1e 63 7d ff 06 d3 0c e5 00 10 31
+  >>> PROLOGUE ZONE (16 bytes):
+    dd 50 0e 01 90 90 39 11 6e c0 5c 00 90 5b 10 21
+  ... middle 8 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    a5 8c 01 0a 8c 00 53 98 18 0a 01 11 6e 10 e0 41
+  POST-CONTEXT (32 bytes):
+    21 12 a2 98 37 c2 66 e5 c0 8c 38 81 6c 22 6c 56 0e 52 14 00 90 24 6c 56 0e cc 88 13 d8 05 11 e5
+
+───────────────────────────────────────────────────────────────────────────
+Region #51  |  DUE6002 / DUE6002-D.3.1.9.dat  |  offset 0x00ba4f–0x00bb5a  (267 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    60 05 15 c3 ef 2e 0a 01 66 f1 2d 10 8d 00 09 04 c2 8f 29 d1 18 80 40 30 fc ee a2 f0 0f f1 df f9
+  >>> PROLOGUE ZONE (16 bytes):
+    37 5f 25 10 57 70 14 0a 00 47 62 14 0c 04 c8 17
+  ... middle 235 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    d3 1e f9 20 a5 4a 5a 00 52 48 e8 07 df 02 f1 df
+  POST-CONTEXT (32 bytes):
+    fb 17 5f a3 27 10 2a 0a 00 47 c0 42 80 2c d2 8d 3e 20 22 17 3c 64 22 e2 e0 86 cc e8 03 22 c3 a0
+
+───────────────────────────────────────────────────────────────────────────
+Region #52  |  DUE6002 / DUE6002-D.3.2.6.dat  |  offset 0x00de47–0x00df24  (221 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    00 21 00 f2 c2 66 ff c0 0c 00 90 73 21 13 f2 0a 00 11 88 0b f1 c2 86 00 01 f1 c2 70 00 01 f1 cf
+  >>> PROLOGUE ZONE (16 bytes):
+    dd f2 b7 21 5f 1d 47 2a dc 0a 00 47 ab 00 70 c4
+  ... middle 189 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    63 a4 47 6b b4 e2 b7 21 5e 1d cf 23 10 d3 19 03
+  POST-CONTEXT (32 bytes):
+    01 00 f1 df fe 07 0c 08 c8 79 ed 22 10 82 48 da 2e 02 21 88 28 51 da 2e 02 21 88 94 fa 03 2a f2
+
+───────────────────────────────────────────────────────────────────────────
+Region #53  |  DUE6002 / DUE6002-D.3.2.6.dat  |  offset 0x00f0c6–0x00f10b  (69 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    42 00 f1 fd 67 a0 e2 46 2c 08 d8 07 4a 58 28 c8 0a c0 20 d3 22 8c f2 29 ca 0c 00 60 06 df 01 f1
+  >>> PROLOGUE ZONE (16 bytes):
+    cd 7f f0 24 7e ef d6 22 2b a2 22 29 82 52 14 00
+  ... middle 37 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 b8 10 1e dc 00 00 22 34 80 10 4e e2 07 df 04
+  POST-CONTEXT (32 bytes):
+    f1 ed 7f e0 77 6e 2b 58 b8 1a 7e e5 96 a3 6d a5 22 64 20 68 fe 21 58 7e f0 2d 10 df fa 07 4f f2
+
+───────────────────────────────────────────────────────────────────────────
+Region #54  |  DUE6002 / DUE6002-D.3.3.0.dat  |  offset 0x00f085–0x00f114  (143 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    87 4e f7 e0 b7 6e 3f d7 73 78 28 70 39 c0 0c 00 80 0b e1 c1 0d 00 20 42 03 08 e1 24 7e f0 4d 10
+  >>> PROLOGUE ZONE (16 bytes):
+    df f9 17 4f f3 55 5e ee c4 e2 27 21 6e 10 52 9f
+  ... middle 111 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 00 39 e6 33 b6 19 82 84 10 5e e5 34 7e f1 7d
+  POST-CONTEXT (32 bytes):
+    10 df fe 07 7e e7 b6 82 95 43 7e e5 96 82 e5 07 df 02 f1 cd 7f f0 24 7e eb 96 22 28 92 22 2a b2
+
+───────────────────────────────────────────────────────────────────────────
+Region #55  |  DUE6002 / DUE6002-D.3.4.0.dat  |  offset 0x006e1e–0x006e4e  (48 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    05 a8 ad 30 f2 8e 10 0a 24 ef 08 f1 0a 25 ef 08 f1 05 a7 ad 60 f2 8e 10 05 a7 ad 70 f2 8e 10 d2
+  >>> PROLOGUE ZONE (16 bytes):
+    b4 da d0 68 b1 a0 a0 f2 8e 98 28 8d 26 0b 0a 2b
+  ... middle 16 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    d2 d6 da a0 e0 f2 8e 10 d2 f6 da a0 f0 f2 8e 10
+  POST-CONTEXT (32 bytes):
+    0a 1f ef 08 f1 d2 94 d9 50 b0 d9 15 9c 6d 34 05 9d ad 50 f2 ce 10 d2 96 d9 f0 2e 8d 00 0a 0a 26
+
+───────────────────────────────────────────────────────────────────────────
+Region #56  |  DUE6002 / DUE6002-D.3.4.0.dat  |  offset 0x009c17–0x009d59  (322 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    00 98 1a 5a 06 98 12 5a 07 fe a5 45 e0 2e 5a 05 ed 32 ce 04 aa 7d 06 02 10 a0 22 66 f1 2d 10 51
+  >>> PROLOGUE ZONE (16 bytes):
+    49 9b d0 6e a1 2d 4d 4b 0b 51 4d 6b a1 00 30 a9
+  ... middle 290 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    c0 b4 20 6c af 0d d2 d6 b4 00 fe 2f 4d 4f 0b 10
+  POST-CONTEXT (32 bytes):
+    04 59 5d d0 b4 04 5a 5d e0 b4 04 5b 5d f0 b4 04 5c 5d 00 b5 04 5d 5d 10 b5 04 5e 5d 20 b5 10 ed
+
+───────────────────────────────────────────────────────────────────────────
+Region #57  |  SCE6010 / SCE6010-D.3.1.3.dat  |  offset 0x0010a1–0x001102  (97 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    6f 26 6c c1 40 6f 28 0c c3 40 47 6a 34 47 6b 04 02 e8 4c ef e9 5f 46 e0 14 11 ed fe fc 00 f1 cf
+  >>> PROLOGUE ZONE (16 bytes):
+    e8 4f aa 00 70 c4 4e ea 2c 0e c1 ff d1 fe 6f ee
+  ... middle 65 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    47 6c c4 21 7c 30 41 2b 00 41 2c 00 cf 18 10 cf
+  POST-CONTEXT (32 bytes):
+    f1 67 7e 24 d2 6c 02 a0 a2 60 70 34 ec 01 36 6f 25 6c 02 40 6f 67 24 02 e8 3c ef 89 a9 01 ac f3
+
+───────────────────────────────────────────────────────────────────────────
+Region #58  |  SCE6010 / SCE6010-D.3.1.3.dat  |  offset 0x005af3–0x005c10  (285 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    23 22 6d c3 04 04 cb 55 50 4c 10 51 c1 34 c0 2e 23 25 6d c3 04 04 6b 55 50 4c 10 51 c1 64 c0 de
+  >>> PROLOGUE ZONE (16 bytes):
+    24 20 6d c3 04 c2 96 59 20 6d c5 04 10 51 c1 64
+  ... middle 253 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    c3 04 10 51 c1 34 c0 6e 41 29 6d c3 04 10 d2 fe
+  POST-CONTEXT (32 bytes):
+    03 70 13 93 58 de 18 b0 12 04 f4 1f 14 04 a0 30 10 23 ff ac 40 10 d3 fe 1c f4 13 10 e0 7d 10 41
+
+───────────────────────────────────────────────────────────────────────────
+Region #59  |  SCE6010 / SCE6010-D.3.1.3.dat  |  offset 0x006069–0x0060b4  (75 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    40 4c 00 2c 24 6d c5 04 98 23 51 c1 64 e0 26 d2 36 4c 30 0c c4 04 c0 3a d2 56 4c f0 dc 00 f1 df
+  >>> PROLOGUE ZONE (16 bytes):
+    7c 05 47 61 14 21 34 d0 4f e2 26 cc 00 00 29 a4
+  ... middle 43 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    e0 17 82 96 33 0a 01 ee a2 00 e0 57 df 07 f1 df
+  POST-CONTEXT (32 bytes):
+    fb 14 47 60 04 8d ff 0b 0a 00 47 83 29 e3 14 12 61 04 ed c1 04 21 f1 aa 47 64 44 8c 00 0a 0a 02
+
+───────────────────────────────────────────────────────────────────────────
+Region #60  |  SCE6010 / SCE6010-D.3.1.3.dat  |  offset 0x007137–0x007191  (90 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    6e 22 34 e0 0a 20 07 04 d0 0a 20 07 01 6d b9 6c b9 6d bb 46 5d f4 ab 50 f1 1e 7e f8 ac 00 f1 df
+  >>> PROLOGUE ZONE (16 bytes):
+    7f 04 d2 be c8 30 65 04 8d 03 1c d2 de 28 02 15
+  ... middle 58 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    48 92 20 cd 76 00 07 0a 01 47 60 04 df 01 f1 df
+  POST-CONTEXT (32 bytes):
+    7d 04 46 10 23 a3 70 14 46 11 93 ad 70 24 46 41 01 61 23 84 2a 62 14 05 10 a6 00 21 80 ce f2 2e
+
+───────────────────────────────────────────────────────────────────────────
+Region #61  |  SCE6010 / SCE6010-D.3.2.0.dat  |  offset 0x0046f7–0x004744  (77 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    20 32 1b 4e 6a 28 10 a3 bb a2 70 f0 0e 93 f0 e4 e8 c7 44 38 42 fe 9e 93 f0 e4 a8 80 f3 0e 93 f0
+  >>> PROLOGUE ZONE (16 bytes):
+    e4 f8 4e 0c 00 22 43 e1 a4 86 02 21 a5 0a 93 f0
+  ... middle 45 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    5a 14 a4 15 d3 9d 12 e3 54 a1 80 f0 0e 93 f0 e4
+  POST-CONTEXT (32 bytes):
+    f8 4e 0c 00 22 b3 e1 a4 86 02 21 da 2b 0a 09 ef 30 09 4f 8e 7e 4c 84 23 e4 ef 39 09 4f 8e 0a 39
+
+───────────────────────────────────────────────────────────────────────────
+Region #62  |  SCE6010 / SCE6010-D.3.2.0.dat  |  offset 0x008029–0x00809d  (116 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    00 10 d2 ac 09 00 21 cd 99 00 07 0a 01 ee a2 00 00 f1 0a 0f 5a 00 11 32 5f 30 64 05 17 06 f1 df
+  >>> PROLOGUE ZONE (16 bytes):
+    af 10 70 04 d2 3c 39 90 20 ed 93 0b 25 21 6c c1
+  ... middle 84 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    ed 8a 00 12 41 8c 00 41 8d 07 41 8e 00 10 51 44
+  POST-CONTEXT (32 bytes):
+    06 00 4c 26 6d d3 07 51 06 e7 14 20 00 10 10 df 7e 16 0a 00 47 80 b9 65 04 58 12 29 05 aa 00 ed
+
+───────────────────────────────────────────────────────────────────────────
+Region #63  |  DUE6100 / DUE6100-D.4.2.0.dat  |  offset 0x00949a–0x0094dd  (67 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    00 20 96 49 48 72 00 20 95 49 88 72 00 f0 ad fa 01 bd 80 b5 a5 48 91 49 48 80 90 48 80 78 8f 49
+  >>> PROLOGUE ZONE (16 bytes):
+    88 70 fc f7 dc fe 8d 49 08 71 ff 20 8c 49 48 71
+  ... middle 35 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    bd 00 00 04 40 00 00 80 b5 4b 48 7f 49 48 80 7e
+  POST-CONTEXT (32 bytes):
+    48 80 78 7d 49 88 70 02 20 7c 49 08 71 47 48 80 88 7a 49 48 71 45 48 80 88 80 b2 00 0a 77 49 88
+
+───────────────────────────────────────────────────────────────────────────
+Region #64  |  DUE6100 / DUE6100-D.4.3.1.dat  |  offset 0x0038b9–0x0038fc  (67 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    02 01 43 9c 48 01 80 f6 b2 00 2e 02 d0 f6 b2 02 2e 06 d1 99 48 9a 49 08 80 64 20 99 49 08 70 29
+  >>> PROLOGUE ZONE (16 bytes):
+    e0 f6 b2 01 2e 03 d1 97 48 95 49 08 80 1f e0 f6
+  ... middle 35 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    8a 49 08 80 0a e0 00 bf 82 2c 00 20 83 2c 00 20
+  POST-CONTEXT (32 bytes):
+    20 7b 61 7b 09 02 01 43 84 48 01 80 e0 7a 84 49 08 70 7f 48 00 78 00 28 02 d0 02 28 05 d0 17 e0
+
+───────────────────────────────────────────────────────────────────────────
+Region #65  |  DUE6100 / DUE6100-D.4.3.1.dat  |  offset 0x006457–0x0064ba  (99 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    18 ed b2 08 21 69 43 40 5a 69 46 48 80 02 e0 00 bf ff ff 00 00 68 46 40 88 75 49 88 42 6e d0 f6
+  >>> PROLOGUE ZONE (16 bytes):
+    b2 02 2e 2e d1 e4 b2 01 2c 02 d0 e4 b2 02 2c 28
+  ... middle 67 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    ed b2 04 22 6a 43 89 18 e4 b2 09 5d 01 55 3c e0
+  POST-CONTEXT (32 bytes):
+    68 46 40 88 59 49 f6 b2 20 22 72 43 89 18 ed b2 08 22 6a 43 89 18 e4 b2 02 22 62 43 89 5a 40 1a
+
+───────────────────────────────────────────────────────────────────────────
+Region #66  |  DUE6100 / DUE6100-D.4.3.1.dat  |  offset 0x009fa5–0x00a002  (93 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    20 05 00 0c e0 68 46 40 78 c0 07 06 d5 68 46 00 78 05 28 02 d0 01 20 05 00 01 e0 02 20 05 00 fc
+  >>> PROLOGUE ZONE (16 bytes):
+    f7 e4 fa 02 28 2a d1 39 48 ed b2 18 21 69 43 40
+  ... middle 61 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    40 18 80 88 26 49 e4 b2 02 22 62 43 88 52 29 e0
+  POST-CONTEXT (32 bytes):
+    25 48 ed b2 18 21 69 43 40 18 e4 b2 06 21 61 43 40 5a 1c 49 e4 b2 02 22 62 43 88 52 1e 48 ed b2
+
+───────────────────────────────────────────────────────────────────────────
+Region #67  |  DUE6100 / DUE6100-D.4.3.1.dat  |  offset 0x010da7–0x010dff  (88 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    f7 7b fa 02 00 92 b2 02 21 41 48 08 f0 a5 fc 01 bd 48 4e 00 00 80 b5 03 20 63 49 08 70 62 48 03
+  >>> PROLOGUE ZONE (16 bytes):
+    78 00 22 a5 49 3a 48 08 f0 46 fc a4 48 00 78 02
+  ... middle 56 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    bd 80 b5 96 48 02 78 02 21 27 48 c9 b2 42 54 93
+  POST-CONTEXT (32 bytes):
+    48 42 78 03 21 24 48 c9 b2 42 54 90 48 82 78 04 21 21 48 c9 b2 42 54 8d 48 c2 78 05 21 1e 48 c9
+
+───────────────────────────────────────────────────────────────────────────
+Region #68  |  DUE6100 / DUE6100-D.4.4.0.dat  |  offset 0x003dab–0x003e49  (158 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    21 2f 4a 11 70 07 e0 01 21 2d 4a 11 70 03 e0 02 21 2b 4a 11 70 ff e7 00 bd 29 48 00 78 70 47 10
+  >>> PROLOGUE ZONE (16 bytes):
+    b5 04 00 a0 06 08 d5 37 48 00 78 80 06 24 d4 01
+  ... middle 126 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    f9 04 f0 4b f9 15 48 00 78 15 49 08 70 01 bd 4e
+  POST-CONTEXT (32 bytes):
+    2c 00 20 af 2d 00 20 b2 2d 00 20 b1 2d 00 20 b4 2d 00 20 b5 2d 00 20 b6 2d 00 20 b9 2d 00 20 10
+
+───────────────────────────────────────────────────────────────────────────
+Region #69  |  DUE6100 / DUE6100-D.4.4.0.dat  |  offset 0x00b1fb–0x00b22c  (49 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    40 89 b2 00 29 0c d0 80 20 80 00 81 42 2c d0 80 20 c0 00 81 42 1d d0 c0 20 c0 00 81 42 24 d0 3b
+  >>> PROLOGUE ZONE (16 bytes):
+    e0 68 46 01 88 a0 1c 07 f0 74 fb 01 28 07 d1 2a
+  ... middle 17 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    c9 b2 68 46 00 88 04 f0 ec fc 05 20 00 f0 66 fb
+  POST-CONTEXT (32 bytes):
+    22 e0 2a 00 d2 b2 68 46 01 88 a0 1c 01 f0 6a fa 05 20 00 f0 5b fb 17 e0 68 46 80 78 00 28 07 d1
+
+───────────────────────────────────────────────────────────────────────────
+Region #70  |  DUE6100 / DUE6100-D.4.4.0.dat  |  offset 0x00bfe9–0x00c074  (139 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    70 22 20 02 f0 fc fd 10 bd 10 b5 04 00 b0 48 04 70 23 20 02 f0 f4 fd 10 bd 00 00 2c 29 00 20 ca
+  >>> PROLOGUE ZONE (16 bytes):
+    2c 00 20 cb 2c 00 20 bc 2b 00 20 38 b5 05 00 0c
+  ... middle 107 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    cf 2c 00 20 d0 2c 00 20 d1 2c 00 20 d2 2c 00 20
+  POST-CONTEXT (32 bytes):
+    80 b5 1c 20 02 f0 a6 fd 01 bd f8 b5 04 00 0f 00 15 00 1e 00 a8 48 04 80 a8 48 07 70 a8 48 05 70
+
+───────────────────────────────────────────────────────────────────────────
+Region #71  |  DUE6100 / DUE6100-D.4.4.0.dat  |  offset 0x008a85–0x008aee  (105 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    00 c0 b2 70 bd 00 00 3f 2d 00 20 10 b5 04 00 21 00 8b 48 01 f0 6d ff 03 20 00 f0 d1 ff 10 bd 40
+  >>> PROLOGUE ZONE (16 bytes):
+    2d 00 20 30 b5 83 b0 05 00 00 24 08 22 ff 21 68
+  ... middle 73 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    3e bd 00 20 71 49 09 78 32 39 08 00 40 b2 70 47
+  POST-CONTEXT (32 bytes):
+    10 b5 04 00 6e 49 20 00 01 f0 2e ff 00 20 20 71 00 20 60 71 00 20 a0 71 10 bd 10 b5 04 00 68 48
+
+───────────────────────────────────────────────────────────────────────────
+Region #72  |  DUE6100 / DUE6100-D.4.3.1.dat  |  offset 0x017ebb–0x017f9a  (223 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    78 2f 78 be 42 03 d2 00 26 f6 43 30 00 01 e0 01 26 30 00 03 e0 64 1c 6d 1c 52 1e ea e7 f0 bd f4
+  >>> PROLOGUE ZONE (16 bytes):
+    46 00 28 04 d4 49 42 00 f0 13 f8 40 42 60 47 40
+  ... middle 191 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    cf d2 01 46 10 46 70 47 08 b5 c0 46 c0 46 08 bd
+  POST-CONTEXT (32 bytes):
+    f8 b4 01 68 42 18 43 68 59 08 51 18 00 91 81 68 db 07 01 d5 4b 46 c9 18 00 9b 9a 42 02 d1 0c 30
+
+───────────────────────────────────────────────────────────────────────────
+Region #73  |  DUE6100 / DUE6100-D.4.3.1.dat  |  offset 0x019751–0x0197ac  (91 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    00 c9 b2 30 00 ff f7 d3 ff 2a 00 12 0c 92 b2 21 00 89 1c c9 b2 30 00 ff f7 ca ff 70 bd 02 00 12
+  >>> PROLOGUE ZONE (16 bytes):
+    42 07 d0 8b 07 06 d0 0b 78 49 1c 03 70 40 1c 52
+  ... middle 59 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    89 1c 80 1c 00 2a 01 d5 0b 78 03 70 70 bc 70 47
+  POST-CONTEXT (32 bytes):
+    00 b5 ef f3 10 82 02 60 72 b6 07 22 4d 4b 1a 60 80 22 92 00 4c 4b 1a 60 04 22 4c 4b 1a 60 4c 4a
+
+───────────────────────────────────────────────────────────────────────────
+Region #74  |  DUE8000 / DUE8000-D.4.1.0.dat  |  offset 0x00bfac–0x00c214  (616 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    11 b3 44 a9 d2 1a 40 61 04 05 c7 1f 20 b8 ee a2 1a a0 68 16 df 02 f1 04 c7 0f f1 0a 00 10 04 c8
+  >>> PROLOGUE ZONE (16 bytes):
+    0f f1 df 7e 16 57 d0 08 c0 63 06 c2 c1 01 31 62
+  ... middle 584 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    a6 01 e1 3f 0a 00 47 62 24 df 03 f1 c2 a6 01 01
+  POST-CONTEXT (32 bytes):
+    f1 df fc 07 5f 22 10 fa 00 aa 00 98 31 8a 5a 00 82 20 a1 52 d0 4e 6e 24 85 c2 1e 03 0f d1 18 70
+
+───────────────────────────────────────────────────────────────────────────
+Region #75  |  DUE8000 / DUE8000-D.4.1.0.dat  |  offset 0x00b1df–0x00b330  (337 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    70 54 99 e3 62 44 5a 00 82 20 91 52 d0 4e 6f 24 85 46 a5 05 20 85 84 21 16 a2 c2 cc 0c 00 80 aa
+  >>> PROLOGUE ZONE (16 bytes):
+    d7 be ff 20 00 82 10 f3 18 22 5c fb 0f 66 a5 0f
+  ... middle 305 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    05 20 08 12 29 05 ed eb 0f 52 68 54 5a 00 52 58
+  POST-CONTEXT (32 bytes):
+    6a 54 08 71 54 46 c5 40 90 1d d1 46 84 10 47 64 44 0c 04 d9 f0 ac 10 70 44 99 d1 d1 4e 70 64 44
+
+───────────────────────────────────────────────────────────────────────────
+Region #76  |  DUE8000 / DUE8000-D.4.1.0.dat  |  offset 0x00b137–0x00b176  (63 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    fc 0b 0a 22 21 d1 a2 02 d0 0c 00 90 50 84 05 c6 ef 3f 51 c6 2f a0 a0 10 d3 2b 2a 00 cd 00 00 19
+  >>> PROLOGUE ZONE (16 bytes):
+    46 28 0d 1c 10 98 2c 11 a7 dd 08 d0 30 9d 1c 10
+  ... middle 31 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 d8 8d 00 0d d3 d9 01 f1 8f 49 11 40 d7 8d 01
+  POST-CONTEXT (32 bytes):
+    09 d3 d9 01 21 a0 10 12 e3 26 2a cc cc 00 00 a8 16 ed 39 10 02 20 08 21 bd 21 98 24 d3 99 03 01
+
+───────────────────────────────────────────────────────────────────────────
+Region #77  |  DUE8000 / DUE8000-D.4.1.0.dat  |  offset 0x00af1a–0x00afbc  (162 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    1e c2 91 03 d1 89 10 21 1c 3a 10 9d 00 04 0a 01 10 f2 1c f3 2f 7f cb f2 d5 ac 00 70 44 0a 00 47
+  >>> PROLOGUE ZONE (16 bytes):
+    d5 8f 70 24 30 02 e8 6c aa f0 2e 0f de e2 2c 28
+  ... middle 130 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    28 65 ae 00 aa f4 2e 0f de e2 2c 28 d1 0a d0 0e
+  POST-CONTEXT (32 bytes):
+    0c 20 6d 82 0e c0 00 d2 06 e8 10 25 f8 00 51 83 0f 10 45 f8 00 e3 21 e8 73 a0 10 e0 2e 0a 00 05
+
+───────────────────────────────────────────────────────────────────────────
+Region #78  |  DUE8000 / DUE8000-D.4.1.0.dat  |  offset 0x009abe–0x009b53  (149 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    c2 f6 19 21 6d bf 0b c2 e0 19 51 10 bc 10 51 bb 6b 00 de 24 4d bd 0b c2 16 1a 21 6d bf 0b 10 51
+  >>> PROLOGUE ZONE (16 bytes):
+    bb 9b d0 6e 21 29 4d bd 0b 93 b8 18 05 f1 51 bb
+  ... middle 117 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    f1 51 bb 6b d0 be 60 2b 4d bd 0b 93 b8 19 05 f1
+  POST-CONTEXT (32 bytes):
+    df 7e 16 5a 2c aa 01 d3 0c e5 00 e0 30 cd 50 0e 01 0a fe a5 05 e0 2e 5a 03 ed 32 c6 04 50 7e 06
+
+───────────────────────────────────────────────────────────────────────────
+Region #79  |  DUE8000 / DUE8000-D.4.1.0.dat  |  offset 0x007b72–0x007bad  (59 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    24 4e 1b 46 f8 0e 99 07 64 2c 70 94 ef c2 00 20 32 40 46 c9 20 80 5d 63 94 0c 05 c8 2a 46 19 43
+  >>> PROLOGUE ZONE (16 bytes):
+    40 d4 18 b0 10 d3 12 9f 49 3c e2 b4 61 84 ef 90
+  ... middle 27 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    e2 b4 61 84 ef 90 29 37 e2 b4 61 84 ef 90 29 36
+  POST-CONTEXT (32 bytes):
+    c6 02 47 49 60 c5 56 38 42 09 f6 2e 0c 00 22 53 45 60 c5 56 38 42 b8 1c 51 53 1e 10 45 e5 01 51
+
+───────────────────────────────────────────────────────────────────────────
+Region #80  |  DUE8000 / DUE8000-D.4.1.0.dat  |  offset 0x006cad–0x006ce6  (57 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    05 f4 6d 18 50 50 df 86 02 05 f6 6d 38 50 70 df 0a 1d ef 07 f1 0a 00 ef 08 f1 0a 1e ef 07 f1 05
+  >>> PROLOGUE ZONE (16 bytes):
+    4c 5e d1 e4 0a 22 ef 07 f1 05 4c 5e d1 e4 0a 23
+  ... middle 25 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    07 f1 05 4e ae 80 f2 7e 10 05 4e ae 90 f2 7e 10
+  POST-CONTEXT (32 bytes):
+    0a 1f ef 07 f1 d2 e4 e3 50 00 e4 15 41 6e 34 05 42 0e f1 d2 e6 e3 f0 2e 8d 00 0a 0a 26 ef e8 3f
+
+───────────────────────────────────────────────────────────────────────────
+Region #81  |  DUE8000 / DUE8000-D.4.1.0.dat  |  offset 0x0017b1–0x001830  (127 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    28 80 e2 2c f1 04 ef 9e 40 ca 21 1e 4e 7e 2e 5e 10 cf 16 10 44 4b 10 c0 64 82 10 f3 a3 01 f1 6e
+  >>> PROLOGUE ZONE (16 bytes):
+    e3 54 6d 17 4d 19 41 26 01 10 df fe 05 4e c5 76
+  ... middle 95 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    4e c5 b6 c2 d5 f2 a0 20 20 88 f2 e9 05 df 02 f1
+  POST-CONTEXT (32 bytes):
+    d2 3e 12 70 a0 10 e0 2e 0a 00 10 44 23 10 df fa 45 e0 64 82 48 c9 71 80 2d a4 05 20 08 12 29 05
+
+───────────────────────────────────────────────────────────────────────────
+Region #82  |  DUE8000 / DUE8000-D.4.2.7.dat  |  offset 0x00c058–0x00c0a6  (78 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    5a 00 82 20 05 ed 1f 10 52 28 9f ed 27 10 82 5a ab 0f 20 38 82 22 25 ed 2b 10 52 e8 c6 0f 11 53
+  >>> PROLOGUE ZONE (16 bytes):
+    29 0c 3c 10 5a 00 cc ff 00 b8 77 21 43 eb 8d 00
+  ... middle 46 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    af 11 e7 e8 3f 0a 01 47 62 24 7e e5 75 cf 09 10
+  POST-CONTEXT (32 bytes):
+    5a 00 82 20 05 ed 1f 10 52 e8 00 f1 ed 27 10 82 48 08 f1 5a 00 82 20 05 ed 2b 10 52 e8 00 f1 df
+
+───────────────────────────────────────────────────────────────────────────
+Region #83  |  DUE8000 / DUE8000-D.4.2.7.dat  |  offset 0x00bcd0–0x00bcec  (28 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    e0 3f 0a 01 47 60 04 df 01 f1 df 7d 26 52 44 0b f0 06 4e 20 6c db 0f 52 8c 4a a3 70 22 80 ef 1a
+  >>> PROLOGUE ZONE (16 bytes):
+    33 9f a9 70 12 a3 9f a9 d2 1a 60 e1 06 d2 b6 fd
+  <<< EPILOGUE ZONE (16 bytes):
+    06 d2 b6 fd 10 f0 c8 ee a2 1a a0 68 26 df 03 f1
+  POST-CONTEXT (32 bytes):
+    c2 b6 fd 20 44 b4 00 10 df 7d 26 6f e0 04 c2 d6 fd 20 c5 a8 34 0a 28 02 f8 ae 21 bd 99 0a 28 21
+
+───────────────────────────────────────────────────────────────────────────
+Region #84  |  DUE8000 / DUE8000-D.4.1.2.dat  |  offset 0x00be4e–0x00be66  (24 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    30 ed c1 0f 07 04 0a 01 10 df 7d 26 52 44 0b f0 06 4e 20 6c bc 0f 52 8c 1a a3 60 22 80 ef fd fe
+  >>> PROLOGUE ZONE (16 bytes):
+    0a 26 21 88 95 2a ad 01 16 6e 20 6d bc 0f 11 b9
+  <<< EPILOGUE ZONE (16 bytes):
+    16 6e 20 6d bc 0f 11 b9 ec 2e aa 01 8a 66 f2 3d
+  POST-CONTEXT (32 bytes):
+    10 c2 c6 fb 20 44 b4 00 10 df 7d 26 6f e0 04 c2 e6 fb 20 c5 a8 31 0a 27 02 f8 de ef af 70 12 33
+
+───────────────────────────────────────────────────────────────────────────
+Region #85  |  DUE8000 / DUE8000-D.4.2.7.dat  |  offset 0x00acac–0x00acdc  (48 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    60 f2 de 8e 61 24 85 46 a0 05 20 08 12 2c 05 52 28 cc 82 23 a1 52 23 c4 52 ea 46 52 20 85 e2 29
+  >>> PROLOGUE ZONE (16 bytes):
+    46 14 5a 00 62 36 a1 0f 20 38 12 2a 35 ed ea 0f
+  ... middle 16 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    ef ed 18 47 52 68 04 5a 00 82 20 b1 52 20 85 c2
+  POST-CONTEXT (32 bytes):
+    2c 38 12 29 35 42 2c a5 62 44 a1 05 20 85 a4 62 34 a1 05 20 08 12 29 05 ed 0a 10 52 28 46 14 5a
+
+───────────────────────────────────────────────────────────────────────────
+Region #86  |  DUE8000 / DUE8000-D.4.2.7.dat  |  offset 0x003028–0x003057  (47 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    32 0d 0a 00 72 64 81 f9 a4 1f 80 f9 a3 2c 0a 01 5a 00 ed 3b 4e 52 48 aa ac 05 20 80 e2 7c 21 85
+  >>> PROLOGUE ZONE (16 bytes):
+    84 23 82 cc a0 00 20 47 16 fe 85 13 3c 0c d8 b9
+  ... middle 15 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    2d 38 e2 84 23 6e 3a f2 04 23 6f 32 6e 2e 4e 10
+  POST-CONTEXT (32 bytes):
+    6f f2 44 e2 06 23 4e 32 6f f6 84 02 28 ce 38 4f f0 ce e2 86 23 4e 3a 6d 2f 4d 31 62 64 d1 18 00
+
+───────────────────────────────────────────────────────────────────────────
+Region #87  |  DUE8000 / DUE8000-D.4.3.4.dat  |  offset 0x006897–0x0068e9  (82 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    00 09 25 4c 2e 43 12 21 bc 0a cf 40 80 bd d2 f8 2f 0c 46 2b 80 e2 4c f1 04 21 46 b1 e2 46 21 4e
+  >>> PROLOGUE ZONE (16 bytes):
+    16 6f f2 44 ed 00 02 c0 00 4f f6 86 02 28 ce 14
+  ... middle 50 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    33 c4 0c 00 90 50 c2 34 33 24 11 ec 88 13 82 f0
+  POST-CONTEXT (32 bytes):
+    5e 46 1b b3 7e 2a 7e 10 e2 25 f1 8c 01 f1 cf e2 f2 67 21 5f 18 3a aa 00 99 6d a3 35 a0 28 ef ed
+
+───────────────────────────────────────────────────────────────────────────
+Region #88  |  DUE8000 / DUE8000-D.4.3.4.dat  |  offset 0x00aa72–0x00ab24  (178 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    0a 00 14 b1 df 09 30 41 21 fb 9d 00 08 0a 00 98 1a 14 b1 df 89 f0 40 21 fb 9d 00 04 0a 01 10 df
+  >>> PROLOGUE ZONE (16 bytes):
+    f8 47 5f a6 00 70 24 0a 00 47 a3 10 70 24 99 2a
+  ... middle 146 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    82 10 47 62 24 0c 04 d9 ca ee 47 5e f6 8c 00 f1
+  POST-CONTEXT (32 bytes):
+    cf f0 7f fc e5 aa 00 67 a0 0a 70 16 6a fa 00 dc ff 00 29 a5 05 70 15 fe 71 15 56 c1 21 90 2c 5f
+
+───────────────────────────────────────────────────────────────────────────
+Region #89  |  DUE8000 / DUE8000-D.4.5.1.dat  |  offset 0x003559–0x0035e1  (136 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    ce f6 3e c2 c6 35 c0 0c 00 20 32 13 c2 a6 35 20 45 03 00 49 ee 13 e4 04 20 5e 11 cf 13 10 cf f0
+  >>> PROLOGUE ZONE (16 bytes):
+    67 fd e5 2a 86 04 8d 00 3e 0a 08 47 d2 1e 60 fa
+  ... middle 104 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    ae f3 64 02 e8 2c 8a ef 63 d6 5e fe 0c 01 f1 cf
+  POST-CONTEXT (32 bytes):
+    f5 5a 06 57 f0 24 56 13 19 70 35 4e fe 44 02 f8 3e cf 0b 10 df fb 37 1a 12 24 29 bf 47 a0 24 00
+
+───────────────────────────────────────────────────────────────────────────
+Region #90  |  DUE8000 / DUE8000-D.4.5.1.dat  |  offset 0x006d69–0x006db1  (72 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    84 0c 20 c9 b9 a0 55 a0 28 ef ed 10 43 52 48 a8 05 20 08 12 29 05 ed 1f 45 52 28 9e 0a 02 82 28
+  >>> PROLOGUE ZONE (16 bytes):
+    8e 5f fb d4 4e eb d6 4f f2 46 02 28 ce 1b 4f 30
+  ... middle 40 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    21 4e 1d d2 a6 f0 20 4d 0c 0f 21 a8 29 11 a4 86
+  POST-CONTEXT (32 bytes):
+    12 2c 0b d9 c1 1b 03 c0 13 e3 2c 14 b0 5f 8c 01 3a 51 5b 0f 10 c5 f5 00 0a 00 21 cc 56 0a 00 21
+
+───────────────────────────────────────────────────────────────────────────
+Region #91  |  DUE8000 / DUE8000-D.4.5.1.dat  |  offset 0x007efc–0x007f62  (102 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    e1 a1 20 a0 45 20 20 82 29 8e 21 0c 47 93 81 42 6c 94 8d 16 0d 21 6b 47 93 81 42 6c 94 21 0a 47
+  >>> PROLOGUE ZONE (16 bytes):
+    93 81 42 2c 4e 1b 46 f8 0e 93 81 42 2c 4e 1b 46
+  ... middle 70 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    c4 1c 00 80 fb 65 94 8c 12 09 46 d9 38 91 62 94
+  POST-CONTEXT (32 bytes):
+    5a 04 02 22 98 e2 a8 65 20 d8 3e 7f 10 33 6b 34 19 28 c4 46 a9 45 20 20 82 29 8e d0 00 7f 10 13
+
+───────────────────────────────────────────────────────────────────────────
+Region #92  |  DUE8000 / DUE8000-D.4.5.1.dat  |  offset 0x01039c–0x0103e1  (69 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    42 00 f1 fd 67 a0 e2 46 2c 08 d8 07 4a 58 28 c8 0a c0 20 d3 22 8c f2 29 ca 0c 00 60 06 df 01 f1
+  >>> PROLOGUE ZONE (16 bytes):
+    cd 7f f0 24 7e ef d6 22 2b a2 22 29 82 52 14 00
+  ... middle 37 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 b8 10 1e dc 00 00 22 34 80 10 4e e2 07 df 04
+  POST-CONTEXT (32 bytes):
+    f1 ed 7f e0 77 6e 2b 58 b8 1a 7e e5 96 a3 6d a5 22 64 20 68 fe 21 58 7e f0 2d 10 df fa 07 4f f2
+
+───────────────────────────────────────────────────────────────────────────
+Region #93  |  DUE8000 / DUE8000-D.4.6.0.dat  |  offset 0x0022aa–0x0022f7  (77 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    ee 28 20 98 84 ed 8e 02 82 19 ec 5f 88 11 1c 20 d8 db 0a 03 47 02 1e f0 44 0a 3f 02 e8 2c ef 91
+  >>> PROLOGUE ZONE (16 bytes):
+    e9 15 c0 00 6d 35 41 34 00 fa 00 98 34 ed 8e 02
+  ... middle 45 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    8e 02 44 3a 82 48 18 2c 80 4a c5 76 d3 56 43 44
+  POST-CONTEXT (32 bytes):
+    83 10 0d ed 8e 02 44 3a 82 48 d9 ee 28 40 a4 23 88 4a c1 fe 85 0a 03 47 02 1e f0 44 44 3a 02 e8
+
+───────────────────────────────────────────────────────────────────────────
+Region #94  |  DUE8000 / DUE8000-D.4.6.0.dat  |  offset 0x00396a–0x003add  (371 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    20 d8 df 66 ec d5 cf 0f 10 cf f1 67 fc d5 02 a0 22 fd 4d 00 f6 20 cd 34 00 14 d2 9f 03 50 0a d2
+  >>> PROLOGUE ZONE (16 bytes):
+    4d 03 b0 09 d2 af 03 f0 0c f0 ae 82 4e cc 20 90
+  ... middle 339 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    46 e1 27 df 04 f1 cf f4 67 ab 0a 80 f9 01 ee 2a
+  POST-CONTEXT (32 bytes):
+    a8 84 0c 02 d8 0b 5a 00 8a 11 1c 84 12 2c 20 d8 d9 0a 03 47 d0 2e 83 f4 24 0a 3f 02 f8 1e 66 fb
+
+───────────────────────────────────────────────────────────────────────────
+Region #95  |  DUE8000 / DUE8000-D.4.6.0.dat  |  offset 0x004401–0x00445f  (94 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    ed 0b 08 82 a9 f0 5f 88 11 1c 1b d8 a6 10 df 7d 06 5f a1 22 10 0a 00 d2 09 40 0b d4 1c 03 22 32
+  >>> PROLOGUE ZONE (16 bytes):
+    02 25 3f 0e 32 72 14 02 e2 2c 5a c0 8a 11 38 93
+  ... middle 62 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    40 8a 11 f5 92 b9 0a d4 1c 03 22 22 02 05 44 04
+  POST-CONTEXT (32 bytes):
+    32 32 09 02 e2 2c 5a c0 8a 11 2e 83 e9 47 cd 61 20 22 32 50 40 34 20 22 67 02 e2 2c 5a 80 8a 11
+
+───────────────────────────────────────────────────────────────────────────
+Region #96  |  DUE8000 / DUE8000-D.4.6.0.dat  |  offset 0x00479b–0x0047eb  (80 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    38 40 10 3f 5a 0f 11 88 50 10 3f 04 f2 83 10 0d 44 97 08 11 fc d1 60 24 7e e3 55 df 07 f1 df f9
+  >>> PROLOGUE ZONE (16 bytes):
+    37 5f f5 04 24 3f 84 12 67 42 f2 43 fa 00 82 23
+  ... middle 48 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    d1 40 74 89 10 c1 1f 0d 46 e2 37 5e f5 7d 10 df
+  POST-CONTEXT (32 bytes):
+    fc 07 5f 22 00 2a fa 00 82 23 91 52 e3 75 52 2b fc 42 ef 1d 3e 1f d6 02 97 02 08 e1 07 5e f2 4d
+
+───────────────────────────────────────────────────────────────────────────
+Region #97  |  DUE8000 / DUE8000-D.4.6.0.dat  |  offset 0x00b8ae–0x00b8ff  (81 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    2e 48 21 4d 43 10 99 c8 a0 10 10 d0 df 99 ba 10 f3 d4 ab 30 f0 ae 99 a8 a0 30 f0 ae 99 9c 10 d3
+  >>> PROLOGUE ZONE (16 bytes):
+    51 c4 50 80 bd 27 0c 5b 10 92 c0 0c f8 8f aa 25
+  ... middle 49 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    e0 2e aa 03 8a ef ea 3f 0a 03 ef 6a 16 df 02 f1
+  POST-CONTEXT (32 bytes):
+    df 7e 16 0a 00 47 a0 0a 20 0c 49 10 47 30 9d 49 10 00 11 d3 c9 08 30 c2 18 d0 21 8c 02 8f 21 8c
+
+───────────────────────────────────────────────────────────────────────────
+Region #98  |  DUE8000 / DUE8000-D.4.6.0.dat  |  offset 0x00fa96–0x00faec  (86 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    66 0c 08 c9 8c d0 fe df 24 88 a4 c2 11 2e 31 97 b8 73 ed ff 4d 82 48 29 0c e1 12 63 d4 20 80 93
+  >>> PROLOGUE ZONE (16 bytes):
+    58 9d 6b 04 d2 a0 2d 61 14 d2 b0 2d 61 24 d2 c0
+  ... middle 54 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    4d 82 48 28 1c e1 12 22 38 47 0d 02 38 89 d5 b9
+  POST-CONTEXT (32 bytes):
+    46 20 0d da 12 46 21 0d db 12 46 22 0d dc 12 46 23 0d dd 12 46 24 0d de 12 0a 00 11 d1 2e 6d df
+
+───────────────────────────────────────────────────────────────────────────
+Region #99  |  DUE8000 / DUE8000-D.4.6.1.dat  |  offset 0x00f2ea–0x00f310  (38 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    16 66 c1 02 20 22 96 46 d1 08 c0 a1 b0 70 04 98 11 0a ff 47 e0 3f 0a ff 47 60 04 7e f2 4d 10 cf
+  >>> PROLOGUE ZONE (16 bytes):
+    f7 67 a8 0a 00 94 59 20 22 2c 4c 9b 6c 9d 4f f0
+  ... middle 6 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    6f f4 64 21 38 18 c8 04 aa 01 8a 66 f8 9c 00 f1
+  POST-CONTEXT (32 bytes):
+    c2 c6 22 c1 0c 00 90 70 52 f4 ff 9f 61 98 14 c0 01 49 fe 05 2c 20 6d 2c 12 10 c2 c6 22 c1 0c 00
+
+───────────────────────────────────────────────────────────────────────────
+Region #100  |  DUE8000 / DUE8000-D.4.6.0.dat  |  offset 0x009451–0x0094c6  (117 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    7e eb d5 cf 0f 10 10 cf f1 7f fb d5 0a 00 47 94 29 1b 5a 03 46 24 ef ed 27 0e 52 48 28 8d 01 8c
+  >>> PROLOGUE ZONE (16 bytes):
+    61 44 d2 48 d0 0b c0 05 82 f0 6e 04 e5 ad 3f 60
+  ... middle 85 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    d3 f6 25 8c 00 b6 00 5c 20 08 ef 46 50 de fa 03
+  POST-CONTEXT (32 bytes):
+    66 24 ff ed 27 0e 52 ea 1c 66 a4 0f 20 38 12 29 35 fd 6f 43 52 4b ad 3f 70 84 66 64 84 f2 df 7f
+
+───────────────────────────────────────────────────────────────────────────
+Region #101  |  DUE8000 / DUE8000-D.4.7.0.dat  |  offset 0x00a121–0x00a161  (64 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    ef ed 47 0c 52 68 64 5a 00 52 48 d8 08 f0 a3 e5 a1 28 ef ed 47 0c 52 68 64 5a 00 52 a8 10 50 38
+  >>> PROLOGUE ZONE (16 bytes):
+    9d 83 10 00 56 66 74 47 a0 1c 50 f2 98 1d c2 30
+  ... middle 32 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    05 20 85 0a 01 85 c0 0b e0 02 82 20 00 21 6a 65
+  POST-CONTEXT (32 bytes):
+    7e f1 3d 10 df fd 17 7a 11 65 a9 22 bd 10 94 a0 e5 a1 28 ef ed 47 0c 52 68 64 5a 00 52 a8 00 50
+
+───────────────────────────────────────────────────────────────────────────
+Region #102  |  DUE8000 / DUE8000-D.4.7.0.dat  |  offset 0x00a711–0x00a759  (72 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    3b 00 0e 21 4d ff 0b 04 ed 5f 10 c0 10 51 fd 3b d0 6e a2 20 4d ff 0b c2 20 04 51 10 c0 10 51 fd
+  >>> PROLOGUE ZONE (16 bytes):
+    3b d0 6e 21 2d 4d ff 0b 21 f3 31 05 01 0c f1 51
+  ... middle 40 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    c0 ff 51 05 fc 1f 65 c0 ff 51 07 fc 0f f1 51 fd
+  POST-CONTEXT (32 bytes):
+    6b d0 6e 62 25 4d ff 0b 21 a5 59 d2 16 c0 10 33 9a 55 30 c0 51 04 fc 0f f1 51 fd 3b d0 0e 01 21
+
+───────────────────────────────────────────────────────────────────────────
+Region #103  |  DUE8000 / DUE8000-D.4.7.0.dat  |  offset 0x00b0f1–0x00b233  (322 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    98 1a 5a 06 98 12 5a 07 fe a5 45 e0 2e 5a 05 ed 32 ce c2 60 05 71 06 02 10 f0 2c 66 f1 2d 10 51
+  >>> PROLOGUE ZONE (16 bytes):
+    fd 9b d0 6e a1 2d 4d ff 0b 51 01 6c a1 00 30 a9
+  ... middle 290 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    00 c0 20 6c 5b 10 d2 16 c0 00 fe 2f 4d 03 0c 10
+  POST-CONTEXT (32 bytes):
+    cf f6 02 e8 6c 4f 30 89 e0 5e 6e e6 84 6f f2 44 51 fd 6b d0 1e 60 2b 4d ff 0b 4e e2 46 d2 14 c0
+
+───────────────────────────────────────────────────────────────────────────
+Region #104  |  DUE8000 / DUE8000-D.4.7.0.dat  |  offset 0x00e80f–0x00e842  (51 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    0d 9e 11 c2 66 23 21 6d 9f 11 ef 02 f1 ed 04 50 d2 94 19 21 6c 46 12 d2 b6 19 f1 2e 10 ed 04 5c
+  >>> PROLOGUE ZONE (16 bytes):
+    d2 94 19 f1 2e 10 ed 04 58 d2 94 19 31 9d 9b 11
+  ... middle 19 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    19 01 30 9d a0 11 00 d3 19 1a 01 f0 2e 10 ed 04
+  POST-CONTEXT (32 bytes):
+    48 d2 94 19 31 9d 9b 11 02 c2 c6 22 21 6d 9c 11 c2 20 23 21 0d 9e 11 c2 86 23 21 6d 9f 11 ef 02
+
+───────────────────────────────────────────────────────────────────────────
+Region #105  |  DUE8000 / DUE8000-D.4.7.0.dat  |  offset 0x00fc05–0x00fca6  (161 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    34 9d 07 13 02 10 c2 70 30 01 f1 c2 80 30 01 f1 df fe 05 42 2d ec c1 20 d1 00 cc 00 00 a8 2b 6c
+  >>> PROLOGUE ZONE (16 bytes):
+    a0 c1 20 d1 00 cc 00 00 b9 ca a0 00 a0 15 30 89
+  ... middle 129 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    c2 00 32 11 63 6e 1d 83 6e 2d 6c 25 13 d2 76 32
+  POST-CONTEXT (32 bytes):
+    01 f1 cf ef 7f fd f5 02 a1 12 a0 c6 ac 10 2d c2 1a 41 4c c2 2a 21 62 c2 3a 41 6a c2 0a 62 75 c2
+
+───────────────────────────────────────────────────────────────────────────
+Region #106  |  DUE8000 / DUE8000-D.4.7.0.dat  |  offset 0x00fed4–0x00fef5  (33 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    1c 13 c2 c6 31 11 90 d3 ef d7 08 a0 24 0c 17 13 47 27 0c 1b 13 47 28 6c 15 13 ed e8 03 d0 00 02
+  >>> PROLOGUE ZONE (16 bytes):
+    00 72 40 20 08 c2 a1 31 71 04 57 61 74 56 18 83
+  ... middle 1 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    3d ed 23 13 01 1d 0a 00 ed 1a 13 02 30 89 92 bb
+  POST-CONTEXT (32 bytes):
+    d3 39 32 d1 31 ed 11 13 04 0a 21 e6 f1 98 24 d3 1c 31 21 b0 30 ed 11 13 03 0e 0a 00 11 41 16 20
+
+───────────────────────────────────────────────────────────────────────────
+Region #107  |  DUE8000 / DUE8000-D.4.7.0.dat  |  offset 0x01001f–0x010046  (39 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    c6 0c 47 ac 00 20 80 e2 9c 30 89 92 bb d3 39 32 d1 91 39 0c c2 42 32 21 91 33 ca f2 91 8c 09 28
+  >>> PROLOGUE ZONE (16 bytes):
+    25 20 82 4a 78 94 8a 08 a1 05 20 20 52 48 78 a4
+  ... middle 7 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    48 78 b4 8a 08 a3 05 20 20 52 48 78 c4 c2 40 32
+  POST-CONTEXT (32 bytes):
+    21 80 e2 9c 30 89 92 bb c2 40 32 81 10 0d d3 38 32 51 80 4d 33 8d 23 13 1c 22 62 22 0c 23 13 21
+
+───────────────────────────────────────────────────────────────────────────
+Region #108  |  DUE8000 / DUE8000-D.4.6.1.dat  |  offset 0x009c74–0x009ca5  (49 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    1c 60 f8 d3 6d ff f0 2f 11 04 f6 1f 23 ab 41 60 ff 21 31 2f 51 f6 ff 9f 09 0f 46 a6 05 20 08 52
+  >>> PROLOGUE ZONE (16 bytes):
+    d0 de be 20 85 ec 96 00 0f 21 9e dd c2 18 00 09
+  ... middle 17 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    3f 5a 1e 8a f2 de 9e c2 20 85 46 a6 05 20 85 0a
+  POST-CONTEXT (32 bytes):
+    01 85 d3 b9 03 01 60 65 46 77 04 ca 11 29 8f d9 21 0c 3b 10 8d 00 10 56 66 74 47 a0 1c 90 f1 ec
+
+───────────────────────────────────────────────────────────────────────────
+Region #109  |  DUE8000 / DUE8000-D.4.6.1.dat  |  offset 0x00c40e–0x00c43f  (49 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    00 cd 00 00 19 46 28 0d f5 11 98 20 11 a2 d8 18 c0 30 9d f5 11 02 fe 34 9d f5 11 ff 0a 14 21 d1
+  >>> PROLOGUE ZONE (16 bytes):
+    9a 02 d0 0c 00 80 6a 43 28 0d a5 11 d3 5c 1a 21
+  ... middle 17 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    fe 34 9d a5 11 02 11 a9 18 50 a0 0a 0c 21 a1 9a
+  POST-CONTEXT (32 bytes):
+    02 d0 0c 00 90 61 0e d2 26 1f 81 89 15 10 85 8d 01 0f e0 0f d2 24 1f 81 e9 33 ed f4 11 01 0f c0
+
+───────────────────────────────────────────────────────────────────────────
+Region #110  |  DUE8000 / DUE8000-D.4.6.1.dat  |  offset 0x0098f9–0x0099c2  (201 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    03 11 a0 e5 a1 28 ef ed 29 0c 52 a8 00 70 98 a0 90 10 c3 5f 21 8d 00 b2 03 8c 00 1e 20 08 02 f0
+  >>> PROLOGUE ZONE (16 bytes):
+    ee d3 a9 03 01 30 ed b0 0f 01 14 5a 09 77 60 24
+  ... middle 169 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    15 d2 08 70 22 c0 09 e0 01 82 20 00 ef 3e 9d 39
+  POST-CONTEXT (32 bytes):
+    10 00 d3 0e fb 10 40 a1 85 70 07 46 12 c0 20 99 ee 61 84 5a 08 57 70 17 56 12 90 d0 99 d4 01 6e
+
+───────────────────────────────────────────────────────────────────────────
+Region #111  |  DUE5000 / DUE5000-D.4.1.0.dat  |  offset 0x006e2b–0x006e8e  (99 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    18 ed b2 08 21 69 43 40 5a 69 46 48 80 02 e0 00 bf ff ff 00 00 68 46 40 88 75 49 88 42 6e d0 f6
+  >>> PROLOGUE ZONE (16 bytes):
+    b2 02 2e 2e d1 e4 b2 01 2c 02 d0 e4 b2 02 2c 28
+  ... middle 67 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    ed b2 04 22 6a 43 89 18 e4 b2 09 5d 01 55 3c e0
+  POST-CONTEXT (32 bytes):
+    68 46 40 88 59 49 f6 b2 20 22 72 43 89 18 ed b2 08 22 6a 43 89 18 e4 b2 02 22 62 43 89 5a 40 1a
+
+───────────────────────────────────────────────────────────────────────────
+Region #112  |  DUE5000 / DUE5000-D.4.1.0.dat  |  offset 0x008b7d–0x008bf0  (115 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    e0 6d 1c ed e7 20 00 c0 b2 70 bd 10 b5 04 00 21 00 90 48 02 f0 6d f8 03 20 01 f0 3f f8 10 bd 8e
+  >>> PROLOGUE ZONE (16 bytes):
+    04 00 20 30 b5 83 b0 05 00 00 24 08 22 ff 21 68
+  ... middle 83 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    09 78 32 39 08 00 40 b2 70 47 00 00 61 2d 00 20
+  POST-CONTEXT (32 bytes):
+    10 b5 04 00 70 49 20 00 02 f0 29 f8 00 20 20 71 00 20 60 71 00 20 a0 71 10 bd 10 b5 04 00 6b 48
+
+───────────────────────────────────────────────────────────────────────────
+Region #113  |  DUE5000 / DUE5000-D.4.1.0.dat  |  offset 0x00c285–0x00c310  (139 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    70 22 20 02 f0 fa fe 10 bd 10 b5 04 00 ad 48 04 70 23 20 02 f0 f2 fe 10 bd 00 00 30 29 00 20 ce
+  >>> PROLOGUE ZONE (16 bytes):
+    2c 00 20 cf 2c 00 20 c0 2b 00 20 38 b5 05 00 0c
+  ... middle 107 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    d3 2c 00 20 d4 2c 00 20 d5 2c 00 20 d6 2c 00 20
+  POST-CONTEXT (32 bytes):
+    80 b5 1c 20 02 f0 a4 fe 01 bd f8 b5 04 00 0f 00 15 00 1e 00 ae 48 04 80 ae 48 07 70 ae 48 05 70
+
+───────────────────────────────────────────────────────────────────────────
+Region #114  |  DUE5000 / DUE5000-D.4.0.3.dat  |  offset 0x018147–0x018226  (223 bytes)
+───────────────────────────────────────────────────────────────────────────
+  PRE-CONTEXT  (32 bytes):
+    78 2f 78 be 42 03 d2 00 26 f6 43 30 00 01 e0 01 26 30 00 03 e0 64 1c 6d 1c 52 1e ea e7 f0 bd f4
+  >>> PROLOGUE ZONE (16 bytes):
+    46 00 28 04 d4 49 42 00 f0 13 f8 40 42 60 47 40
+  ... middle 191 bytes omitted ...
+  <<< EPILOGUE ZONE (16 bytes):
+    cf d2 01 46 10 46 70 47 08 b5 c0 46 c0 46 08 bd
+  POST-CONTEXT (32 bytes):
+    f8 b4 01 68 42 18 43 68 59 08 51 18 00 91 81 68 db 07 01 d5 4b 46 c9 18 00 9b 9a 42 02 d1 0c 30

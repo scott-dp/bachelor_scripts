@@ -1,0 +1,46 @@
+Model: DU-E6001
+Source: https://bike.shimano.com/en-NA/products/apps/e-tube-project-professional.html
+Fetched: 2026-01-20 12:18:29
+================================================================================
+
+- May 22, 2019 | 3.4.7
+  - Improved the display for the remaining battery level indication.
+
+- Aug 10, 2018 | 3.4.6
+  ・ Adopted for new battery, BT-E8014・ Bug fixing
+
+- Mar 30, 2018 | 3.4.4
+  Bug fixing
+
+- Aug 10, 2017 | 3.4.1
+  Bug fixing
+
+- Sep 23, 2016 | 3.3.3
+  Adapted to 504Wh batteries (BT-E6001/E8010/E8020)Additional functionBattery level indication(Ver.3.0.1. or later)
+
+- May 24, 2016 | 3.2.6
+  Bug fixing
+
+- Dec 25, 2015 | 3.2.5
+  Adapting Full Automatic Shifting function and small wheel circumference
+
+- Oct 09, 2015 | 3.1.0
+  Updated for DU-E6010. (No change for the use of DU-E6001)
+
+- Sep 01, 2015 | 3.0.2
+  Adapting to the following application/model(version) and new functions. E-tube project ver.2.11SC-E6010BM-E6000BM-E6010Reducing firmware time/frequencyLight off road setting*Belt drive setting. *Light off road setting is available for bike manufacturer only.
+
+- Jan 15, 2015 | 2.9.3
+  Updated for DU-E6050. (No change for the use of DU-E6001).
+
+- Dec 24, 2014 | 2.8.8
+  Improvement of function
+
+- Nov 25, 2014 | 2.8.7
+  Improvement of function
+
+- Nov 06, 2014 | 2.8.4
+  Improvement of function
+
+- Aug 07, 2014 | 2.8.2
+  Firmware uploaded

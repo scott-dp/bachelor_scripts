@@ -1,0 +1,74 @@
+Model: DU-E8000
+Source: https://bike.shimano.com/en-NA/products/apps/e-tube-project-professional.html
+Fetched: 2026-01-20 12:18:29
+================================================================================
+
+- May 20, 2024 | 4.10.0
+  The firmware will be updated but it does not affect the use of DU-E8000.
+
+- Sep 06, 2023 | 4.9.5
+  General bug fixes.
+
+- Oct 17, 2022 | 4.9.4
+  General bug fixes.
+
+- Mar 14, 2022 | 4.9.3
+  ・Bug fixes for the error detection function.・Improved the display accuracy for assist traveling range.
+
+- Oct 13, 2020 | 4.9.0
+  ・The warning code for W013 has been changed to W103.・E-TUBE PROJECT supports the built-in battery charging function of EW-SW100, EW-SW300, and SC-E6100.Please make sure that you have installed “E-TUBE PROJECT for Windows V4 (Ver.4.0.2)” in your computer and updated the DU.
+
+- Jul 13, 2020 | 4.8.0
+  ・Adapted for SC-E5000.・Adapted for BT-E8035L/BT-E8036/BT-E8016.・Bug fixes the start mode that does not work when the power is turned on.
+
+- Sep 02, 2019 | 4.7.1
+  Bug fixes for the cadence sensor error.Bug fixes when connecting with SC-E6100/SC-E7000/EW-EN100, that shows the battery level as 0.
+
+- May 22, 2019 | 4.7.0
+  -Added interchangeability between SHIMANO STEPS with Road components.
+
+- Feb 25, 2019 | 4.6.1
+  - Bug fixes of lighting time setting which actual lighting time become shorter than the setting time of E-TUBE project OEM version 3.4.0, when the battery level is low.- Adjusted the default settings of lighting time from 120 minutes to 40 minutes when updating the firmware 4.6.0 version.- Improved the display for the remaining battery level indication.
+
+- Nov 05, 2018 | 4.6.0
+  ‐ Adopted for Korean regulation (KATS Annex 40 - PAS)
+
+- Sep 14, 2018 | 4.5.1
+  ・Adopted for the models, SC-E6100, SC-E7000 and EW-EN100.・Bug fixing
+
+- Jun 15, 2018 | 4.4.5
+  ・ Adopted for new battery, BT-E8014・ Bug fixing
+
+- Apr 27, 2018 | 4.4.4
+  Bug fixing
+
+- Mar 30, 2018 | 4.4.2
+  ・Adapted for Taiwan, R.O.C. regulation・Bug fixing
+
+- Jan 16, 2018 | 4.3.4
+  Bug fixing
+
+- Dec 21, 2017 | 4.3.2
+  Bug fixing
+
+- Nov 22, 2017 | 4.3.1
+  Bug fixing
+
+- Aug 29, 2017 | 4.2.7
+  1. Improved assist characteristic for boost mode2. Bug fixing
+
+- Jul 26, 2017 | 4.1.2
+  Bug fixing*There might be a fail possibility of E-TUBE PROJECT after updating the firmware.If this happens, please turn it ON again for normal operation.
+
+- Jul 12, 2017 | 4.1.0
+  Adopting for USA specificationsAdditional function1. Riding characteristic setting2. Cassette sprocket combination setting
+
+- Mar 17, 2017 | 4.0.3
+  Bug fixing
+
+- Jan 20, 2017 | 4.0.1
+  Bug fixing for walk assist function
+
+- Nov 21, 2016 | 4.0.0
+  Firmware uploaded
+

@@ -1,7 +1,7 @@
 
 ===========================================================================
   FIRMWARE PROLOGUE / EPILOGUE PATTERN MINING REPORT v2
-  Regions analyzed: 115  |  Skipped: 0
+  Regions analyzed: 103  |  Skipped: 0
   Config: context=32  window=16  ngram=2-8  min_occ=3
 
 ===========================================================================
@@ -12,12 +12,12 @@
 ===========================================================================
 
   Architecture scoreboard (total zone hits):
-    AVR              1840 hits  ██████████████████████████████████████████████████
-    8051             1140 hits  ██████████████████████████████████████████████████
-    RL78             1098 hits  ██████████████████████████████████████████████████
-    ARM-Thumb        1031 hits  ██████████████████████████████████████████████████
-    SH2               542 hits  ██████████████████████████████████████████████████
-    RX                253 hits  ██████████████████████████████████████████████████
+    AVR              1648 hits  ██████████████████████████████████████████████████
+    8051             1022 hits  ██████████████████████████████████████████████████
+    RL78              980 hits  ██████████████████████████████████████████████████
+    ARM-Thumb         931 hits  ██████████████████████████████████████████████████
+    SH2               478 hits  ██████████████████████████████████████████████████
+    RX                216 hits  ██████████████████████████████████████████████████
     PIC18              27 hits  ███████████████████████████
 
   Signature                        Hits  Sources
@@ -28,91 +28,91 @@
     ↳ push {r4,lr}
   ARM-Thumb PUSH generic             22  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6002/DUE6002-D.3.4.0@0x09c17, ... (+7 more)
     ↳ push {reglist, lr} — any PUSH with LR set
-  ARM-Thumb POP {PC}                 28  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.7@0x0ae07, ... (+13 more)
+  ARM-Thumb POP {PC}                 27  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6100/DUE6100-D.4.2.0@0x0949a, ... (+12 more)
     ↳ pop {pc} — standard return (epilogue)
   ARM-Thumb BX LR                     6  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.3.1@0x17ebb, DUE6100/DUE6100-D.4.3.1@0x19751, DUE6100/DUE6100-D.4.4.0@0x03dab, ... (+1 more)
     ↳ bx lr — return via link register
-  ARM-Thumb SUB SP                   26  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.9.3@0x05502, ... (+18 more)
+  ARM-Thumb SUB SP                   23  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.9.3@0x05502, ... (+16 more)
     ↳ sub sp, #imm — allocate stack frame
-  ARM-Thumb BL (high)               460  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+110 more)
+  ARM-Thumb BL (high)               412  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+98 more)
     ↳ bl <target> — branch with link (call), high halfword
-  ARM-Thumb BL (low)                460  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+110 more)
+  ARM-Thumb BL (low)                412  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+98 more)
     ↳ bl <target> — branch with link (call), low halfword
-  RL78 PUSH AX                       32  DUE6001/DUE6001-D.2.8.7@0x06aa1, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.2.9.3@0x04e87, ... (+19 more)
+  RL78 PUSH AX                       30  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.2.9.3@0x04e87, DUE6001/DUE6001-D.3.0.2@0x017b8, ... (+17 more)
     ↳ push ax
   RL78 PUSH BC                       14  DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.7@0x069b2, DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.2.9.3@0x04e87, DUE8000/DUE8000-D.4.1.0@0x017b1, ... (+8 more)
     ↳ push bc
-  RL78 PUSH DE                       13  DUE6001/DUE6001-D.2.8.7@0x06aa1, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE6001/DUE6001-D.3.3.3@0x096a1, DUE6001/DUE6001-D.3.4.4@0x0ba5e, ... (+4 more)
+  RL78 PUSH DE                       10  DUE6001/DUE6001-D.3.0.2@0x01af3, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE8000/DUE8000-D.4.6.1@0x098f9, SCE6010/SCE6010-D.3.1.3@0x010a1, ... (+1 more)
     ↳ push de
-  RL78 PUSH HL                        8  DUE6001/DUE6001-D.3.3.3@0x080b5, DUE6001/DUE6001-D.3.3.3@0x09348, DUE6001/DUE6001-D.3.3.3@0x096a1, DUE6001/DUE6001-D.3.4.1@0x0cc2a, DUE8000/DUE8000-D.4.1.0@0x0bfac, ... (+1 more)
+  RL78 PUSH HL                        6  DUE6001/DUE6001-D.3.3.3@0x080b5, DUE6001/DUE6001-D.3.3.3@0x09348, DUE6001/DUE6001-D.3.4.1@0x0cc2a, DUE8000/DUE8000-D.4.1.0@0x0bfac, SCE6010/SCE6010-D.3.2.0@0x046f7
     ↳ push hl
-  RL78 POP AX                        80  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x0684c, ... (+54 more)
+  RL78 POP AX                        72  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.7@0x069b2, ... (+50 more)
     ↳ pop ax
-  RL78 POP BC                        20  DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.7@0x069b2, DUE6001/DUE6001-D.2.8.7@0x06aa1, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.9.3@0x05502, ... (+11 more)
+  RL78 POP BC                        19  DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.7@0x069b2, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.4.1@0x0cbc8, ... (+10 more)
     ↳ pop bc
-  RL78 POP DE                        62  DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.4@0x0899d, DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.2.8.4@0x0c0fd, ... (+43 more)
+  RL78 POP DE                        53  DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x069b2, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x0a306, ... (+35 more)
     ↳ pop de
-  RL78 POP HL                        24  DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.2.8.4@0x0c0fd, DUE6001/DUE6001-D.2.8.4@0x0c16b, DUE6001/DUE6001-D.2.8.7@0x072af, ... (+15 more)
+  RL78 POP HL                        14  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.3.4.1@0x0c0fd, DUE8000/DUE8000-D.4.1.0@0x07b72, DUE8000/DUE8000-D.4.1.0@0x09abe, ... (+9 more)
     ↳ pop hl
   RL78 RET                            7  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.4.1@0x0bd2f, DUE6001/DUE6001-D.3.4.1@0x0c0fd, DUE6002/DUE6002-D.3.3.0@0x0f085, DUE8000/DUE8000-D.4.1.0@0x0b137, ... (+2 more)
     ↳ ret — return from subroutine
-  RL78 CALL !addr16                  11  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0c551, ... (+5 more)
+  RL78 CALL !addr16                  10  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0c551, ... (+4 more)
     ↳ call !addr16 — 16-bit direct call
-  RL78 CALL $addr20                  28  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x072af, ... (+19 more)
+  RL78 CALL $addr20                  27  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.8.7@0x0ae07, ... (+18 more)
     ↳ call $addr20 — 20-bit call
-  RL78 CALLT                        460  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+110 more)
+  RL78 CALLT                        412  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+98 more)
     ↳ callt — table call
-  RL78 BR !addr16                    11  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE6001/DUE6001-D.3.4.4@0x0ba5e, DUE6002/DUE6002-D.3.4.0@0x09c17, ... (+5 more)
+  RL78 BR !addr16                     7  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6002/DUE6002-D.3.4.0@0x09c17, DUE6100/DUE6100-D.4.3.1@0x17ebb, DUE8000/DUE8000-D.4.1.0@0x09abe, DUE8000/DUE8000-D.4.6.1@0x0f2ea, ... (+2 more)
     ↳ br !addr16 — unconditional branch
-  RL78 BR $addr20                    54  DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0602f, ... (+39 more)
+  RL78 BR $addr20                    48  DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x069b2, DUE6001/DUE6001-D.2.8.7@0x06abe, ... (+33 more)
     ↳ br $addr20 — 20-bit branch
-  RL78 SUB SP,#imm                   14  DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.2.8.4@0x0c0fd, DUE6001/DUE6001-D.2.8.4@0x0c16b, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x07517, ... (+8 more)
+  RL78 SUB SP,#imm                   10  DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x07517, DUE6001/DUE6001-D.3.4.1@0x0cbc8, DUE6001/DUE6001-D.3.4.1@0x0cbca, DUE6001/DUE6001-D.3.4.1@0x0cc2a, ... (+4 more)
     ↳ subw sp, #imm8 — allocate stack frame (4th map)
-  RL78 NOP                          260  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+104 more)
+  RL78 NOP                          241  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+96 more)
     ↳ nop
-  RX PUSHM                           49  DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.2.8.4@0x0c0fd, DUE6001/DUE6001-D.2.8.4@0x0c16b, ... (+28 more)
+  RX PUSHM                           39  DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE6001/DUE6001-D.2.8.7@0x069b2, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0c319, ... (+23 more)
     ↳ pushm — push multiple registers
-  RX POPM                            39  DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.4@0x0c08f, ... (+19 more)
+  RX POPM                            26  DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x06abe, ... (+15 more)
     ↳ popm — pop multiple registers
-  RX RTS                            123  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.4@0x0189d, ... (+76 more)
+  RX RTS                            114  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.4@0x0189d, ... (+69 more)
     ↳ rts — return from subroutine
-  RX BSR.W                           24  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x0c319, ... (+18 more)
+  RX BSR.W                           22  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x013e6, ... (+16 more)
     ↳ bsr.w — branch to subroutine
-  RX SUB SP                          18  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.4@0x0899d, DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.4@0x0c16b, ... (+11 more)
+  RX SUB SP                          15  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x05502, ... (+8 more)
     ↳ sub #imm, sp
   SH2 MOV.L Rm,@-R15                 16  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.4.1@0x0c0fd, ... (+10 more)
     ↳ push register to stack
-  SH2 MOV.L @R15+,Rm                 39  DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.4@0x0c08f, ... (+19 more)
+  SH2 MOV.L @R15+,Rm                 26  DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x06abe, ... (+15 more)
     ↳ pop register from stack
   SH2 RTS                             1  DUE6001/DUE6001-D.2.8.4@0x089c6
     ↳ rts — return
-  SH2 JSR @Rm                       460  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+110 more)
+  SH2 JSR @Rm                       412  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+98 more)
     ↳ jsr — jump to subroutine
-  SH2 BSR disp                       26  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.9.3@0x05502, ... (+18 more)
+  SH2 BSR disp                       23  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.9.3@0x05502, ... (+16 more)
     ↳ bsr — branch to subroutine
-  8051 PUSH direct                   77  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x0684c, ... (+53 more)
+  8051 PUSH direct                   69  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.7@0x069b2, ... (+49 more)
     ↳ push direct byte
-  8051 POP direct                    64  DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.4@0x0899d, DUE6001/DUE6001-D.2.8.4@0x089c6, ... (+41 more)
+  8051 POP direct                    59  DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.8.7@0x0c319, ... (+36 more)
     ↳ pop direct byte
-  8051 RET                           85  DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x0684c, ... (+54 more)
+  8051 RET                           68  DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x089c6, ... (+45 more)
     ↳ ret
-  8051 RETI                          34  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.2.8.4@0x0c0fd, DUE6001/DUE6001-D.2.8.4@0x0c16b, ... (+22 more)
+  8051 RETI                          27  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.3.3.3@0x0c546, ... (+16 more)
     ↳ reti
-  8051 LCALL                         47  DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.4@0x0c0fd, DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.2.8.7@0x0b23e, ... (+34 more)
+  8051 LCALL                         42  DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.2.9.3@0x04e87, ... (+30 more)
     ↳ lcall addr16
-  8051 ACALL                        460  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+110 more)
+  8051 ACALL                        412  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+98 more)
     ↳ acall addr11
-  8051 LJMP                         113  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.4@0x0189d, ... (+70 more)
+  8051 LJMP                         104  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.4@0x0189d, ... (+63 more)
     ↳ ljmp addr16
-  8051 NOP                          260  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+104 more)
+  8051 NOP                          241  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+96 more)
     ↳ nop
-  AVR PUSH Rr                       460  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+110 more)
+  AVR PUSH Rr                       412  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+98 more)
     ↳ push register
-  AVR POP Rd                        460  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+110 more)
+  AVR POP Rd                        412  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+98 more)
     ↳ pop register
-  AVR RCALL                         460  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+110 more)
+  AVR RCALL                         412  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+98 more)
     ↳ rcall — relative call
-  AVR CALL                          460  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+110 more)
+  AVR CALL                          412  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.2@0x052ef, ... (+98 more)
     ↳ call — long call
   PIC18 CALL                         23  DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE6001/DUE6001-D.2.8.7@0x0c319, ... (+12 more)
     ↳ call addr
@@ -127,22 +127,22 @@
 ===========================================================================
    Pos   Entropy        Role   Top Value      Freq  Visual
   ────  ────────  ──────────  ──────────  ────────  ──────────────────────────────
-     0     6.189     operand  0xcd (205)        3%  ████████████████████████
-     1     6.055     operand  0x00 (  0)        6%  ████████████████████████
-     2     5.927     operand  0xd0 (208)        5%  ███████████████████████
-     3     5.839     operand  0x04 (  4)        6%  ███████████████████████
-     4     6.030     operand  0x00 (  0)        7%  ████████████████████████
-     5     6.142     operand  0x00 (  0)        5%  ████████████████████████
-     6     5.901     operand  0x6e (110)        4%  ███████████████████████
-     7     5.907     operand  0x00 (  0)        8%  ███████████████████████
-     8     6.008     operand  0x00 (  0)        7%  ████████████████████████
-     9     5.974     operand  0x00 (  0)        7%  ███████████████████████
-    10     6.110     operand  0x00 (  0)        4%  ████████████████████████
-    11     6.208     operand  0x00 (  0)        3%  ████████████████████████
-    12     6.191     operand  0x6f (111)        3%  ████████████████████████
-    13     5.902     operand  0x00 (  0)        6%  ███████████████████████
-    14     6.160     operand  0x00 (  0)        3%  ████████████████████████
-    15     6.103     operand  0x00 (  0)        4%  ████████████████████████
+     0     6.121     operand  0xdf (223)        4%  ████████████████████████
+     1     5.869     operand  0x00 (  0)        7%  ███████████████████████
+     2     5.858     operand  0xd0 (208)        6%  ███████████████████████
+     3     5.726     operand  0x04 (  4)        7%  ██████████████████████
+     4     5.842     operand  0x00 (  0)        8%  ███████████████████████
+     5     6.064     operand  0x00 (  0)        5%  ████████████████████████
+     6     5.849     operand  0x14 ( 20)        4%  ███████████████████████
+     7     5.861     operand  0x00 (  0)        7%  ███████████████████████
+     8     5.919     operand  0x00 (  0)        8%  ███████████████████████
+     9     5.937     operand  0x00 (  0)        7%  ███████████████████████
+    10     6.032     operand  0x00 (  0)        5%  ████████████████████████
+    11     6.138     operand  0x04 (  4)        3%  ████████████████████████
+    12     6.106     operand  0x22 ( 34)        4%  ████████████████████████
+    13     5.757     operand  0x00 (  0)        7%  ███████████████████████
+    14     6.079     operand  0x00 (  0)        4%  ████████████████████████
+    15     6.028     operand  0x00 (  0)        5%  ████████████████████████
 
 ===========================================================================
   POSITIONAL BYTE ENTROPY — EPILOGUE ZONE
@@ -150,22 +150,22 @@
 ===========================================================================
    Pos   Entropy        Role   Top Value      Freq  Visual
   ────  ────────  ──────────  ──────────  ────────  ──────────────────────────────
-     0     5.889     operand  0x00 (  0)        9%  ███████████████████████
-     1     6.010     operand  0x00 (  0)        5%  ████████████████████████
-     2     6.007     operand  0x00 (  0)        6%  ████████████████████████
-     3     6.038     operand  0x0a ( 10)        5%  ████████████████████████
-     4     6.048     operand  0x00 (  0)        6%  ████████████████████████
-     5     5.936     operand  0x00 (  0)        9%  ███████████████████████
-     6     5.938     operand  0x00 (  0)       12%  ███████████████████████
-     7     6.096     operand  0x47 ( 71)        4%  ████████████████████████
-     8     6.144     operand  0x20 ( 32)        4%  ████████████████████████
-     9     5.978     operand  0x00 (  0)        5%  ███████████████████████
-    10     5.933     operand  0x00 (  0)        5%  ███████████████████████
-    11     6.035     operand  0xf1 (241)        4%  ████████████████████████
-    12     5.996     operand  0xdf (223)        4%  ███████████████████████
-    13     5.486     operand  0x10 ( 16)       10%  █████████████████████
-    14     5.734     operand  0x51 ( 81)        6%  ██████████████████████
-    15     5.283     operand  0xf1 (241)       13%  █████████████████████
+     0     5.800     operand  0x00 (  0)       10%  ███████████████████████
+     1     5.931     operand  0x10 ( 16)        4%  ███████████████████████
+     2     5.926     operand  0x00 (  0)        7%  ███████████████████████
+     3     6.015     operand  0x20 ( 32)        5%  ████████████████████████
+     4     5.933     operand  0x10 ( 16)        7%  ███████████████████████
+     5     5.853     operand  0x00 (  0)        8%  ███████████████████████
+     6     5.790     operand  0x00 (  0)       13%  ███████████████████████
+     7     5.973     operand  0x10 ( 16)        5%  ███████████████████████
+     8     6.086     operand  0x20 ( 32)        5%  ████████████████████████
+     9     5.895     operand  0x00 (  0)        6%  ███████████████████████
+    10     5.857     operand  0x00 (  0)        7%  ███████████████████████
+    11     5.937     operand  0xf0 (240)        5%  ███████████████████████
+    12     5.951     operand  0x00 (  0)        4%  ███████████████████████
+    13     5.452     operand  0xdf (223)        8%  █████████████████████
+    14     5.551     operand  0x51 ( 81)        7%  ██████████████████████
+    15     5.118     operand  0xf1 (241)       15%  ████████████████████
 
 ===========================================================================
   WILDCARD TEMPLATE PATTERNS — PROLOGUE ZONES
@@ -193,9 +193,9 @@
 ===========================================================================
   Pattern                       Cnt  Len   Srcs  Sources
   ──────────────────────────  ─────  ───  ─────  ──────────────────────────────────────────────────
-  00 20                          11    2      7  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.7@0x06aa1, DUE6001/DUE6001-D.3.4.4@0x0ba5e, DUE6100/DUE6100-D.4.4.0@0x08a85, DUE6100/DUE6100-D.4.4.0@0x0bfe9 (+1 more)
-  0a 00                           7    2      7  DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE6002/DUE6002-D.3.2.6@0x0de47, DUE8000/DUE8000-D.4.3.4@0x0aa72 (+1 more)
+  00 20                           9    2      5  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.4.0@0x08a85, DUE6100/DUE6100-D.4.4.0@0x0bfe9, DUE8000/DUE8000-D.4.2.7@0x03028
   00 70                           7    2      7  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6002/DUE6002-D.3.2.6@0x0de47, DUE8000/DUE8000-D.4.3.4@0x0aa72 (+1 more)
+  0a 00                           6    2      6  DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE6002/DUE6002-D.3.2.6@0x0de47, DUE8000/DUE8000-D.4.3.4@0x0aa72, DUE8000/DUE8000-D.4.6.1@0x0f2ea
   0c 00                           6    2      5  DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6001/DUE6001-D.3.4.1@0x0cc2a, DUE8000/DUE8000-D.4.6.1@0x0c40e, SCE6010/SCE6010-D.3.2.0@0x046f7
   a0 00                           5    2      5  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE8000/DUE8000-D.4.2.7@0x03028, DUE8000/DUE8000-D.4.7.0@0x0fc05
   70 24                           5    2      4  DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE8000/DUE8000-D.4.1.0@0x0af1a, DUE8000/DUE8000-D.4.3.4@0x0aa72
@@ -203,15 +203,9 @@
   20 6d                           5    2      4  DUE6001/DUE6001-D.2.9.3@0x04e87, DUE6001/DUE6001-D.3.3.3@0x080b5, DUE8000/DUE8000-D.4.1.2@0x0be4e, SCE6010/SCE6010-D.3.1.3@0x05af3
   61 14                           5    2      4  DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE8000/DUE8000-D.4.6.0@0x0fa96, SCE6010/SCE6010-D.3.1.3@0x06069
   00 00                           5    2      5  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.3.4.1@0x0c551, DUE6100/DUE6100-D.4.4.0@0x08a85, DUE8000/DUE8000-D.4.7.0@0x0fc05, SCE6010/SCE6010-D.3.1.3@0x06069
-  20 85                           4    2      4  DUE6001/DUE6001-D.2.8.4@0x0899d, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE8000/DUE8000-D.4.6.1@0x09c74
-  f1 df                           4    2      4  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE8000/DUE8000-D.4.1.0@0x0bfac
   e2 26                           4    2      4  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.3.4.1@0x0bd2f, DUE6001/DUE6001-D.3.4.1@0x0c551, SCE6010/SCE6010-D.3.1.3@0x06069
-  86 02                           4    2      4  DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.3.0.2@0x0204f, DUE8000/DUE8000-D.4.3.4@0x06897, SCE6010/SCE6010-D.3.2.0@0x046f7
   71 04                           4    2      4  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE8000/DUE8000-D.4.7.0@0x0fed4
-  04 46                           4    2      4  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6001/DUE6001-D.3.4.1@0x0c5cd
   0a 00 47                        4    3      4  DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE6002/DUE6002-D.3.2.6@0x0de47, DUE8000/DUE8000-D.4.3.4@0x0aa72
-  24 6e                           4    2      3  DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.2.8.4@0x0c0fd, DUE6001/DUE6001-D.2.8.4@0x0c16b
-  16 6f                           4    2      4  DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.2.8.4@0x0c0fd, DUE6001/DUE6001-D.2.8.4@0x0c16b, DUE8000/DUE8000-D.4.3.4@0x06897
   00 22                           4    2      4  DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6100/DUE6100-D.4.3.1@0x10da7, SCE6010/SCE6010-D.3.2.0@0x046f7
   10 70                           4    2      4  DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE8000/DUE8000-D.4.3.4@0x0aa72, SCE6010/SCE6010-D.3.2.0@0x08029
   c0 00                           4    2      4  DUE6001/DUE6001-D.2.9.3@0x04e87, DUE6001/DUE6001-D.3.0.2@0x01c10, DUE8000/DUE8000-D.4.3.4@0x06897, DUE8000/DUE8000-D.4.6.0@0x022aa
@@ -224,15 +218,21 @@
   05 00                           4    2      4  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.4.0@0x08a85, DUE6100/DUE6100-D.4.4.0@0x0bfe9
   2c 00 20                        4    3      2  DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.4.0@0x0bfe9
   70 34                           3    2      3  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0c319
-  70 44                           3    2      3  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.7@0x069b2, DUE6001/DUE6001-D.2.8.7@0x06aa1
-  5a 00                           3    2      3  DUE6001/DUE6001-D.2.8.4@0x072f2, DUE8000/DUE8000-D.4.2.7@0x0acac, DUE8000/DUE8000-D.4.2.7@0x0c058
   2b 00                           3    2      3  DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.4@0x01958, DUE6100/DUE6100-D.4.4.0@0x0bfe9
-  4e 62                           3    2      3  DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.7@0x069b2, DUE6001/DUE6001-D.2.8.7@0x06aa1
-  20 22                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x06aa1, DUE6001/DUE6001-D.3.4.4@0x0ba5e, DUE8000/DUE8000-D.4.6.1@0x0f2ea
+  f1 df                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE8000/DUE8000-D.4.1.0@0x0bfac
   7e 16                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE8000/DUE8000-D.4.1.0@0x0bfac
   47 40                           3    2      3  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6100/DUE6100-D.4.3.1@0x17ebb
   4e 50                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.2.8.7@0x0b11e
   6e a1                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6002/DUE6002-D.3.4.0@0x09c17, DUE8000/DUE8000-D.4.7.0@0x0b0f1
+  04 46                           3    2      3  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.3.3.3@0x0c0ee
+  a0 00 70                        3    3      3  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0c319
+  00 70 24                        3    3      3  DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE8000/DUE8000-D.4.3.4@0x0aa72
+  10 df                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.3.3.3@0x09348, DUE8000/DUE8000-D.4.1.0@0x017b1
+  ff 0b                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE8000/DUE8000-D.4.7.0@0x0a711, DUE8000/DUE8000-D.4.7.0@0x0b0f1
+  02 46                           3    2      3  DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.3.3@0x08c80
+  0c 00 22                        3    3      3  DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.3.3@0x0c0ee, SCE6010/SCE6010-D.3.2.0@0x046f7
+  a1 00                           3    2      3  DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6002/DUE6002-D.3.4.0@0x09c17, DUE8000/DUE8000-D.4.7.0@0x0b0f1
+  47 61                           3    2      3  DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x0c0ee, SCE6010/SCE6010-D.3.1.3@0x06069
 
 ===========================================================================
   TOP EXACT EPILOGUE N-GRAMS (last 16 bytes of each region)
@@ -242,28 +242,22 @@
   00 20                          14    2      7  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.3.4.1@0x0cbc8, DUE6001/DUE6001-D.3.4.1@0x0cbca, DUE6100/DUE6100-D.4.3.1@0x038b9, DUE6100/DUE6100-D.4.4.0@0x08a85 (+1 more)
   2c 00                          11    2      4  DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.3.1@0x038b9, DUE6100/DUE6100-D.4.4.0@0x0bfe9, SCE6010/SCE6010-D.3.1.3@0x010a1
   2c 00 20                       10    3      3  DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.3.1@0x038b9, DUE6100/DUE6100-D.4.4.0@0x0bfe9
-  10 df                           7    2      7  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.3.3@0x09348, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE6001/DUE6001-D.3.4.1@0x0cbca (+1 more)
   10 51                           7    2      7  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0b9d4, SCE6010/SCE6010-D.3.1.3@0x05af3 (+1 more)
   0a 00                           7    2      6  DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE6001/DUE6001-D.3.3.3@0x0813e, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.7.0@0x0fed4
   00 00                           7    2      6  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6002/DUE6002-D.3.2.6@0x0f0c6, DUE6002/DUE6002-D.3.3.0@0x0f085, DUE6100/DUE6100-D.4.2.0@0x0949a, DUE8000/DUE8000-D.4.5.1@0x1039c
-  df 04                           6    2      6  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.3.4.1@0x0c551, DUE6002/DUE6002-D.3.2.6@0x0f0c6, DUE8000/DUE8000-D.4.5.1@0x1039c, DUE8000/DUE8000-D.4.6.0@0x0396a
+  10 df                           6    2      6  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.3.3@0x09348, DUE6001/DUE6001-D.3.4.1@0x0cbca, DUE8000/DUE8000-D.4.6.0@0x0479b
   01 f1                           6    2      6  DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE8000/DUE8000-D.4.1.0@0x0b137, DUE8000/DUE8000-D.4.5.1@0x03559, SCE6010/SCE6010-D.3.1.3@0x07137
-  0a 01                           6    2      6  DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.4.4@0x0bb91, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.7.0@0x0a121, SCE6010/SCE6010-D.3.1.3@0x06069, SCE6010/SCE6010-D.3.1.3@0x07137
+  df 04                           5    2      5  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6002/DUE6002-D.3.2.6@0x0f0c6, DUE8000/DUE8000-D.4.5.1@0x1039c, DUE8000/DUE8000-D.4.6.0@0x0396a
   df 02                           5    2      5  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE8000/DUE8000-D.4.1.0@0x017b1, DUE8000/DUE8000-D.4.6.0@0x0b8ae
   02 f1                           5    2      5  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE8000/DUE8000-D.4.1.0@0x017b1, DUE8000/DUE8000-D.4.6.0@0x0b8ae
   df 02 f1                        5    3      5  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE8000/DUE8000-D.4.1.0@0x017b1, DUE8000/DUE8000-D.4.6.0@0x0b8ae
-  00 10                           5    2      5  DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.0.2@0x0204f, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0c551, SCE6010/SCE6010-D.3.2.0@0x08029
-  f1 df                           5    2      5  DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.4.1@0x0c551, DUE6002/DUE6002-D.3.1.9@0x0ba4f, SCE6010/SCE6010-D.3.1.3@0x06069, SCE6010/SCE6010-D.3.1.3@0x07137
-  8c 00                           5    2      5  DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE6001/DUE6001-D.3.4.4@0x0bb91, DUE8000/DUE8000-D.4.3.4@0x0aa72, DUE8000/DUE8000-D.4.6.0@0x09451, SCE6010/SCE6010-D.3.2.0@0x08029
+  0a 01                           5    2      5  DUE6001/DUE6001-D.2.9.3@0x05502, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.7.0@0x0a121, SCE6010/SCE6010-D.3.1.3@0x06069, SCE6010/SCE6010-D.3.1.3@0x07137
   05 20                           5    2      5  DUE6100/DUE6100-D.4.4.0@0x0b1fb, DUE8000/DUE8000-D.4.1.0@0x0b1df, DUE8000/DUE8000-D.4.6.1@0x09c74, DUE8000/DUE8000-D.4.7.0@0x0a121, DUE8000/DUE8000-D.4.7.0@0x1001f
   70 47                           5    2      5  DUE5000/DUE5000-D.4.0.3@0x18147, DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.3.1@0x17ebb, DUE6100/DUE6100-D.4.3.1@0x19751, DUE6100/DUE6100-D.4.4.0@0x08a85
   f1 cf                           4    2      4  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE8000/DUE8000-D.4.5.1@0x03559, DUE8000/DUE8000-D.4.6.0@0x0396a
   5a 00                           4    2      4  DUE6001/DUE6001-D.2.8.2@0x052ef, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE8000/DUE8000-D.4.1.0@0x0b1df, DUE8000/DUE8000-D.4.2.7@0x0acac
-  04 f1                           4    2      4  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.3.4.1@0x0c551, DUE8000/DUE8000-D.4.6.0@0x0396a
-  df 04 f1                        4    3      4  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.3.4.1@0x0c551, DUE8000/DUE8000-D.4.6.0@0x0396a
   20 6d                           4    2      3  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE8000/DUE8000-D.4.1.2@0x0be4e
-  2d 10                           4    2      4  DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.3.3@0x09348, DUE6001/DUE6001-D.3.4.1@0x0c5cd
-  2d 10 df                        4    3      4  DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.3.3@0x09348, DUE6001/DUE6001-D.3.4.1@0x0c5cd
+  00 10                           4    2      4  DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0c551, SCE6010/SCE6010-D.3.2.0@0x08029
   df 03                           4    2      4  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.2.9.3@0x05502, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.2.7@0x0bcd0
   03 f1                           4    2      4  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.2.9.3@0x05502, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.2.7@0x0bcd0
   df 03 f1                        4    3      4  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.2.9.3@0x05502, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.2.7@0x0bcd0
@@ -271,98 +265,92 @@
   47 62                           4    2      4  DUE6001/DUE6001-D.2.9.3@0x05502, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.3.4@0x0aa72
   62 24                           4    2      4  DUE6001/DUE6001-D.2.9.3@0x05502, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.3.4@0x0aa72
   47 62 24                        4    3      4  DUE6001/DUE6001-D.2.9.3@0x05502, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.3.4@0x0aa72
+  f1 df                           4    2      4  DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6002/DUE6002-D.3.1.9@0x0ba4f, SCE6010/SCE6010-D.3.1.3@0x06069, SCE6010/SCE6010-D.3.1.3@0x07137
+  8c 00                           4    2      4  DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE8000/DUE8000-D.4.3.4@0x0aa72, DUE8000/DUE8000-D.4.6.0@0x09451, SCE6010/SCE6010-D.3.2.0@0x08029
   24 7e                           4    2      4  DUE6001/DUE6001-D.3.4.1@0x0cbc8, DUE6001/DUE6001-D.3.4.1@0x0cbca, DUE6001/DUE6001-D.3.4.1@0x0cc2a, DUE8000/DUE8000-D.4.2.7@0x0c058
   c0 46                           4    2      2  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6100/DUE6100-D.4.3.1@0x17ebb
   20 85                           4    2      3  DUE8000/DUE8000-D.4.2.7@0x0acac, DUE8000/DUE8000-D.4.6.1@0x09c74, DUE8000/DUE8000-D.4.7.0@0x0a121
   00 f1                           3    2      3  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE8000/DUE8000-D.4.3.4@0x0aa72, DUE8000/DUE8000-D.4.6.1@0x0f2ea
-  05 82                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.0.2@0x0204f
+  04 f1                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE8000/DUE8000-D.4.6.0@0x0396a
+  df 04 f1                        3    3      3  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE8000/DUE8000-D.4.6.0@0x0396a
   16 df                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE8000/DUE8000-D.4.6.0@0x0b8ae
   16 df 02                        3    3      3  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE8000/DUE8000-D.4.6.0@0x0b8ae
   16 df 02 f1                     3    4      3  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE8000/DUE8000-D.4.6.0@0x0b8ae
+  6d 10                           3    2      3  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.9.3@0x04e87, DUE6001/DUE6001-D.3.4.1@0x0cc2a
+  f1 04                           3    2      2  DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.9.3@0x04e87
+  e0 04                           3    2      2  DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.2.8.7@0x0b11e
 
 ===========================================================================
   TOP EXACT PRE-CONTEXT N-GRAMS (bytes before region)
 ===========================================================================
   Pattern                       Cnt  Len   Srcs  Sources
   ──────────────────────────  ─────  ───  ─────  ──────────────────────────────────────────────────
-  f1 df                          20    2     18  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x080b5 (+12 more)
-  10 df                          16    2     15  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE6001/DUE6001-D.3.0.2@0x0204f, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE6001/DUE6001-D.3.3.3@0x073ca (+9 more)
+  f1 df                          18    2     16  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x080b5 (+10 more)
   00 00                          16    2     16  DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.4.1@0x0c0fd, DUE6001/DUE6001-D.3.4.1@0x0c551 (+10 more)
-  0a 00                          15    2     14  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.0.2@0x0204f, DUE6001/DUE6001-D.3.3.3@0x08c80 (+8 more)
-  00 20                          13    2     12  DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.4@0x0899d, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6002/DUE6002-D.3.3.0@0x0f085 (+6 more)
-  0a 01                          13    2     13  DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.4.1@0x0c5cd (+7 more)
+  10 df                          15    2     14  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x0c546 (+8 more)
+  0a 00                          13    2     12  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6002/DUE6002-D.3.2.6@0x0de47, DUE8000/DUE8000-D.4.1.0@0x06cad (+6 more)
   00 f1                          12    2     12  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE6001/DUE6001-D.3.0.2@0x01c10, DUE6001/DUE6001-D.3.0.2@0x0b0d0 (+6 more)
-  02 f1                          11    2     10  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x08c80 (+4 more)
+  0a 01                          12    2     12  DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6002/DUE6002-D.3.1.9@0x0ba4f (+6 more)
+  00 20                          11    2     10  DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6002/DUE6002-D.3.3.0@0x0f085, DUE6100/DUE6100-D.4.2.0@0x0949a, DUE6100/DUE6100-D.4.4.0@0x08a85 (+4 more)
   10 51                          11    2      8  DUE6001/DUE6001-D.2.9.3@0x04e87, DUE6001/DUE6001-D.3.3.3@0x080b5, DUE6001/DUE6001-D.3.3.3@0x0813e, DUE6002/DUE6002-D.3.4.0@0x09c17, DUE8000/DUE8000-D.4.1.0@0x09abe, DUE8000/DUE8000-D.4.7.0@0x0a711 (+2 more)
   cc 00                          10    2     10  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x01c10, DUE6001/DUE6001-D.3.4.1@0x0c0fd (+4 more)
-  df 02                          10    2      9  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x08c80 (+3 more)
-  df 02 f1                       10    3      9  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x08c80 (+3 more)
+  02 f1                          10    2      9  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x08c80 (+3 more)
   01 f1                          10    2      8  DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6002/DUE6002-D.3.2.6@0x0de47, DUE6002/DUE6002-D.3.2.6@0x0f0c6, DUE8000/DUE8000-D.4.1.0@0x017b1, DUE8000/DUE8000-D.4.2.7@0x0bcd0 (+2 more)
+  df 02                           9    2      8  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x08c80 (+2 more)
+  df 02 f1                        9    3      8  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x08c80 (+2 more)
   ef ed                           8    2      7  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.3.3@0x07517, DUE8000/DUE8000-D.4.5.1@0x06d69, DUE8000/DUE8000-D.4.6.0@0x09451, DUE8000/DUE8000-D.4.6.1@0x098f9 (+1 more)
   0c 00                           8    2      8  DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6002/DUE6002-D.3.2.6@0x0de47, DUE6002/DUE6002-D.3.2.6@0x0f0c6, DUE6002/DUE6002-D.3.3.0@0x0f085, DUE8000/DUE8000-D.4.1.0@0x0b137, DUE8000/DUE8000-D.4.1.0@0x0b1df (+2 more)
-  5a 00                           7    2      6  DUE6001/DUE6001-D.2.8.4@0x072f2, DUE8000/DUE8000-D.4.1.0@0x0b1df, DUE8000/DUE8000-D.4.2.7@0x03028, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.7.0@0x0a121, SCE6010/SCE6010-D.3.2.0@0x08029
-  f1 04                           7    2      5  DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE8000/DUE8000-D.4.1.0@0x017b1, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.3.4@0x06897
   cc 00 00                        7    3      7  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.4.1@0x0c0fd, DUE6001/DUE6001-D.3.4.1@0x0c551, DUE6001/DUE6001-D.3.4.1@0x0cbc8, DUE6001/DUE6001-D.3.4.1@0x0cbca (+1 more)
   10 cf                           6    2      6  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE8000/DUE8000-D.4.1.0@0x017b1, DUE8000/DUE8000-D.4.5.1@0x03559, DUE8000/DUE8000-D.4.6.0@0x0396a, DUE8000/DUE8000-D.4.6.0@0x09451, DUE8000/DUE8000-D.4.6.1@0x0f2ea
-  00 47                           6    2      6  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.0.2@0x0204f, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE8000/DUE8000-D.4.1.0@0x0af1a, DUE8000/DUE8000-D.4.6.0@0x09451
   02 e8                           6    2      6  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE6001/DUE6001-D.3.0.2@0x01c10, DUE8000/DUE8000-D.4.6.0@0x022aa, SCE6010/SCE6010-D.3.1.3@0x010a1
   f1 cf                           6    2      6  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE6001/DUE6001-D.3.0.2@0x01c10, DUE6002/DUE6002-D.3.2.6@0x0de47, SCE6010/SCE6010-D.3.1.3@0x010a1
-  0a 00 47                        6    3      6  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.0.2@0x0204f, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE8000/DUE8000-D.4.1.0@0x0af1a, DUE8000/DUE8000-D.4.6.0@0x09451
   f1 0a                           6    2      5  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6002/DUE6002-D.3.4.0@0x06e1e, DUE8000/DUE8000-D.4.1.0@0x06cad, DUE8000/DUE8000-D.4.1.0@0x0bfac, SCE6010/SCE6010-D.3.2.0@0x08029
-  4e 62                           6    2      4  DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.7@0x069b2, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.3.0.2@0x0b0d0
   df fe                           6    2      5  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.4.1@0x0cc2a, DUE8000/DUE8000-D.4.7.0@0x0fc05
   04 0a                           6    2      6  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE8000/DUE8000-D.4.1.0@0x0af1a, DUE8000/DUE8000-D.4.1.2@0x0be4e, DUE8000/DUE8000-D.4.3.4@0x0aa72
   e0 04                           6    2      3  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.2.8.7@0x0b11e
-  05 ed                           6    2      6  DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.4.4@0x0ba5e, DUE6002/DUE6002-D.3.4.0@0x09c17, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.5.1@0x06d69, DUE8000/DUE8000-D.4.7.0@0x0b0f1
-  20 80                           6    2      6  DUE6001/DUE6001-D.3.0.2@0x0204f, DUE6100/DUE6100-D.4.4.0@0x0b1fb, DUE8000/DUE8000-D.4.1.0@0x07b72, DUE8000/DUE8000-D.4.2.7@0x03028, DUE8000/DUE8000-D.4.6.0@0x0fa96, DUE8000/DUE8000-D.4.7.0@0x1001f
   ac 00                           6    2      6  DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.4.1@0x0cbc8, DUE6001/DUE6001-D.3.4.1@0x0cbca, DUE8000/DUE8000-D.4.1.0@0x0af1a, DUE8000/DUE8000-D.4.7.0@0x1001f, SCE6010/SCE6010-D.3.1.3@0x07137
+  5a 00                           6    2      5  DUE8000/DUE8000-D.4.1.0@0x0b1df, DUE8000/DUE8000-D.4.2.7@0x03028, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.7.0@0x0a121, SCE6010/SCE6010-D.3.2.0@0x08029
   02 f0                           6    2      4  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.4.0@0x0bfe9, DUE8000/DUE8000-D.4.6.1@0x098f9
   10 bd                           6    2      4  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.4.0@0x08a85, DUE6100/DUE6100-D.4.4.0@0x0bfe9
   30 00                           6    2      3  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6100/DUE6100-D.4.3.1@0x17ebb, DUE6100/DUE6100-D.4.3.1@0x19751
+  00 47                           5    2      5  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE8000/DUE8000-D.4.1.0@0x0af1a, DUE8000/DUE8000-D.4.6.0@0x09451
   04 02                           5    2      5  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE6001/DUE6001-D.3.0.2@0x01c10, SCE6010/SCE6010-D.3.1.3@0x010a1
+  0a 00 47                        5    3      5  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE8000/DUE8000-D.4.1.0@0x0af1a, DUE8000/DUE8000-D.4.6.0@0x09451
   04 02 e8                        5    3      5  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE6001/DUE6001-D.3.0.2@0x01c10, SCE6010/SCE6010-D.3.1.3@0x010a1
-  00 21                           5    2      5  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6002/DUE6002-D.3.2.6@0x0de47, DUE6100/DUE6100-D.4.4.0@0x08a85, SCE6010/SCE6010-D.3.2.0@0x08029
-  c2 00                           5    2      5  DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE8000/DUE8000-D.4.1.0@0x07b72
-  20 32                           5    2      5  DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE8000/DUE8000-D.4.1.0@0x07b72, DUE8000/DUE8000-D.4.5.1@0x03559, SCE6010/SCE6010-D.3.2.0@0x046f7
   02 f1 df                        5    3      4  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x08c80
+  df 02 f1 df                     5    4      4  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x08c80
+  2d 10                           5    2      5  DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE6002/DUE6002-D.3.4.0@0x09c17, DUE8000/DUE8000-D.4.7.0@0x0b0f1
+  05 ed                           5    2      5  DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6002/DUE6002-D.3.4.0@0x09c17, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.5.1@0x06d69, DUE8000/DUE8000-D.4.7.0@0x0b0f1
+  f1 04                           5    2      4  DUE6001/DUE6001-D.2.8.7@0x0c319, DUE8000/DUE8000-D.4.1.0@0x017b1, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.3.4@0x06897
+  60 04                           5    2      5  DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.3.3@0x080b5, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE8000/DUE8000-D.4.2.7@0x0bcd0, DUE8000/DUE8000-D.4.6.1@0x0f2ea
+  00 f1 df                        5    3      5  DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x0b0d0, SCE6010/SCE6010-D.3.1.3@0x06069, SCE6010/SCE6010-D.3.1.3@0x07137
+  52 48                           5    2      5  DUE6001/DUE6001-D.3.3.3@0x07517, DUE8000/DUE8000-D.4.2.7@0x03028, DUE8000/DUE8000-D.4.5.1@0x06d69, DUE8000/DUE8000-D.4.6.0@0x09451, DUE8000/DUE8000-D.4.7.0@0x0a121
 
 ===========================================================================
   TOP EXACT POST-CONTEXT N-GRAMS (bytes after region)
 ===========================================================================
   Pattern                       Cnt  Len   Srcs  Sources
   ──────────────────────────  ─────  ───  ─────  ──────────────────────────────────────────────────
-  0a 00                          19    2     18  DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.2.9.3@0x05502 (+12 more)
-  10 df                          15    2     15  DUE6001/DUE6001-D.2.8.4@0x0899d, DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.3.0.2@0x01c10, DUE6001/DUE6001-D.3.4.1@0x0cbc8 (+9 more)
+  0a 00                          16    2     15  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.4.1@0x0bd2f (+9 more)
   00 20                          15    2      4  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6100/DUE6100-D.4.4.0@0x03dab, DUE6100/DUE6100-D.4.4.0@0x08a85
-  00 47                           9    2      9  DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE6002/DUE6002-D.3.1.9@0x0ba4f (+3 more)
-  0a 00 47                        9    3      9  DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE6002/DUE6002-D.3.1.9@0x0ba4f (+3 more)
-  f1 df                           9    2      9  DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.0.2@0x0204f, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0c0fd, DUE6001/DUE6001-D.3.4.1@0x0c551 (+3 more)
+  10 df                          14    2     14  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.2.8.7@0x06abe, DUE6001/DUE6001-D.2.8.7@0x0ae07, DUE6001/DUE6001-D.3.0.2@0x01c10, DUE6001/DUE6001-D.3.4.1@0x0cbc8, DUE6002/DUE6002-D.3.2.6@0x0f0c6 (+8 more)
+  f1 df                           9    2      8  DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0c0fd, DUE6001/DUE6001-D.3.4.1@0x0c551, DUE6002/DUE6002-D.3.2.6@0x0de47 (+2 more)
   20 6d                           9    2      6  DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.3.3@0x080b5, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6001/DUE6001-D.3.4.1@0x0b9d4, DUE8000/DUE8000-D.4.1.0@0x0af1a, DUE8000/DUE8000-D.4.6.1@0x0f2ea
   2d 00                           8    2      2  DUE6001/DUE6001-D.2.8.4@0x01958, DUE6100/DUE6100-D.4.4.0@0x03dab
   0c 00                           8    2      7  DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.2.9.3@0x013e6, DUE8000/DUE8000-D.4.1.0@0x07b72, DUE8000/DUE8000-D.4.6.1@0x0c40e, DUE8000/DUE8000-D.4.6.1@0x0f2ea (+1 more)
   c0 00                           8    2      4  DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6001/DUE6001-D.3.4.1@0x0b9d4, DUE8000/DUE8000-D.4.1.0@0x0af1a
-  20 85                           8    2      6  DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x07517, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE8000/DUE8000-D.4.2.7@0x0acac
   b5 04                           8    2      5  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6002/DUE6002-D.3.4.0@0x09c17, DUE6100/DUE6100-D.4.4.0@0x08a85, DUE6100/DUE6100-D.4.4.0@0x0bfe9
   00 00                           7    2      6  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0a306, DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.0.2@0x011b6, DUE6001/DUE6001-D.3.2.5@0x0bb86, DUE8000/DUE8000-D.4.1.0@0x0b137
   8d 00                           7    2      5  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x08870, DUE6002/DUE6002-D.3.4.0@0x06e1e, DUE8000/DUE8000-D.4.1.0@0x06cad, DUE8000/DUE8000-D.4.6.1@0x09c74
-  7e 16                           7    2      7  DUE6001/DUE6001-D.2.8.4@0x0c16b, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0c0fd, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE8000/DUE8000-D.4.1.0@0x09abe, DUE8000/DUE8000-D.4.6.0@0x0b8ae (+1 more)
   60 04                           7    2      5  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0c0fd, DUE6100/DUE6100-D.4.3.1@0x19751, SCE6010/SCE6010-D.3.1.3@0x06069
   00 10                           7    2      7  DUE6001/DUE6001-D.3.0.2@0x01c10, DUE6001/DUE6001-D.3.4.1@0x0bd2f, DUE8000/DUE8000-D.4.1.0@0x017b1, DUE8000/DUE8000-D.4.1.2@0x0be4e, DUE8000/DUE8000-D.4.2.7@0x0bcd0, DUE8000/DUE8000-D.4.6.1@0x09c74 (+1 more)
+  20 85                           7    2      5  DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x07517, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE8000/DUE8000-D.4.2.7@0x0acac
   2d 00 20                        7    3      1  DUE6100/DUE6100-D.4.4.0@0x03dab
-  20 ef                           6    2      6  DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.9.3@0x04e87, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x07517, DUE6001/DUE6001-D.3.4.1@0x0c5cd
-  ef ed                           6    2      6  DUE6001/DUE6001-D.2.8.4@0x072f2, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE8000/DUE8000-D.4.3.4@0x06897, DUE8000/DUE8000-D.4.7.0@0x0a121
-  00 70                           6    2      6  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6001/DUE6001-D.2.8.4@0x0899d, DUE6001/DUE6001-D.2.9.3@0x04e87, DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.0.2@0x0204f, DUE6001/DUE6001-D.3.4.1@0x0c5cd
-  8d 01                           6    2      5  DUE6001/DUE6001-D.2.8.4@0x01958, DUE6001/DUE6001-D.2.8.4@0x0684c, DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.3.4.1@0x0bd2f, DUE8000/DUE8000-D.4.6.1@0x0c40e
   00 0a                           6    2      6  DUE6001/DUE6001-D.2.8.4@0x01958, DUE6002/DUE6002-D.3.4.0@0x06e1e, DUE6100/DUE6100-D.4.2.0@0x0949a, DUE8000/DUE8000-D.4.1.0@0x06cad, DUE8000/DUE8000-D.4.5.1@0x06d69, SCE6010/SCE6010-D.3.1.3@0x06069
   00 51                           6    2      5  DUE6001/DUE6001-D.2.8.7@0x0602f, DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6001/DUE6001-D.3.4.1@0x0b9d4, DUE8000/DUE8000-D.4.1.0@0x0af1a
-  18 00                           6    2      4  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6001/DUE6001-D.2.8.7@0x06aa1, DUE6100/DUE6100-D.4.3.1@0x17ebb, DUE8000/DUE8000-D.4.2.7@0x03028
-  46 20                           6    2      3  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.3.0.2@0x0204f, DUE8000/DUE8000-D.4.6.0@0x0fa96
+  00 47                           6    2      6  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE8000/DUE8000-D.4.6.0@0x0b8ae, SCE6010/SCE6010-D.3.1.3@0x06069, SCE6010/SCE6010-D.3.2.0@0x08029
+  0a 00 47                        6    3      6  DUE6001/DUE6001-D.2.8.7@0x072af, DUE6001/DUE6001-D.2.9.3@0x05502, DUE6002/DUE6002-D.3.1.9@0x0ba4f, DUE8000/DUE8000-D.4.6.0@0x0b8ae, SCE6010/SCE6010-D.3.1.3@0x06069, SCE6010/SCE6010-D.3.2.0@0x08029
   00 d2                           6    2      5  DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6001/DUE6001-D.3.4.1@0x0b9d4, DUE6100/DUE6100-D.4.4.0@0x0b1fb, DUE8000/DUE8000-D.4.1.0@0x0af1a
-  22 6f                           6    2      3  DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.2.8.4@0x0c0fd, DUE6001/DUE6001-D.2.8.4@0x0c16b
-  c6 22                           6    2      5  DUE6001/DUE6001-D.2.8.4@0x0c08f, DUE6001/DUE6001-D.2.8.4@0x0c0fd, DUE6001/DUE6001-D.2.8.4@0x0c16b, DUE8000/DUE8000-D.4.6.1@0x0f2ea, DUE8000/DUE8000-D.4.7.0@0x0e80f
-  91 52                           6    2      5  DUE6001/DUE6001-D.2.8.4@0x0c16b, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE8000/DUE8000-D.4.6.0@0x0479b
-  80 25                           6    2      5  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6001/DUE6001-D.3.4.4@0x0ba5e
-  05 ed                           6    2      5  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.3.3@0x07517, DUE6001/DUE6001-D.3.4.4@0x0ba5e, DUE8000/DUE8000-D.4.2.7@0x0acac, DUE8000/DUE8000-D.4.2.7@0x0c058
   5a 00                           6    2      5  DUE6001/DUE6001-D.2.9.3@0x04e87, DUE8000/DUE8000-D.4.1.0@0x0bfac, DUE8000/DUE8000-D.4.2.7@0x0c058, DUE8000/DUE8000-D.4.6.0@0x0396a, DUE8000/DUE8000-D.4.7.0@0x0a121
   00 21                           6    2      5  DUE6001/DUE6001-D.2.9.3@0x04e87, DUE6001/DUE6001-D.3.3.3@0x0813e, DUE6001/DUE6001-D.3.4.1@0x0bd2f, DUE8000/DUE8000-D.4.5.1@0x06d69, SCE6010/SCE6010-D.3.1.3@0x07137
   df 7e                           6    2      6  DUE6001/DUE6001-D.3.3.3@0x0c546, DUE6001/DUE6001-D.3.4.1@0x0c0fd, DUE6001/DUE6001-D.3.4.1@0x0c551, DUE8000/DUE8000-D.4.1.0@0x09abe, DUE8000/DUE8000-D.4.6.0@0x0b8ae, SCE6010/SCE6010-D.3.2.0@0x08029
@@ -371,6 +359,18 @@
   3a c0                           6    2      2  DUE6001/DUE6001-D.3.3.3@0x080b5, DUE6001/DUE6001-D.3.3.3@0x0813e
   c0 be                           6    2      2  DUE6001/DUE6001-D.3.3.3@0x080b5, DUE6001/DUE6001-D.3.3.3@0x0813e
   3a c0 be                        6    3      2  DUE6001/DUE6001-D.3.3.3@0x080b5, DUE6001/DUE6001-D.3.3.3@0x0813e
+  43 89                           6    2      2  DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE6100/DUE6100-D.4.3.1@0x06457
+  04 00                           6    2      4  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.4.0@0x08a85, DUE6100/DUE6100-D.4.4.0@0x0bfe9
+  b5 04 00                        6    3      4  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.4.0@0x08a85, DUE6100/DUE6100-D.4.4.0@0x0bfe9
+  02 e8                           5    2      5  DUE6001/DUE6001-D.2.8.4@0x0189d, DUE6001/DUE6001-D.3.0.2@0x01af3, DUE8000/DUE8000-D.4.6.0@0x022aa, DUE8000/DUE8000-D.4.7.0@0x0b0f1, SCE6010/SCE6010-D.3.1.3@0x010a1
+  fe 07                           5    2      5  DUE6001/DUE6001-D.2.8.4@0x089c6, DUE6001/DUE6001-D.3.4.1@0x0cbc8, DUE6001/DUE6001-D.3.4.1@0x0cbca, DUE6002/DUE6002-D.3.2.6@0x0de47, DUE6002/DUE6002-D.3.3.0@0x0f085
+  4e 70                           5    2      2  DUE6001/DUE6001-D.2.8.7@0x0b11e, DUE8000/DUE8000-D.4.1.0@0x0b1df
+  c0 00 d2                        5    3      4  DUE6001/DUE6001-D.2.8.7@0x0b23e, DUE6001/DUE6001-D.3.3.3@0x0c0ee, DUE6001/DUE6001-D.3.4.1@0x0b9d4, DUE8000/DUE8000-D.4.1.0@0x0af1a
+  f0 24                           5    2      5  DUE6001/DUE6001-D.2.8.7@0x0c319, DUE6001/DUE6001-D.3.4.1@0x0cbc8, DUE6001/DUE6001-D.3.4.1@0x0cbca, DUE6002/DUE6002-D.3.3.0@0x0f085, DUE8000/DUE8000-D.4.5.1@0x03559
+  80 25                           5    2      4  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x08c80
+  05 ed                           5    2      4  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.3.3.3@0x07517, DUE8000/DUE8000-D.4.2.7@0x0acac, DUE8000/DUE8000-D.4.2.7@0x0c058
+  46 80                           5    2      4  DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE6100/DUE6100-D.4.4.0@0x0b1fb
+  91 52                           5    2      4  DUE6001/DUE6001-D.3.0.2@0x0b0d0, DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x08c80, DUE8000/DUE8000-D.4.6.0@0x0479b
 
 ===========================================================================
   FIRST 2 BYTES with sources (potential prologue opcode)
@@ -388,21 +388,21 @@
   46 00         2      2  DUE5000/DUE5000-D.4.0.3@0x18147, DUE6100/DUE6100-D.4.3.1@0x17ebb
   f0 14         1      1  DUE6001/DUE6001-D.2.8.4@0x0189d
   5f a9         1      1  DUE6001/DUE6001-D.2.8.2@0x052ef
-  8b 56         1      1  DUE6001/DUE6001-D.2.8.4@0x072f2
-  96 2a         1      1  DUE6001/DUE6001-D.2.8.4@0x0899d
   cd 2b         1      1  DUE6001/DUE6001-D.2.8.4@0x01958
   22 ef         1      1  DUE6001/DUE6001-D.2.8.7@0x0602f
+  33 4e         1      1  DUE6001/DUE6001-D.2.8.7@0x069b2
+  50 9f         1      1  DUE6001/DUE6001-D.2.8.7@0x06abe
 
 ===========================================================================
   LAST 2 BYTES with sources (potential return opcode)
 ===========================================================================
   Pair        Cnt   Srcs  Sources
   ────────  ─────  ─────  ───────────────────────────────────────────────────────
-  10 df         4      4  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.3.4.1@0x0c5cd, DUE6001/DUE6001-D.3.4.1@0x0cbca, DUE8000/DUE8000-D.4.6.0@0x0479b
-  f1 df         4      4  DUE6001/DUE6001-D.3.4.1@0x0c551, DUE6002/DUE6002-D.3.1.9@0x0ba4f, SCE6010/SCE6010-D.3.1.3@0x06069, SCE6010/SCE6010-D.3.1.3@0x07137
   00 20         4      4  DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.3.1@0x038b9, DUE6100/DUE6100-D.4.4.0@0x0bfe9
   02 f1         3      3  DUE6001/DUE6001-D.2.8.7@0x072af, DUE8000/DUE8000-D.4.1.0@0x017b1, DUE8000/DUE8000-D.4.6.0@0x0b8ae
+  10 df         3      3  DUE6001/DUE6001-D.2.8.7@0x08870, DUE6001/DUE6001-D.3.4.1@0x0cbca, DUE8000/DUE8000-D.4.6.0@0x0479b
   03 f1         3      3  DUE6001/DUE6001-D.2.9.3@0x0152d, DUE6001/DUE6001-D.2.9.3@0x05502, DUE8000/DUE8000-D.4.2.7@0x0bcd0
+  f1 df         3      3  DUE6002/DUE6002-D.3.1.9@0x0ba4f, SCE6010/SCE6010-D.3.1.3@0x06069, SCE6010/SCE6010-D.3.1.3@0x07137
   01 f1         2      2  DUE6001/DUE6001-D.3.0.2@0x017b8, DUE6001/DUE6001-D.3.2.5@0x0bb86
   f1 cf         2      2  DUE6001/DUE6001-D.3.0.2@0x01af3, DUE8000/DUE8000-D.4.5.1@0x03559
   8e ac         2      2  DUE6001/DUE6001-D.3.3.3@0x073ca, DUE6001/DUE6001-D.3.3.3@0x08c80
@@ -417,40 +417,40 @@
 ============================================================
   FIRST BYTE histogram  (top 20)
 ============================================================
-  0xcd  (205)  :     4 times  ####
-  0x04  (  4)  :     4 times  ####
   0xdf  (223)  :     4 times  ####
   0x46  ( 70)  :     4 times  ####
+  0xcd  (205)  :     3 times  ###
   0x7e  (126)  :     3 times  ###
-  0x2d  ( 45)  :     3 times  ###
+  0x04  (  4)  :     3 times  ###
   0x33  ( 51)  :     2 times  ##
+  0x2d  ( 45)  :     2 times  ##
   0xfd  (253)  :     2 times  ##
   0x00  (  0)  :     2 times  ##
-  0x25  ( 37)  :     2 times  ##
   0xaf  (175)  :     2 times  ##
   0xae  (174)  :     2 times  ##
   0x4c  ( 76)  :     2 times  ##
-  0xce  (206)  :     2 times  ##
   0xa0  (160)  :     2 times  ##
   0x7f  (127)  :     2 times  ##
-  0x0a  ( 10)  :     2 times  ##
-  0xdd  (221)  :     2 times  ##
   0x37  ( 55)  :     2 times  ##
   0xe0  (224)  :     2 times  ##
+  0xb2  (178)  :     2 times  ##
+  0xf7  (247)  :     2 times  ##
+  0x2c  ( 44)  :     2 times  ##
+  0xf0  (240)  :     1 times  #
 
 ============================================================
   LAST BYTE histogram  (top 20)
 ============================================================
   0xf1  (241)  :    15 times  ###############
   0x10  ( 16)  :    10 times  ##########
-  0xdf  (223)  :     8 times  ########
-  0x20  ( 32)  :     5 times  #####
+  0xdf  (223)  :     6 times  ######
   0xe0  (224)  :     4 times  ####
-  0xcf  (207)  :     4 times  ####
   0x04  (  4)  :     4 times  ####
-  0x00  (  0)  :     3 times  ###
+  0x20  ( 32)  :     4 times  ####
   0x01  (  1)  :     3 times  ###
+  0xcf  (207)  :     3 times  ###
   0x47  ( 71)  :     3 times  ###
+  0x00  (  0)  :     2 times  ##
   0x0b  ( 11)  :     2 times  ##
   0xac  (172)  :     2 times  ##
   0x7e  (126)  :     2 times  ##
@@ -458,24 +458,22 @@
   0x44  ( 68)  :     2 times  ##
   0xbd  (189)  :     2 times  ##
   0x32  ( 50)  :     2 times  ##
-  0xfc  (252)  :     1 times  #
-  0xc8  (200)  :     1 times  #
-  0x2f  ( 47)  :     1 times  #
+  0xe5  (229)  :     1 times  #
+  0xf4  (244)  :     1 times  #
+  0x6c  (108)  :     1 times  #
 
 ============================================================
   BYTE just BEFORE region start  (top 20)
 ============================================================
   0xdf  (223)  :    13 times  #############
-  0x51  ( 81)  :     6 times  ######
-  0xf1  (241)  :     5 times  #####
+  0x51  ( 81)  :     5 times  #####
+  0xf1  (241)  :     4 times  ####
   0xcf  (207)  :     4 times  ####
   0x47  ( 71)  :     3 times  ###
   0xd3  (211)  :     3 times  ###
   0xf4  (244)  :     3 times  ###
-  0x01  (  1)  :     3 times  ###
   0x10  ( 16)  :     3 times  ###
   0xf0  (240)  :     3 times  ###
-  0x23  ( 35)  :     2 times  ##
   0x0a  ( 10)  :     2 times  ##
   0x19  ( 25)  :     2 times  ##
   0x43  ( 67)  :     2 times  ##
@@ -485,44 +483,46 @@
   0xfc  (252)  :     2 times  ##
   0xf9  (249)  :     2 times  ##
   0xd2  (210)  :     2 times  ##
+  0x29  ( 41)  :     2 times  ##
+  0xf6  (246)  :     2 times  ##
 
 ============================================================
   BYTE just AFTER region end  (top 20)
 ============================================================
-  0x10  ( 16)  :     9 times  #########
-  0xf1  (241)  :     9 times  #########
+  0x10  ( 16)  :     8 times  ########
+  0xf1  (241)  :     8 times  ########
   0xcf  (207)  :     6 times  ######
   0xdf  (223)  :     4 times  ####
   0x20  ( 32)  :     4 times  ####
   0xd3  (211)  :     3 times  ###
-  0xc2  (194)  :     3 times  ###
-  0x7e  (126)  :     3 times  ###
-  0xe2  (226)  :     3 times  ###
   0x0e  ( 14)  :     3 times  ###
   0x01  (  1)  :     3 times  ###
   0xf8  (248)  :     3 times  ###
   0x48  ( 72)  :     3 times  ###
   0x04  (  4)  :     2 times  ##
-  0x7f  (127)  :     2 times  ##
+  0x7e  (126)  :     2 times  ##
   0x46  ( 70)  :     2 times  ##
   0x51  ( 81)  :     2 times  ##
-  0x21  ( 33)  :     2 times  ##
+  0x00  (  0)  :     2 times  ##
   0xfb  (251)  :     2 times  ##
   0x0a  ( 10)  :     2 times  ##
+  0x68  (104)  :     2 times  ##
+  0x2c  ( 44)  :     2 times  ##
+  0x80  (128)  :     2 times  ##
 
 ============================================================
   ALIGNMENT & LENGTH ANALYSIS
 ============================================================
-  Alignment to 2: starts=51/115 (44%)  ends=61/115 (53%)  lengths=43/115 (37%)
-  Alignment to 4: starts=19/115 (17%)  ends=30/115 (26%)  lengths=23/115 (20%)
+  Alignment to 2: starts=48/103 (47%)  ends=53/103 (51%)  lengths=40/103 (39%)
+  Alignment to 4: starts=18/103 (17%)  ends=28/103 (27%)  lengths=22/103 (21%)
 
   Region length stats:
-    min=24  max=1525  mean=164.6  median=87.0
+    min=24  max=1525  mean=163.0  median=93.0
 
   Length mod distribution (instruction width hint):
-    mod 2: {0: 43, 1: 72}
-    mod 3: {0: 46, 1: 42, 2: 27}
-    mod 4: {0: 23, 1: 36, 2: 20, 3: 36}
+    mod 2: {0: 40, 1: 63}
+    mod 3: {0: 41, 1: 38, 2: 24}
+    mod 4: {0: 22, 1: 33, 2: 18, 3: 30}
 
 ===========================================================================
   CROSS-DEVICE EXACT PATTERN MATCHES (prologue zones)
@@ -547,7 +547,7 @@
   22 2b a2 22 29 82 52 14         2  devs=['DUE6002', 'DUE8000']
                                     DUE6002/DUE6002-D.3.2.6@0x0f0c6, DUE8000/DUE8000-D.4.5.1@0x1039c
   2b a2 22 29 82 52 14 00         2  devs=['DUE6002', 'DUE8000']
-                                    DUE6002/DUE6002-D.3.2.6@0x0f0c6, DUE8000/DUE8000-D.4.5.1@0x1039c end of number 1
+                                    DUE6002/DUE6002-D.3.2.6@0x0f0c6, DUE8000/DUE8000-D.4.5.1@0x1039c
   b2 02 2e 2e d1 e4 b2 01         2  devs=['DUE5000', 'DUE6100']
                                     DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE6100/DUE6100-D.4.3.1@0x06457
   02 2e 2e d1 e4 b2 01 2c         2  devs=['DUE5000', 'DUE6100']
@@ -565,15 +565,15 @@
   01 2c 02 d0 e4 b2 02 2c         2  devs=['DUE5000', 'DUE6100']
                                     DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE6100/DUE6100-D.4.3.1@0x06457
   2c 02 d0 e4 b2 02 2c 28         2  devs=['DUE5000', 'DUE6100']
-                                    DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE6100/DUE6100-D.4.3.1@0x06457 end of number 2
+                                    DUE5000/DUE5000-D.4.1.0@0x06e2b, DUE6100/DUE6100-D.4.3.1@0x06457
   2b 00 20 38 b5 05 00 0c         2  devs=['DUE5000', 'DUE6100']
-                                    DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.4.0@0x0bfe9 end of 3
+                                    DUE5000/DUE5000-D.4.1.0@0x0c285, DUE6100/DUE6100-D.4.4.0@0x0bfe9
   00 20 30 b5 83 b0 05 00         2  devs=['DUE5000', 'DUE6100']
                                     DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.4.0@0x08a85
   20 30 b5 83 b0 05 00 00         2  devs=['DUE5000', 'DUE6100']
                                     DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.4.0@0x08a85
   30 b5 83 b0 05 00 00 24         2  devs=['DUE5000', 'DUE6100']
-                                    DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.4.0@0x08a85 
+                                    DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.4.0@0x08a85
   b5 83 b0 05 00 00 24 08         2  devs=['DUE5000', 'DUE6100']
                                     DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.4.0@0x08a85
   83 b0 05 00 00 24 08 22         2  devs=['DUE5000', 'DUE6100']
@@ -583,19 +583,19 @@
   05 00 00 24 08 22 ff 21         2  devs=['DUE5000', 'DUE6100']
                                     DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.4.0@0x08a85
   00 00 24 08 22 ff 21 68         2  devs=['DUE5000', 'DUE6100']
-                                    DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.4.0@0x08a85 end of 4
+                                    DUE5000/DUE5000-D.4.1.0@0x08b7d, DUE6100/DUE6100-D.4.4.0@0x08a85
   46 00 28 04 d4 49 42 00         2  devs=['DUE5000', 'DUE6100']
                                     DUE5000/DUE5000-D.4.0.3@0x18147, DUE6100/DUE6100-D.4.3.1@0x17ebb
   00 28 04 d4 49 42 00 f0         2  devs=['DUE5000', 'DUE6100']
                                     DUE5000/DUE5000-D.4.0.3@0x18147, DUE6100/DUE6100-D.4.3.1@0x17ebb
   28 04 d4 49 42 00 f0 13         2  devs=['DUE5000', 'DUE6100']
-                                    DUE5000/DUE5000-D.4.0.3@0x18147, DUE6100/DUE6100-D.4.3.1@0x17ebb end of number 5
+                                    DUE5000/DUE5000-D.4.0.3@0x18147, DUE6100/DUE6100-D.4.3.1@0x17ebb
 
 ============================================================
   BYTE ENTROPY ANALYSIS
 ============================================================
-  Prologue zones: 1840 bytes, Shannon entropy = 7.391 bits/byte
-  Epilogue zones: 1840 bytes, Shannon entropy = 7.241 bits/byte
-  Pre-context: 3680 bytes, Shannon entropy = 7.300 bits/byte
-  Post-context: 3680 bytes, Shannon entropy = 7.386 bits/byte
+  Prologue zones: 1648 bytes, Shannon entropy = 7.392 bits/byte
+  Epilogue zones: 1648 bytes, Shannon entropy = 7.187 bits/byte
+  Pre-context: 3296 bytes, Shannon entropy = 7.269 bits/byte
+  Post-context: 3296 bytes, Shannon entropy = 7.362 bits/byte
     (random=8.0, English≈4.5, code≈5-7, compressed≈7.5+)

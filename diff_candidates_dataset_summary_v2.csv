@@ -1,0 +1,149 @@
+device,base_file,new_file,base_version,new_version,kind,strength,side,start,end,len,note
+DUE6001,DUE6001-D.2.8.2.dat,DUE6001-D.2.8.4.dat,2.8.2,2.8.4,insertion,strong,new,6301,6352,51,insertion into 2.8.4 is a strong candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.2.dat,DUE6001-D.2.8.4.dat,2.8.2,2.8.4,deletion,strong,base,21231,21305,74,deletion from 2.8.2 is a strong candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.2.dat,DUE6001-D.2.8.4.dat,2.8.2,2.8.4,roi,roi,,29426,29499,73,Is a region of interest
+DUE6001,DUE6001-D.2.8.2.dat,DUE6001-D.2.8.4.dat,2.8.2,2.8.4,insertion,weaker,new,35229,35268,39,insertion into 2.8.4 is a weaker candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,roi,roi,base,6488,6557,69,in 2.8.4 is a region of interest
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,candidate,new,24623,24671,48,insertion to 2.8.7 is a candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,deletion,weaker,base,26700,26758,58,deletion from 2.8.4 is a weaker candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,deletion,roi,new,27297,27383,86,deletion from 2.8.7 paired with 27058 -> 27132 insertion to 2.8.7 is a region of interest
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,roi,new,27058,27132,74,paired region of interest
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,candidate,new,27326,27459,133,insertion to 2.8.7 is a candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,strong,new,29359,29422,63,insertion to 2.8.7 is a strong candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,strong,new,34928,35090,162,inseriton to 2.8.7 is a strong candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,deletion,strong,base,35270,36795,1525,deletion from 2.8.4 is a strong candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,candidate,new,41734,41858,124,insertion to 2.8.7 is a candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,strong,new,44551,44655,104,insertion to 2.8.7 is a strong candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,strong,new,45342,45418,76,insertion to 2.8.7 is a strong candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,strong,new,45630,45775,145,insertion to 2.8.7 is a strong candidate subroutine boundary
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,roi,roi,base,49295,49322,27,in 2.8.4 share a striking similarity (one of three)
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,roi,roi,base,49405,49432,27,in 2.8.4 share a striking similarity (two of three)
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,roi,roi,base,49515,49542,27,in 2.8.4 share a striking similarity (three of three)
+DUE6001,DUE6001-D.2.8.4.dat,DUE6001-D.2.8.7.dat,2.8.4,2.8.7,insertion,roi,new,49945,51464,1519,huge addition (~6 bit entropy) perhaps big chunk of code added
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,insertion,candidate,new,4534,4895,361,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,deletion,candidate,base,5094,5344,250,""deletion is a candidate subroutine boundary. Ends in 
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,deletion,candidate,base,5421,5642,221,""deletion is a candidate subroutine boundary. Starts and ends 
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,insertion,candidate,new,6072,6300,228,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,insertion,candidate,new,6899,7099,200,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,insertion,candidate,new,7184,7411,227,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,insertion,roi,new,8271,9346,1075,large region of code insertion/many subroutines
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,deletion,candidate,base,20103,20996,893,deletion is a candidate subroutine boundary
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,deletion,candidate,base,21762,21801,39,""Starts with 
+DUE6001,DUE6001-D.2.9.3.dat,DUE6001-D.3.0.2.dat,2.9.3,3.0.2,insertion,candidate,new,45264,45323,59,""Start with 
+DUE6001,DUE6001-D.3.1.0.dat,DUE6001-D.3.2.5.dat,3.1.0,3.2.5,insertion,candidate,new,48006,48068,62,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.2.6.dat,DUE6001-D.3.3.3.dat,3.2.6,3.3.3,insertion,candidate,new,49390,49537,147,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.2.6.dat,DUE6001-D.3.3.3.dat,3.2.6,3.3.3,insertion,candidate,new,50502,50607,105,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,deletion,candidate,base,29642,29707,65,deletion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,deletion,candidate,base,29975,30195,220,deletion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,deletion,candidate,base,32949,33013,64,deletion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,deletion,candidate,base,33086,33158,72,deletion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,deletion,candidate,base,35968,36017,49,deletion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,deletion,candidate,base,37704,37791,87,deletion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,deletion,candidate,base,38561,39178,617,perhaps until 39239
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,insertion,candidate,new,47572,47971,399,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,insertion,candidate,new,48431,48732,301,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,insertion,candidate,new,49405,49655,250,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,insertion,candidate,new,50513,50566,53,""Ends in d
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,insertion,candidate,new,50637,50673,36,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,insertion,candidate,new,52170,52239,69,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,insertion,candidate,new,52266,52417,151,insertion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.4.1.dat,DUE6001-D.3.4.4.dat,3.4.1,3.4.4,deletion,candidate,base,52168,52237,69,deletion is a candidate subroutine boundary
+DUE6001,DUE6001-D.3.4.1.dat,DUE6001-D.3.4.4.dat,3.4.1,3.4.4,insertion,candidate,new,47710,47737,27,""Ends in df
+DUE6001,DUE6001-D.3.4.1.dat,DUE6001-D.3.4.4.dat,3.4.1,3.4.4,insertion,candidate,new,48017,48057,40,insertion is a candidate subroutine boundary
+DUE6002,DUE6002 3.1.9.dat,DUE6002 3.2.6.dat,3.1.9,3.2.6,deletion,candidate,base,47695,47962,267,deletion into 3.2.6 is a candidate subroutine boundary
+DUE6002,DUE6002 3.1.9.dat,DUE6002 3.2.6.dat,3.1.9,3.2.6,insertion,candidate,new,56903,57124,221,insertion to 3.2.6 is a candidate subroutine boundary
+DUE6002,DUE6002 3.1.9.dat,DUE6002 3.2.6.dat,3.1.9,3.2.6,insertion,candidate,new,61638,61707,69,insertion to 3.2.6 is a candidate subroutine boundary
+DUE6002,DUE6002 3.2.6.dat,DUE6002 3.3.0.dat,3.2.6,3.3.0,insertion,candidate,new,61573,61716,143,candidate subroutine boundary (direction not specified) (interpreted as insertion into new version)
+DUE6002,DUE6002 3.3.0.dat,DUE6002 3.4.0.dat,3.3.0,3.4.0,insertion,candidate,new,28190,28238,48,insertion to 3.4.0
+DUE6002,DUE6002 3.3.0.dat,DUE6002 3.4.0.dat,3.3.0,3.4.0,insertion,candidate,new,39959,40281,322,insertion to 3.4.0
+SCE6010,SCE6010-D.3.0.5.dat,SCE6010-D.3.1.3.dat,3.0.5,3.1.3,insertion,strong,new,4257,4354,97,insertion to 3.1.3 is a strong candidate subroutine boundary
+SCE6010,SCE6010-D.3.0.5.dat,SCE6010-D.3.1.3.dat,3.0.5,3.1.3,insertion,strong,new,23283,23568,285,insertion to 3.1.3 is a strong candidate subroutine boundary
+SCE6010,SCE6010-D.3.0.5.dat,SCE6010-D.3.1.3.dat,3.0.5,3.1.3,insertion,candidate,new,24681,24756,75,insertion to 3.1.3 is a candidate subroutine boundary
+SCE6010,SCE6010-D.3.0.5.dat,SCE6010-D.3.1.3.dat,3.0.5,3.1.3,insertion,candidate,new,28983,29073,90,insertion to 3.1.3 is a candidate subroutine boundary
+SCE6010,SCE6010-D.3.1.3.dat,SCE6010-D.3.2.0.dat,3.1.3,3.2.0,insertion,candidate,new,18167,18244,77,insertion to 3.2.0 is candidate subroutine boundary
+SCE6010,SCE6010-D.3.1.3.dat,SCE6010-D.3.2.0.dat,3.1.3,3.2.0,insertion,strong,new,32809,32925,116,insertion to 3.2.0 is a strong candidate subroutine boundary
+DUE6100,DUE6100-D.4.1.1.dat,DUE6100-D.4.2.0.dat,4.1.1,4.2.0,insertion,candidate,new,38042,38109,67,Ln 38042 38109 (67 bytes) (default insertion into higher version)
+DUE6100,DUE6100-D.4.2.0.dat,DUE6100-D.4.3.1.dat,4.2.0,4.3.1,insertion,candidate,new,14521,14588,67,Ln 14521  14588 (67 bytes) (default insertion into higher version)
+DUE6100,DUE6100-D.4.2.0.dat,DUE6100-D.4.3.1.dat,4.2.0,4.3.1,insertion,candidate,new,25687,25786,99,Ln 25687  25786 (99 bytes) (default insertion into higher version)
+DUE6100,DUE6100-D.4.2.0.dat,DUE6100-D.4.3.1.dat,4.2.0,4.3.1,insertion,candidate,new,40869,40962,93,Ln 40869  40962 (93 bytes) (default insertion into higher version)
+DUE6100,DUE6100-D.4.2.0.dat,DUE6100-D.4.3.1.dat,4.2.0,4.3.1,insertion,candidate,new,69031,69119,88,Ln 69031  69119 (88 bytes) (default insertion into higher version)
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,insertion,weaker,new,15898,15945,47,Ln 15898  15945 is a weaker candidate
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,insertion,weak,new,15577,15608,31,Weak candidate
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,insertion,weak,new,45563,45612,49,Weak candidate
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,insertion,weak,new,49141,49213,72,Weak candidate
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,insertion,strong,new,8821,10375,1554,Strong candidate (probably multiple subroutines)
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,insertion,strong,new,35461,35566,105,Strong candidate
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,insertion,strong,new,72057,72907,850,Strong candidate (probably multiple subroutines)
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,insertion,strong,new,74681,76717,2036,Strong candidate (probably multiple subroutines)
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,deletion,strong,base,97979,98202,223,looks like a deleted subroutine on 4.3.1 (almost guaranteed) (bytes in lower version)
+DUE6100,DUE6100-D.4.3.1.dat,DUE6100-D.4.4.0.dat,4.3.1,4.4.0,deletion,strong,base,104273,104364,91,very strong candidate for a deleted subroutine on 4.3.1 (bytes in lower version)
+DUE8000,DUE8000-D.4.0.0.dat,DUE8000-D.4.0.1.dat,4.0.0,4.0.1,insertion,roi,new,28842,29857,1015,""DUE8000-D.4.0.0: Ln [28842
+DUE8000,DUE8000-D.4.0.0.dat,DUE8000-D.4.0.1.dat,4.0.0,4.0.1,insertion,roi,new,28854,29915,1061,""DUE800-D.4.0.1: Ln [28854
+DUE8000,DUE8000-D.4.0.0.dat,DUE8000-D.4.0.1.dat,4.0.0,4.0.1,insertion,roi,new,46063,47449,1386,""DUE8000-D.4.0.0: Ln [46063
+DUE8000,DUE8000-D.4.0.0.dat,DUE8000-D.4.0.1.dat,4.0.0,4.0.1,insertion,roi,new,46141,47587,1446,""DUE800-D.4.0.1: Ln [46141
+DUE8000,DUE8000-D.4.0.0.dat,DUE8000-D.4.0.1.dat,4.0.0,4.0.1,insertion,roi,new,56677,56850,173,""DUE8000-D.4.0.0: Ln [
+DUE8000,DUE8000-D.4.0.0.dat,DUE8000-D.4.0.1.dat,4.0.0,4.0.1,insertion,roi,new,56836,57010,174,""DUE800-D.4.0.1: Ln [
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,53016,53516,500,""[5301
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,51289,51338,49,""[51289
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,49068,49684,616,""[49068
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,45996,46084,88,""[45996
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,45535,45882,347,""[45535
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,45367,45430,63,""[4536
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,44826,44988,162,""[44826
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,39614,39763,149,""[39614
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,31602,31845,243,""[31602
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,27821,27878,57,""[27821
+DUE8000,DUE8000-D.4.0.1.dat,DUE8000-D.4.1.0.dat,4.0.1,4.1.0,insertion,roi,new,6065,6192,127,""[6065
+DUE8000,DUE8000-D.4.1.2.dat,DUE8000-D.4.2.7.dat,4.1.2,4.2.7,insertion,roi,new,49270,49312,42,""[49270
+DUE8000,DUE8000-D.4.1.2.dat,DUE8000-D.4.2.7.dat,4.1.2,4.2.7,insertion,roi,new,48276,48364,88,""[48276
+DUE8000,DUE8000-D.4.1.2.dat,DUE8000-D.4.2.7.dat,4.1.2,4.2.7,insertion,strong,new,44536,44646,110,""[44536
+DUE8000,DUE8000-D.4.1.2.dat,DUE8000-D.4.2.7.dat,4.1.2,4.2.7,insertion,roi,new,44204,44252,48,""[44204
+DUE8000,DUE8000-D.4.1.2.dat,DUE8000-D.4.2.7.dat,4.1.2,4.2.7,insertion,roi,new,12328,12375,47,""[12328
+DUE8000,DUE8000-D.4.3.2.dat,DUE8000-D.4.3.4.dat,4.3.2,4.3.4,insertion,roi,new,26775,26857,82,""[26775
+DUE8000,DUE8000-D.4.3.2.dat,DUE8000-D.4.3.4.dat,4.3.2,4.3.4,insertion,roi,new,43634,43812,178,""[43
+DUE8000,DUE8000-D.4.3.4.dat,DUE8000-D.4.4.1.dat,4.3.4,4.4.1,insertion,roi,new,43945,44467,522,""[43945
+DUE8000,DUE8000-D.4.3.4.dat,DUE8000-D.4.4.1.dat,4.3.4,4.4.1,insertion,roi,new,48764,48836,72,""[4876
+DUE8000,DUE8000-D.4.3.4.dat,DUE8000-D.4.4.1.dat,4.3.4,4.4.1,insertion,roi,new,63126,63232,106,""[63126
+DUE8000,DUE8000-D.4.4.1.dat,DUE8000-D.4.4.5.dat,4.4.1,4.4.5,insertion,roi,new,63123,63559,436,""[6312
+DUE8000,DUE8000-D.4.4.5.dat,DUE8000-D.4.5.1.dat,4.4.5,4.5.1,insertion,roi,new,13657,13793,136,""[1365
+DUE8000,DUE8000-D.4.4.5.dat,DUE8000-D.4.5.1.dat,4.4.5,4.5.1,insertion,roi,new,31621,32070,449,""[31621
+DUE8000,DUE8000-D.4.4.5.dat,DUE8000-D.4.5.1.dat,4.4.5,4.5.1,insertion,roi,new,32508,32610,102,""[32508
+DUE8000,DUE8000-D.4.4.5.dat,DUE8000-D.4.5.1.dat,4.4.5,4.5.1,insertion,roi,new,37905,38733,828,""[37905
+DUE8000,DUE8000-D.4.4.5.dat,DUE8000-D.4.5.1.dat,4.4.5,4.5.1,insertion,roi,new,66460,66529,69,""[66460
+DUE8000,DUE8000-D.4.5.1.dat,DUE8000-D.4.6.0.dat,4.5.1,4.6.0,insertion,roi,new,8874,8951,77,""[88
+DUE8000,DUE8000-D.4.5.1.dat,DUE8000-D.4.6.0.dat,4.5.1,4.6.0,insertion,roi,new,9498,9743,245,""[9498
+DUE8000,DUE8000-D.4.5.1.dat,DUE8000-D.4.6.0.dat,4.5.1,4.6.0,insertion,roi,new,14698,15069,371,""[146
+DUE8000,DUE8000-D.4.5.1.dat,DUE8000-D.4.6.0.dat,4.5.1,4.6.0,insertion,roi,new,17409,17503,94,""[1740
+DUE8000,DUE8000-D.4.5.1.dat,DUE8000-D.4.6.0.dat,4.5.1,4.6.0,insertion,roi,new,18331,18411,80,""[1833
+DUE8000,DUE8000-D.4.5.1.dat,DUE8000-D.4.6.0.dat,4.5.1,4.6.0,insertion,roi,new,34424,34980,556,""[3442
+DUE8000,DUE8000-D.4.5.1.dat,DUE8000-D.4.6.0.dat,4.5.1,4.6.0,insertion,roi,new,47278,47359,81,""[47278
+DUE8000,DUE8000-D.4.5.1.dat,DUE8000-D.4.6.0.dat,4.5.1,4.6.0,insertion,roi,new,47563,47667,104,""[475
+DUE8000,DUE8000-D.4.5.1.dat,DUE8000-D.4.6.0.dat,4.5.1,4.6.0,insertion,roi,new,64150,64236,86,""[64150
+DUE8000,DUE8000-D.4.6.0.dat,DUE8000-D.4.6.1.dat,4.6.0,4.6.1,insertion,roi,new,33220,33345,125,""[33220
+DUE8000,DUE8000-D.4.6.0.dat,DUE8000-D.4.6.1.dat,4.6.0,4.6.1,insertion,roi,new,62186,62224,38,""[62186
+DUE8000,DUE8000-D.4.6.0.dat,DUE8000-D.4.6.1.dat,4.6.0,4.6.1,insertion,roi,new,63206,63480,274,""[63
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,4237,4769,532,""[423
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,31883,31946,63,""[31883
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,33893,33970,77,""[3389
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,34321,34379,58,""[343
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,35182,35296,114,""[3518)"""
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,36441,36519,78,""[364
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,39138,39216,78,""[39
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,40413,40652,239,""[4041
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,41249,41313,64,""[4124
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,42769,42841,72,""[42769
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,45297,45619,322,""[4529
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,56920,57004,84,""[56920
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,58172,58211,39,""[5817
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,59407,59458,51,""[59407
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,64517,64678,161,""[64517
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,65236,65269,33,""[65236
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,65567,65606,39,""[65567
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,deletion,roi,base,40052,40101,49,""[40052
+DUE8000,DUE8000-D.4.6.1.dat,DUE8000-D.4.7.0.dat,4.6.1,4.7.0,insertion,roi,new,50190,50239,49,""[5019
+DUE5000,DUE5000-D.4.0.3.dat,DUE5000-D.4.1.0.dat,4.0.3,4.1.0,insertion,weak,new,28203,28302,99,""Insertion: Ln 28203 � 28302 (99 bytes) - Weak. """
+DUE5000,DUE5000-D.4.0.3.dat,DUE5000-D.4.1.0.dat,4.0.3,4.1.0,insertion,weak,new,35709,35824,115,""Insertion: Ln 35709 � 35824 (115 bytes) - Weak """
+DUE5000,DUE5000-D.4.0.3.dat,DUE5000-D.4.1.0.dat,4.0.3,4.1.0,insertion,weak,new,49797,49936,139,""Insertion: Ln 49797 � 49936 (139 bytes) - Not a contiguous 
+DUE5000,DUE5000-D.4.0.3.dat,DUE5000-D.4.1.0.dat,4.0.3,4.1.0,insertion,strong,new,73483,74358,875,""Insertion: Ln 73483 � 74358 (875 bytes). Strong candidate"""
+DUE5000,DUE5000-D.4.0.3.dat,DUE5000-D.4.1.0.dat,4.0.3,4.1.0,insertion,strong,new,76149,78185,2036,""Insertion: Ln 76149 � 78185 (2036 bytes). Very strong candidate."""
+DUE5000,DUE5000-D.4.0.3.dat,DUE5000-D.4.1.0.dat,4.0.3,4.1.0,deletion,strong,base,98631,98854,223,""Deletion: Ln 98631 � 98854 (223 bytes). Strong candidate"""

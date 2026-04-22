@@ -50,12 +50,12 @@ DUE6001,DUE6001-D.3.3.3.dat,DUE6001-D.3.4.1.dat,3.3.3,3.4.1,insertion,candidate,
 DUE6001,DUE6001-D.3.4.1.dat,DUE6001-D.3.4.4.dat,3.4.1,3.4.4,deletion,candidate,base,52168,52237,69,deletion is a candidate subroutine boundary
 DUE6001,DUE6001-D.3.4.1.dat,DUE6001-D.3.4.4.dat,3.4.1,3.4.4,insertion,candidate,new,47710,47737,27,""Ends in df
 DUE6001,DUE6001-D.3.4.1.dat,DUE6001-D.3.4.4.dat,3.4.1,3.4.4,insertion,candidate,new,48017,48057,40,insertion is a candidate subroutine boundary
-DUE6002,DUE6002 3.1.9.dat,DUE6002 3.2.6.dat,3.1.9,3.2.6,deletion,candidate,base,47695,47962,267,deletion into 3.2.6 is a candidate subroutine boundary
-DUE6002,DUE6002 3.1.9.dat,DUE6002 3.2.6.dat,3.1.9,3.2.6,insertion,candidate,new,56903,57124,221,insertion to 3.2.6 is a candidate subroutine boundary
-DUE6002,DUE6002 3.1.9.dat,DUE6002 3.2.6.dat,3.1.9,3.2.6,insertion,candidate,new,61638,61707,69,insertion to 3.2.6 is a candidate subroutine boundary
-DUE6002,DUE6002 3.2.6.dat,DUE6002 3.3.0.dat,3.2.6,3.3.0,insertion,candidate,new,61573,61716,143,candidate subroutine boundary (direction not specified) (interpreted as insertion into new version)
-DUE6002,DUE6002 3.3.0.dat,DUE6002 3.4.0.dat,3.3.0,3.4.0,insertion,candidate,new,28190,28238,48,insertion to 3.4.0
-DUE6002,DUE6002 3.3.0.dat,DUE6002 3.4.0.dat,3.3.0,3.4.0,insertion,candidate,new,39959,40281,322,insertion to 3.4.0
+DUE6002,DUE6002-D.3.1.9.dat,DUE6002-D.3.2.6.dat,3.1.9,3.2.6,deletion,candidate,base,47695,47962,267,deletion into 3.2.6 is a candidate subroutine boundary
+DUE6002,DUE6002-D.3.1.9.dat,DUE6002-D.3.2.6.dat,3.1.9,3.2.6,insertion,candidate,new,56903,57124,221,insertion to 3.2.6 is a candidate subroutine boundary
+DUE6002,DUE6002-D.3.1.9.dat,DUE6002-D.3.2.6.dat,3.1.9,3.2.6,insertion,candidate,new,61638,61707,69,insertion to 3.2.6 is a candidate subroutine boundary
+DUE6002,DUE6002-D.3.2.6.dat,DUE6002-D.3.3.0.dat,3.2.6,3.3.0,insertion,candidate,new,61573,61716,143,candidate subroutine boundary (direction not specified) (interpreted as insertion into new version)
+DUE6002,DUE6002-D.3.3.0.dat,DUE6002-D.3.4.0.dat,3.3.0,3.4.0,insertion,candidate,new,28190,28238,48,insertion to 3.4.0
+DUE6002,DUE6002-D.3.3.0.dat,DUE6002-D.3.4.0.dat,3.3.0,3.4.0,insertion,candidate,new,39959,40281,322,insertion to 3.4.0
 SCE6010,SCE6010-D.3.0.5.dat,SCE6010-D.3.1.3.dat,3.0.5,3.1.3,insertion,strong,new,4257,4354,97,insertion to 3.1.3 is a strong candidate subroutine boundary
 SCE6010,SCE6010-D.3.0.5.dat,SCE6010-D.3.1.3.dat,3.0.5,3.1.3,insertion,strong,new,23283,23568,285,insertion to 3.1.3 is a strong candidate subroutine boundary
 SCE6010,SCE6010-D.3.0.5.dat,SCE6010-D.3.1.3.dat,3.0.5,3.1.3,insertion,candidate,new,24681,24756,75,insertion to 3.1.3 is a candidate subroutine boundary

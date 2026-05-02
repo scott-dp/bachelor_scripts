@@ -2,7 +2,7 @@ import math
 from collections import Counter
 import matplotlib.pyplot as plt
 
-PATH = "../bin/DUE8000/DUE8000-D.4.7.0.dat"   # change if needed
+PATH = "../../bin/SCE6010/SCE6010-D.3.2.0.dat"   # change if needed
 WIN = 2560     # window size
 STEP = 16     # stride
 

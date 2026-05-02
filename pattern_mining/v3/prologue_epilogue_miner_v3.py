@@ -181,42 +181,6 @@ sig("Thumb POP {r4-r7,PC}",
     "pop {r4-r7, pc}",
     "F0 BD")
 
-# ── Patterns found empirically in v2 for Group B ──────────────────────
-# The DF xx F1 epilogue pattern
-sig("DF-F1 epilogue (DF 01 F1)",
-    "OBSERVED: epilogue pattern — likely pop 1 reg + return",
-    "DF 01 F1")
-sig("DF-F1 epilogue (DF 02 F1)",
-    "OBSERVED: epilogue pattern — likely pop 2 regs + return",
-    "DF 02 F1")
-sig("DF-F1 epilogue (DF 03 F1)",
-    "OBSERVED: epilogue pattern — likely pop 3 regs + return",
-    "DF 03 F1")
-sig("DF-F1 epilogue (DF 04 F1)",
-    "OBSERVED: epilogue pattern — likely pop 4 regs + return",
-    "DF 04 F1")
-sig("DF-F1 epilogue (DF 05 F1)",
-    "OBSERVED: epilogue pattern — likely pop 5 regs + return",
-    "DF 05 F1")
-sig("DF-F1 epilogue (DF 06 F1)",
-    "OBSERVED: epilogue pattern — likely pop 6 regs + return",
-    "DF 06 F1")
-sig("DF-F1 generic (DF ?? F1)",
-    "OBSERVED: DF xx F1 generic epilogue",
-    "DF 00 F1", "FF 00 FF")
-
-sig("CF-F1 epilogue (CF ?? F1)",
-    "OBSERVED: CF xx F1 — possibly related epilogue variant",
-    "CF 00 F1", "FF 00 FF")
-
-sig("10 DF pattern",
-    "OBSERVED: 10 DF — very frequent at boundaries, possible return or branch",
-    "10 DF")
-
-sig("F1 as standalone",
-    "OBSERVED: F1 at end of epilogue — possible RET opcode",
-    "F1")
-
 # ── Renesas RL78 (refined, relevant to Group B) ──────────────────────
 sig("RL78 PUSH AX",       "push ax", "C1")
 sig("RL78 PUSH BC",       "push bc", "C5")

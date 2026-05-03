@@ -13,533 +13,533 @@
   "meta": {
     "2DUE6002": {
       "num_files_used": 2,
-      "offset": 6003,
+      "offset": 6001,
       "block_bytes": 2048,
       "min_ratio": 0.9,
       "files": [
         {
-          "kept_blocks": 16,
+          "kept_blocks": 4,
           "total_blocks": 28,
-          "kept_bytes": 32768,
-          "total_bytes": 56122,
-          "kept_fraction": 0.5838708527850041,
+          "kept_bytes": 8192,
+          "total_bytes": 56124,
+          "kept_fraction": 0.14596251158149812,
           "file": "2DUE6002-D.3.3.0.dat"
         },
         {
-          "kept_blocks": 21,
+          "kept_blocks": 4,
           "total_blocks": 35,
-          "kept_bytes": 42818,
-          "total_bytes": 71490,
-          "kept_fraction": 0.5989369142537417,
+          "kept_bytes": 8192,
+          "total_bytes": 71492,
+          "kept_fraction": 0.11458624741229788,
           "file": "2DUE6002-D.3.4.0.dat"
         }
       ],
-      "total_kept_bytes": 75586,
-      "total_bytes": 127612
+      "total_kept_bytes": 16384,
+      "total_bytes": 127616
     },
     "2DUE8000": {
       "num_files_used": 7,
-      "offset": 6003,
+      "offset": 6001,
       "block_bytes": 2048,
       "min_ratio": 0.9,
       "files": [
         {
-          "kept_blocks": 12,
+          "kept_blocks": 3,
           "total_blocks": 29,
-          "kept_bytes": 24576,
-          "total_bytes": 57576,
-          "kept_fraction": 0.4268445185493956,
+          "kept_bytes": 6144,
+          "total_bytes": 57578,
+          "kept_fraction": 0.10670742297405258,
           "file": "2DUE8000-D.4.4.1.dat"
         },
         {
-          "kept_blocks": 14,
+          "kept_blocks": 4,
           "total_blocks": 29,
-          "kept_bytes": 28672,
-          "total_bytes": 57642,
-          "kept_fraction": 0.49741507928246764,
+          "kept_bytes": 8192,
+          "total_bytes": 57644,
+          "kept_fraction": 0.14211366317396434,
           "file": "2DUE8000-D.4.4.5.dat"
         },
         {
-          "kept_blocks": 21,
+          "kept_blocks": 5,
           "total_blocks": 30,
-          "kept_bytes": 43008,
-          "total_bytes": 60692,
-          "kept_fraction": 0.7086271666776511,
+          "kept_bytes": 10240,
+          "total_bytes": 60694,
+          "kept_fraction": 0.1687151942531387,
           "file": "2DUE8000-D.4.5.1.dat"
         },
         {
-          "kept_blocks": 24,
+          "kept_blocks": 4,
           "total_blocks": 31,
-          "kept_bytes": 49152,
-          "total_bytes": 62664,
-          "kept_fraction": 0.7843738031405592,
+          "kept_bytes": 8192,
+          "total_bytes": 62666,
+          "kept_fraction": 0.13072479494462708,
           "file": "2DUE8000-D.4.6.0.dat"
         },
         {
-          "kept_blocks": 22,
+          "kept_blocks": 5,
           "total_blocks": 31,
-          "kept_bytes": 45056,
-          "total_bytes": 62818,
-          "kept_fraction": 0.7172466490496354,
+          "kept_bytes": 10240,
+          "total_bytes": 62820,
+          "kept_fraction": 0.16300541228907992,
           "file": "2DUE8000-D.4.6.1.dat"
         },
         {
-          "kept_blocks": 22,
+          "kept_blocks": 6,
           "total_blocks": 39,
-          "kept_bytes": 45056,
-          "total_bytes": 78722,
-          "kept_fraction": 0.5723431823378471,
+          "kept_bytes": 12288,
+          "total_bytes": 78724,
+          "kept_fraction": 0.15608962959199227,
           "file": "2DUE8000-D.4.7.0.dat"
         },
         {
-          "kept_blocks": 17,
+          "kept_blocks": 4,
           "total_blocks": 29,
-          "kept_bytes": 34816,
-          "total_bytes": 57906,
-          "kept_fraction": 0.6012503022139329,
+          "kept_bytes": 8192,
+          "total_bytes": 57908,
+          "kept_fraction": 0.14146577329557228,
           "file": "2DUE8000-D.5.8.8.dat"
         }
       ],
-      "total_kept_bytes": 270336,
-      "total_bytes": 438020
+      "total_kept_bytes": 63488,
+      "total_bytes": 438034
     },
     "2SCE6010": {
       "num_files_used": 3,
-      "offset": 6003,
+      "offset": 6001,
       "block_bytes": 2048,
       "min_ratio": 0.9,
       "files": [
         {
-          "kept_blocks": 9,
+          "kept_blocks": 6,
           "total_blocks": 14,
-          "kept_bytes": 18432,
-          "total_bytes": 26642,
-          "kept_fraction": 0.6918399519555589,
+          "kept_bytes": 10260,
+          "total_bytes": 26644,
+          "kept_fraction": 0.3850773157183606,
           "file": "2SCE6010-D.3.0.5.dat"
         },
         {
-          "kept_blocks": 9,
+          "kept_blocks": 2,
           "total_blocks": 14,
-          "kept_bytes": 18340,
-          "total_bytes": 28580,
-          "kept_fraction": 0.6417074877536739,
+          "kept_bytes": 4096,
+          "total_bytes": 28582,
+          "kept_fraction": 0.14330697641872508,
           "file": "2SCE6010-D.3.1.3.dat"
         },
         {
-          "kept_blocks": 11,
+          "kept_blocks": 4,
           "total_blocks": 15,
-          "kept_bytes": 20768,
-          "total_bytes": 28960,
-          "kept_fraction": 0.7171270718232045,
+          "kept_bytes": 8192,
+          "total_bytes": 28962,
+          "kept_fraction": 0.28285339410261723,
           "file": "2SCE6010-D.3.2.0.dat"
         }
       ],
-      "total_kept_bytes": 57540,
-      "total_bytes": 84182
+      "total_kept_bytes": 22548,
+      "total_bytes": 84188
     },
     "DUE5000": {
       "num_files_used": 2,
-      "offset": 6003,
+      "offset": 6001,
       "block_bytes": 2048,
       "min_ratio": 0.9,
       "files": [
         {
-          "kept_blocks": 55,
+          "kept_blocks": 35,
           "total_blocks": 60,
-          "kept_bytes": 112412,
-          "total_bytes": 122652,
-          "kept_fraction": 0.9165117568404918,
+          "kept_bytes": 71454,
+          "total_bytes": 122654,
+          "kept_fraction": 0.5825655910121154,
           "file": "DUE5000-D.4.0.3.dat"
         },
         {
-          "kept_blocks": 58,
+          "kept_blocks": 31,
           "total_blocks": 64,
-          "kept_bytes": 118784,
-          "total_bytes": 129048,
-          "kept_fraction": 0.9204637034281817,
+          "kept_bytes": 63488,
+          "total_bytes": 129050,
+          "kept_fraction": 0.4919643549012011,
           "file": "DUE5000-D.4.1.0.dat"
         }
       ],
-      "total_kept_bytes": 231196,
-      "total_bytes": 251700
+      "total_kept_bytes": 134942,
+      "total_bytes": 251704
     },
     "DUE6001": {
       "num_files_used": 13,
-      "offset": 6003,
+      "offset": 6001,
       "block_bytes": 2048,
       "min_ratio": 0.9,
       "files": [
         {
-          "kept_blocks": 13,
+          "kept_blocks": 3,
           "total_blocks": 22,
-          "kept_bytes": 26520,
-          "total_bytes": 44952,
-          "kept_fraction": 0.589962626801922,
+          "kept_bytes": 6144,
+          "total_bytes": 44954,
+          "kept_fraction": 0.13667304355563464,
           "file": "DUE6001-D.2.8.2.dat"
         },
         {
-          "kept_blocks": 10,
+          "kept_blocks": 5,
           "total_blocks": 22,
-          "kept_bytes": 20372,
-          "total_bytes": 44948,
-          "kept_fraction": 0.45323484915902823,
+          "kept_bytes": 10240,
+          "total_bytes": 44950,
+          "kept_fraction": 0.2278086763070078,
           "file": "DUE6001-D.2.8.4.dat"
         },
         {
-          "kept_blocks": 15,
+          "kept_blocks": 3,
           "total_blocks": 23,
-          "kept_bytes": 30720,
-          "total_bytes": 45800,
-          "kept_fraction": 0.6707423580786026,
+          "kept_bytes": 6144,
+          "total_bytes": 45802,
+          "kept_fraction": 0.13414261385965678,
           "file": "DUE6001-D.2.8.7.dat"
         },
         {
-          "kept_blocks": 15,
+          "kept_blocks": 3,
           "total_blocks": 23,
-          "kept_bytes": 30720,
-          "total_bytes": 45800,
-          "kept_fraction": 0.6707423580786026,
+          "kept_bytes": 6144,
+          "total_bytes": 45802,
+          "kept_fraction": 0.13414261385965678,
           "file": "DUE6001-D.2.8.8.dat"
         },
         {
-          "kept_blocks": 15,
+          "kept_blocks": 3,
           "total_blocks": 23,
-          "kept_bytes": 30720,
-          "total_bytes": 45800,
-          "kept_fraction": 0.6707423580786026,
+          "kept_bytes": 6144,
+          "total_bytes": 45802,
+          "kept_fraction": 0.13414261385965678,
           "file": "DUE6001-D.2.9.3.dat"
         },
         {
-          "kept_blocks": 15,
+          "kept_blocks": 3,
           "total_blocks": 23,
-          "kept_bytes": 30720,
-          "total_bytes": 46552,
-          "kept_fraction": 0.6599072005499227,
+          "kept_bytes": 6144,
+          "total_bytes": 46554,
+          "kept_fraction": 0.1319757700734631,
           "file": "DUE6001-D.3.0.2.dat"
         },
         {
-          "kept_blocks": 15,
+          "kept_blocks": 3,
           "total_blocks": 23,
-          "kept_bytes": 30720,
-          "total_bytes": 46552,
-          "kept_fraction": 0.6599072005499227,
+          "kept_bytes": 6144,
+          "total_bytes": 46554,
+          "kept_fraction": 0.1319757700734631,
           "file": "DUE6001-D.3.1.0.dat"
         },
         {
-          "kept_blocks": 17,
+          "kept_blocks": 2,
           "total_blocks": 23,
-          "kept_bytes": 34556,
-          "total_bytes": 46844,
-          "kept_fraction": 0.7376825207070276,
+          "kept_bytes": 4096,
+          "total_bytes": 46846,
+          "kept_fraction": 0.08743542671732912,
           "file": "DUE6001-D.3.2.5.dat"
         },
         {
-          "kept_blocks": 17,
+          "kept_blocks": 2,
           "total_blocks": 23,
-          "kept_bytes": 34552,
-          "total_bytes": 46840,
-          "kept_fraction": 0.7376601195559351,
+          "kept_bytes": 4096,
+          "total_bytes": 46842,
+          "kept_fraction": 0.08744289313009693,
           "file": "DUE6001-D.3.2.6.dat"
         },
         {
-          "kept_blocks": 18,
+          "kept_blocks": 2,
           "total_blocks": 24,
-          "kept_bytes": 34876,
-          "total_bytes": 47164,
-          "kept_fraction": 0.7394623017555763,
+          "kept_bytes": 4096,
+          "total_bytes": 47166,
+          "kept_fraction": 0.08684221685112158,
           "file": "DUE6001-D.3.3.3.dat"
         },
         {
-          "kept_blocks": 16,
+          "kept_blocks": 3,
           "total_blocks": 23,
-          "kept_bytes": 32768,
-          "total_bytes": 46500,
-          "kept_fraction": 0.7046881720430107,
+          "kept_bytes": 6144,
+          "total_bytes": 46502,
+          "kept_fraction": 0.13212334953335342,
           "file": "DUE6001-D.3.4.1.dat"
         },
         {
-          "kept_blocks": 16,
+          "kept_blocks": 5,
           "total_blocks": 23,
-          "kept_bytes": 32768,
-          "total_bytes": 46224,
-          "kept_fraction": 0.7088958116995501,
+          "kept_bytes": 10240,
+          "total_bytes": 46226,
+          "kept_fraction": 0.22152035650932375,
           "file": "DUE6001-D.3.4.4.dat"
         },
         {
-          "kept_blocks": 16,
+          "kept_blocks": 2,
           "total_blocks": 23,
-          "kept_bytes": 32768,
-          "total_bytes": 46500,
-          "kept_fraction": 0.7046881720430107,
+          "kept_bytes": 4096,
+          "total_bytes": 46502,
+          "kept_fraction": 0.0880822330222356,
           "file": "DUE6001-D.3.4.7.dat"
         }
       ],
-      "total_kept_bytes": 402780,
-      "total_bytes": 600476
+      "total_kept_bytes": 79872,
+      "total_bytes": 600502
     },
     "DUE6002": {
       "num_files_used": 4,
-      "offset": 6003,
+      "offset": 6001,
       "block_bytes": 2048,
       "min_ratio": 0.9,
       "files": [
         {
-          "kept_blocks": 17,
+          "kept_blocks": 5,
           "total_blocks": 27,
-          "kept_bytes": 34816,
-          "total_bytes": 55144,
-          "kept_fraction": 0.6313651530538227,
+          "kept_bytes": 10240,
+          "total_bytes": 55146,
+          "kept_fraction": 0.1856888985601857,
           "file": "DUE6002-D.3.1.9.dat"
         },
         {
-          "kept_blocks": 10,
+          "kept_blocks": 4,
           "total_blocks": 28,
-          "kept_bytes": 20480,
-          "total_bytes": 55870,
-          "kept_fraction": 0.3665652407374262,
+          "kept_bytes": 8192,
+          "total_bytes": 55872,
+          "kept_fraction": 0.1466208476517755,
           "file": "DUE6002-D.3.2.6.dat"
         },
         {
-          "kept_blocks": 16,
+          "kept_blocks": 4,
           "total_blocks": 28,
-          "kept_bytes": 32768,
-          "total_bytes": 56122,
-          "kept_fraction": 0.5838708527850041,
+          "kept_bytes": 8192,
+          "total_bytes": 56124,
+          "kept_fraction": 0.14596251158149812,
           "file": "DUE6002-D.3.3.0.dat"
         },
         {
-          "kept_blocks": 21,
+          "kept_blocks": 4,
           "total_blocks": 35,
-          "kept_bytes": 42818,
-          "total_bytes": 71490,
-          "kept_fraction": 0.5989369142537417,
+          "kept_bytes": 8192,
+          "total_bytes": 71492,
+          "kept_fraction": 0.11458624741229788,
           "file": "DUE6002-D.3.4.0.dat"
         }
       ],
-      "total_kept_bytes": 130882,
-      "total_bytes": 238626
+      "total_kept_bytes": 34816,
+      "total_bytes": 238634
     },
     "DUE6100": {
       "num_files_used": 4,
-      "offset": 6003,
+      "offset": 6001,
       "block_bytes": 2048,
       "min_ratio": 0.9,
       "files": [
         {
-          "kept_blocks": 53,
+          "kept_blocks": 37,
           "total_blocks": 59,
-          "kept_bytes": 107796,
-          "total_bytes": 120084,
-          "kept_fraction": 0.8976716298590987,
+          "kept_bytes": 75030,
+          "total_bytes": 120086,
+          "kept_fraction": 0.6248022250720318,
           "file": "DUE6100-D.4.1.1.dat"
         },
         {
-          "kept_blocks": 51,
+          "kept_blocks": 32,
           "total_blocks": 59,
-          "kept_bytes": 104412,
-          "total_bytes": 120796,
-          "kept_fraction": 0.8643663697473426,
+          "kept_bytes": 65502,
+          "total_bytes": 120798,
+          "kept_fraction": 0.5422440768886903,
           "file": "DUE6100-D.4.2.0.dat"
         },
         {
-          "kept_blocks": 54,
+          "kept_blocks": 37,
           "total_blocks": 60,
-          "kept_bytes": 109712,
-          "total_bytes": 122000,
-          "kept_fraction": 0.8992786885245901,
+          "kept_bytes": 74898,
+          "total_bytes": 122002,
+          "kept_fraction": 0.6139079687218242,
           "file": "DUE6100-D.4.3.1.dat"
         },
         {
-          "kept_blocks": 57,
+          "kept_blocks": 35,
           "total_blocks": 63,
-          "kept_bytes": 115292,
-          "total_bytes": 127580,
-          "kept_fraction": 0.9036839630036055,
+          "kept_bytes": 70238,
+          "total_bytes": 127582,
+          "kept_fraction": 0.5505322067376276,
           "file": "DUE6100-D.4.4.0.dat"
         }
       ],
-      "total_kept_bytes": 437212,
-      "total_bytes": 490460
+      "total_kept_bytes": 285668,
+      "total_bytes": 490468
     },
     "DUE8000": {
       "num_files_used": 15,
-      "offset": 6003,
+      "offset": 6001,
       "block_bytes": 2048,
       "min_ratio": 0.9,
       "files": [
         {
-          "kept_blocks": 17,
+          "kept_blocks": 2,
           "total_blocks": 26,
-          "kept_bytes": 34816,
-          "total_bytes": 51426,
-          "kept_fraction": 0.6770116283591957,
+          "kept_bytes": 4096,
+          "total_bytes": 51428,
+          "kept_fraction": 0.0796453293925488,
           "file": "DUE8000-D.4.0.0.dat"
         },
         {
-          "kept_blocks": 15,
+          "kept_blocks": 3,
           "total_blocks": 26,
-          "kept_bytes": 30720,
-          "total_bytes": 51586,
-          "kept_fraction": 0.5955104098011088,
+          "kept_bytes": 6144,
+          "total_bytes": 51588,
+          "kept_fraction": 0.1190974645266341,
           "file": "DUE8000-D.4.0.1.dat"
         },
         {
-          "kept_blocks": 15,
+          "kept_blocks": 4,
           "total_blocks": 28,
-          "kept_bytes": 30358,
-          "total_bytes": 56982,
-          "kept_fraction": 0.5327647327226142,
+          "kept_bytes": 8192,
+          "total_bytes": 56984,
+          "kept_fraction": 0.14375965183209322,
           "file": "DUE8000-D.4.1.0.dat"
         },
         {
-          "kept_blocks": 15,
+          "kept_blocks": 4,
           "total_blocks": 28,
-          "kept_bytes": 30364,
-          "total_bytes": 56988,
-          "kept_fraction": 0.532813925738752,
+          "kept_bytes": 8192,
+          "total_bytes": 56990,
+          "kept_fraction": 0.14374451658185647,
           "file": "DUE8000-D.4.1.2.dat"
         },
         {
-          "kept_blocks": 17,
+          "kept_blocks": 4,
           "total_blocks": 29,
-          "kept_bytes": 34816,
-          "total_bytes": 57920,
-          "kept_fraction": 0.6011049723756906,
+          "kept_bytes": 8192,
+          "total_bytes": 57922,
+          "kept_fraction": 0.14143158040122925,
           "file": "DUE8000-D.4.2.7.dat"
         },
         {
-          "kept_blocks": 17,
+          "kept_blocks": 3,
           "total_blocks": 29,
-          "kept_bytes": 34816,
-          "total_bytes": 57924,
-          "kept_fraction": 0.6010634624680616,
+          "kept_bytes": 6144,
+          "total_bytes": 57926,
+          "kept_fraction": 0.10606636052895073,
           "file": "DUE8000-D.4.3.1.dat"
         },
         {
-          "kept_blocks": 17,
+          "kept_blocks": 4,
           "total_blocks": 29,
-          "kept_bytes": 34816,
-          "total_bytes": 57906,
-          "kept_fraction": 0.6012503022139329,
+          "kept_bytes": 8192,
+          "total_bytes": 57908,
+          "kept_fraction": 0.14146577329557228,
           "file": "DUE8000-D.4.3.2.dat"
         },
         {
-          "kept_blocks": 17,
+          "kept_blocks": 3,
           "total_blocks": 28,
-          "kept_bytes": 34412,
-          "total_bytes": 56940,
-          "kept_fraction": 0.6043554618897085,
+          "kept_bytes": 6144,
+          "total_bytes": 56942,
+          "kept_fraction": 0.10789926591970778,
           "file": "DUE8000-D.4.3.4.dat"
         },
         {
-          "kept_blocks": 12,
+          "kept_blocks": 3,
           "total_blocks": 29,
-          "kept_bytes": 24576,
-          "total_bytes": 57576,
-          "kept_fraction": 0.4268445185493956,
+          "kept_bytes": 6144,
+          "total_bytes": 57578,
+          "kept_fraction": 0.10670742297405258,
           "file": "DUE8000-D.4.4.1.dat"
         },
         {
-          "kept_blocks": 14,
+          "kept_blocks": 4,
           "total_blocks": 29,
-          "kept_bytes": 28672,
-          "total_bytes": 57642,
-          "kept_fraction": 0.49741507928246764,
+          "kept_bytes": 8192,
+          "total_bytes": 57644,
+          "kept_fraction": 0.14211366317396434,
           "file": "DUE8000-D.4.4.5.dat"
         },
         {
-          "kept_blocks": 21,
+          "kept_blocks": 5,
           "total_blocks": 30,
-          "kept_bytes": 43008,
-          "total_bytes": 60692,
-          "kept_fraction": 0.7086271666776511,
+          "kept_bytes": 10240,
+          "total_bytes": 60694,
+          "kept_fraction": 0.1687151942531387,
           "file": "DUE8000-D.4.5.1.dat"
         },
         {
-          "kept_blocks": 24,
+          "kept_blocks": 4,
           "total_blocks": 31,
-          "kept_bytes": 49152,
-          "total_bytes": 62664,
-          "kept_fraction": 0.7843738031405592,
+          "kept_bytes": 8192,
+          "total_bytes": 62666,
+          "kept_fraction": 0.13072479494462708,
           "file": "DUE8000-D.4.6.0.dat"
         },
         {
-          "kept_blocks": 22,
+          "kept_blocks": 5,
           "total_blocks": 31,
-          "kept_bytes": 45056,
-          "total_bytes": 62818,
-          "kept_fraction": 0.7172466490496354,
+          "kept_bytes": 10240,
+          "total_bytes": 62820,
+          "kept_fraction": 0.16300541228907992,
           "file": "DUE8000-D.4.6.1.dat"
         },
         {
-          "kept_blocks": 22,
+          "kept_blocks": 6,
           "total_blocks": 39,
-          "kept_bytes": 45056,
-          "total_bytes": 78722,
-          "kept_fraction": 0.5723431823378471,
+          "kept_bytes": 12288,
+          "total_bytes": 78724,
+          "kept_fraction": 0.15608962959199227,
           "file": "DUE8000-D.4.7.0.dat"
         },
         {
-          "kept_blocks": 17,
+          "kept_blocks": 4,
           "total_blocks": 29,
-          "kept_bytes": 34816,
-          "total_bytes": 57906,
-          "kept_fraction": 0.6012503022139329,
+          "kept_bytes": 8192,
+          "total_bytes": 57908,
+          "kept_fraction": 0.14146577329557228,
           "file": "DUE8000-D.5.8.8.dat"
         }
       ],
-      "total_kept_bytes": 535454,
-      "total_bytes": 885692
+      "total_kept_bytes": 118784,
+      "total_bytes": 885722
     },
     "SCE6010": {
       "num_files_used": 5,
-      "offset": 6003,
+      "offset": 6001,
       "block_bytes": 2048,
       "min_ratio": 0.9,
       "files": [
         {
-          "kept_blocks": 9,
+          "kept_blocks": 6,
           "total_blocks": 14,
-          "kept_bytes": 18432,
-          "total_bytes": 26642,
-          "kept_fraction": 0.6918399519555589,
+          "kept_bytes": 10260,
+          "total_bytes": 26644,
+          "kept_fraction": 0.3850773157183606,
           "file": "SCE6010-D.3.0.5.dat"
         },
         {
-          "kept_blocks": 9,
+          "kept_blocks": 2,
           "total_blocks": 14,
-          "kept_bytes": 18340,
-          "total_bytes": 28580,
-          "kept_fraction": 0.6417074877536739,
+          "kept_bytes": 4096,
+          "total_bytes": 28582,
+          "kept_fraction": 0.14330697641872508,
           "file": "SCE6010-D.3.1.3.dat"
         },
         {
-          "kept_blocks": 11,
+          "kept_blocks": 4,
           "total_blocks": 15,
-          "kept_bytes": 20768,
-          "total_bytes": 28960,
-          "kept_fraction": 0.7171270718232045,
+          "kept_bytes": 8192,
+          "total_bytes": 28962,
+          "kept_fraction": 0.28285339410261723,
           "file": "SCE6010-D.3.2.0.dat"
         },
         {
-          "kept_blocks": 11,
+          "kept_blocks": 4,
           "total_blocks": 15,
-          "kept_bytes": 21298,
-          "total_bytes": 29490,
-          "kept_fraction": 0.7222109189555782,
+          "kept_bytes": 8192,
+          "total_bytes": 29492,
+          "kept_fraction": 0.2777702427777024,
           "file": "SCE6010-D.3.2.3.dat"
         },
         {
-          "kept_blocks": 11,
+          "kept_blocks": 4,
           "total_blocks": 15,
-          "kept_bytes": 21312,
-          "total_bytes": 29504,
-          "kept_fraction": 0.7223427331887202,
+          "kept_bytes": 8192,
+          "total_bytes": 29506,
+          "kept_fraction": 0.27763844641767776,
           "file": "SCE6010-D.3.2.4.dat"
         }
       ],
-      "total_kept_bytes": 100150,
-      "total_bytes": 143176
+      "total_kept_bytes": 38932,
+      "total_bytes": 143186
     }
   },
   "notes": {

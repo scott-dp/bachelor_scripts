@@ -19,7 +19,7 @@ Outputs:
 - out_dir/code_only_summary.json
 
 Usage:
-  python thumb_code_only_histograms.py --bin-root ../bin --offset 6000 --out out_code --block-bytes 4096 --min-ratio 0.80
+  python thumb_code_only_histograms.py --bin-root ../bin --offset 6001 --out out_code --block-bytes 4096 --min-ratio 0.80
 """
 
 from __future__ import annotations
@@ -92,60 +92,59 @@ def is_thumb16(h: int) -> bool:
     top5 = (h >> 11) & 0x1F
     top4 = (h >> 12) & 0xF
 
-    # Shift (LSL/LSR/ASR), add/sub, mov/cmp/add/sub immediates
-    if 0x00 <= top5 <= 0x03:  # 000xx shifts + add/sub reg
-        return True
-    if 0x04 <= top5 <= 0x07:  # 001xx add/sub/cmp/mov imm
+    # Shift (LSL/LSR/ASR), add/sub, mov/cmp/add/sub immed
+    if top5 in (0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07):
         return True
 
-    # Data-processing register, special, branch/exchange
-    if (h & 0xFC00) == 0x4000:  # 010000 data-processing
-        return True
-    if (h & 0xFC00) == 0x4400:  # 010001 special data, BX/BLX
+    # Data-processing register (010000)
+    if (h & 0xFC00) == 0x4000:
         return True
 
-    # LDR literal
-    if (h & 0xF800) == 0x4800:  # 01001 Rt, [PC, imm]
+    # Special data / branch exchange (010001)
+    if (h & 0xFC00) == 0x4400:
         return True
 
-    # Load/store register offset, immediate offset, halfword
-    if (h & 0xF000) == 0x5000:  # 0101xx load/store reg offset
-        return True
-    if (h & 0xE000) == 0x6000:  # 011xxx load/store imm offset (word/byte)
-        return True
-    if (h & 0xF000) == 0x8000:  # 1000x load/store halfword imm
+    # LDR literal (01001)
+    if (h & 0xF800) == 0x4800:
         return True
 
-    # Load/store SP-relative
-    if (h & 0xF000) == 0x9000:  # 1001 Rt, [SP, imm]
+    # Load/store register offset (0101)
+    if top4 == 0x5:
         return True
 
-    # ADD to PC/SP, stack adjust
-    if (h & 0xF000) == 0xA000:  # 1010 add to PC/SP
-        return True
-    if (h & 0xFF00) == 0xB000:  # 1011 0000 add sp/sub sp (also misc)
-        # Exclude some very rare/reserved patterns? Keep permissive.
+    # Load/store immediate offset (011/100)
+    if top4 in (0x6, 0x7, 0x8):
         return True
 
-    # PUSH/POP
-    if (h & 0xFE00) == 0xB400:  # push
-        return True
-    if (h & 0xFE00) == 0xBC00:  # pop
+    # Load/store halfword (1000)
+    if top4 == 0x8:
         return True
 
-    # Multiple load/store
-    if (h & 0xF000) == 0xC000:  # STM/LDM
+    # SP-relative load/store (1001)
+    if top4 == 0x9:
         return True
 
-    # Conditional branch, SWI, unconditional branch
-    if (h & 0xF000) == 0xD000:
-        # 1101 cond branch / SWI; 0xDE?? is UDF in Thumb (often "undefined")
-        # But UDF can appear in real code; still treat as valid-ish in code blocks.
-        return True
-    if (h & 0xF800) == 0xE000:  # unconditional B
+    # Load address (1010)
+    if top4 == 0xA:
         return True
 
-    # If none matched, assume invalid
+    # Add offset to SP / push/pop / stm/ldm / misc (1011)
+    if top4 == 0xB:
+        # PUSH/POP have recognizable patterns
+        if (h & 0xFE00) in (0xB400, 0xBC00):
+            return True
+        # LDM/STM (1100 0xxx / 1100 1xxx in Thumb16 are 0xC000..0xCFFF, but some assemblers)
+        return True
+
+    # Conditional branch (1101)
+    if top4 == 0xD:
+        # 0xDE?? is UDF / svc-ish; still "valid-ish" for our purposes
+        return True
+
+    # Unconditional branch (11100)
+    if (h & 0xF800) == 0xE000:
+        return True
+
     return False
 
 def is_thumb32_prefix(h1: int) -> bool:
@@ -157,6 +156,7 @@ def is_thumb32_prefix(h1: int) -> bool:
     """
     return (h1 & 0xF800) in (0xE800, 0xF000, 0xF800)
 
+
 def is_thumb32_pair(h1: int, h2: int) -> bool:
     """
     Conservative check: accept common 32-bit Thumb-2 patterns, reject obvious nonsense.
@@ -166,19 +166,18 @@ def is_thumb32_pair(h1: int, h2: int) -> bool:
         return False
 
     # Many 32-bit encodings have h2 with high bits 0b10xx or 0b11xx depending.
-    # We'll accept a wide range but reject if h2 looks like "all zeros" or extreme.
-    if h2 == 0x0000 or h2 == 0xFFFF:
+    # We'll accept broadly but reject the most unlikely: all-zero or all-ones.
+    if h2 in (0x0000, 0xFFFF):
         return False
 
-    # If h1 is 0xF000/0xF800 class (often BL/branches), h2 often has high bit set.
-    if (h1 & 0xF000) == 0xF000:
-        return (h2 & 0x8000) != 0
-
-    # If h1 is 0xE800 class (load/store multiple, etc.), accept broadly.
-    if (h1 & 0xF800) == 0xE800:
+    # Accept common continuation patterns:
+    # - For many Thumb-2 encodings, h2 has top bits 0b10xx xxxx xxxx xxxx (0x8000..0xBFFF)
+    # - Or 0b11xx ... (0xC000..0xFFFF)
+    if (h2 & 0x8000) == 0x8000:
         return True
 
     return True
+
 
 def thumb_validity_mask(data: bytes) -> List[bool]:
     """
@@ -189,20 +188,22 @@ def thumb_validity_mask(data: bytes) -> List[bool]:
     ok = [False] * n
     i = 0
     while i < n:
-        h1 = u16_le(data, 2*i)
+        h1 = u16_le(data, 2 * i)
+
         # Try 32-bit first (Thumb-2)
         if i + 1 < n and is_thumb32_prefix(h1):
-            h2 = u16_le(data, 2*(i+1))
+            h2 = u16_le(data, 2 * (i + 1))
             if is_thumb32_pair(h1, h2):
                 ok[i] = True
-                # We skip the second halfword as part of this instruction.
                 i += 2
                 continue
 
         # Otherwise 16-bit
         if is_thumb16(h1):
             ok[i] = True
+
         i += 1
+
     return ok
 
 # -----------------------------

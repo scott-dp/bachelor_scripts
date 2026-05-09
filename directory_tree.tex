@@ -1,0 +1,69 @@
+\dirtree{%
+.1 bachelor\_scripts/.
+.2 pattern\_mining/.
+.3 first\_versions/ \DTcomment{First-iteration boundary mining and motif scoring}.
+.4 motif\_score.py.
+.4 subroutine\_boundaries\_csv.py.
+.3 v2/ \DTcomment{Second-iteration prologue/epilogue miner with JSON/text reports}.
+.4 prologue\_epilogue\_miner\_v2.py.
+.4 patterns\_v2.json.
+.4 pattern\_report\_v2.txt.
+.4 region\_details\_v2.txt.
+.3 v3/ \DTcomment{Third-iteration miner with grouped and combined reports}.
+.4 prologue\_epilogue\_miner\_v3.py.
+.4 patterns\_v3.json.
+.4 pattern\_report\_v3\_combined.txt.
+.4 pattern\_report\_v3\_groupA.txt.
+.4 pattern\_report\_v3\_groupB.txt.
+.4 region\_details\_v3.txt.
+.2 analysis\_out/ \DTcomment{Aggregated JSON and CSV outputs from the first-iteration miner}.
+.3 boundary\_patterns.json.
+.3 candidate\_scores.csv.
+.3 candidate\_scores.json.
+.2 code\_analysis/.
+.3 file\_similarity/ \DTcomment{Byte-frequency histograms and similarity matrices}.
+.4 bytefreq\_per\_device.py.
+.4 out\_freq/.
+.5 bytefreq\_by\_device.csv.
+.5 similarity\_chi2.csv.
+.5 similarity\_jsd.csv.
+.5 similarity\_sorted\_cosine.csv.
+.3 code\_similarity/ \DTcomment{Thumb code-region filter and code-only similarity outputs}.
+.4 thumb\_code\_only\_histograms.py.
+.4 out\_code/.
+.5 code\_only\_bytefreq\_by\_device.csv.
+.5 code\_only\_similarity\_chi2.csv.
+.5 code\_only\_similarity\_cosine.csv.
+.5 code\_only\_similarity\_jsd.csv.
+.5 code\_only\_summary.json.
+.3 candidates\_inside\_code\_regions/ \DTcomment{Candidate-vs-code-region overlap check}.
+.4 check\_candidates\_in\_code\_regions.py.
+.4 thumb\_return\_signatures.py.
+.4 out\_candidates/.
+.5 candidate\_code\_region\_hits.csv.
+.5 candidate\_code\_region\_summary.csv.
+.4 out\_code/.
+.5 thumb\_return\_signatures\_offset6001.csv.
+.3 codeonly\_bins/ \DTcomment{Code-only binary extraction and generated blobs}.
+.4 make\_codeonly\_blobs.py.
+.4 out\_codeonly/ \DTcomment{Generated code-only .bin and mapping .csv files}.
+.3 periodicity\_autocorr/ \DTcomment{Autocorrelation-based periodicity analysis}.
+.4 periodicity\_autocorr\_v3.py.
+.2 entropy\_plot/ \DTcomment{Entropy visualisation script}.
+.3 entropy\_plot.py.
+.2 changelog\_crawl\_script/ \DTcomment{Web scraper and scraped Shimano firmware changelogs}.
+.3 shimano\_crawl.py.
+.3 shimano\_firmware\_changelogs/.
+.4 DU-E5000.txt.
+.4 DU-E6001.txt.
+.4 DU-E6002.txt.
+.4 DU-E6100.txt.
+.4 DU-E8000.txt.
+.4 SC-E6010.txt.
+.2 disasm/ \DTcomment{Disassembly of 3 firmware files}.
+.3 due5000.4.1.0.dissasm.txt.
+.3 due6100.4.1.1.dissasm.txt.
+.3 due8000.4.0.1.dissasm.txt.
+.2 diff.csv \DTcomment{Original dataset with 148 candidates}.
+.2 filtered.csv \DTcomment{Refined dataset with 103 candidates}.
+}
